@@ -1,7 +1,8 @@
+---
 layout: page
 title: "imprint"
 permalink: /impressum.html
-
+---
 Herausgeber der Website und verantwortlich im Sinne des Presserechts sowie des Telemediengesetzes ist das
 
  
