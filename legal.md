@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "imprint"
-permalink: /impressum.html
+title: "legal"
+permalink: /legal.html
 ---
 Herausgeber der Website und verantwortlich im Sinne des Presserechts sowie des Telemediengesetzes ist das
 
