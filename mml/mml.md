@@ -1,3 +1,9 @@
+---
+layout: page
+title: "FM test page"
+permalink: /test/
+---
+
 Medical Machine Learning (MML)
 The research group Medical Machine Learning works on developing and deploying cutting-edge machine learning methods with the goal of making a meaningful difference for patients, doctors, and hospital staff. To this end, and in collaboration with a digital-forward clinic administration, we continue to build on a SMART hospital information structure that provides access to real-world medical data. Strong funding and state-of-the-art equipment support this effort. One focus of our group lies in the exploration of unsupervised learning paradigms for recognition of oncologically relevant patterns in large and complex data.
 
