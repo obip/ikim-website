@@ -1,3 +1,8 @@
+---
+layout: page
+title: "FM test page"
+permalink: /test/
+---
 Research Training Group "WisPerMed" - Knowledge- and Data-Based Personalization of Medicine at the Point of Care
 
 At the center of the research training group WisPerMed, which is funded by the German Research Foundation (DFG) with a total of 5 million euros, is the goal of a knowledge- and data-based personalization of the therapy of malignant melanoma. In the first cohort, twelve different projects are being worked on by 7 female doctoral students and 5 male doctoral students.
