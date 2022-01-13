@@ -1,6 +1,8 @@
+---
 layout: page
 title: "FM test page"
 permalink: /test/
+---
 <html>
   <body>
 
