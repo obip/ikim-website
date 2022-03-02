@@ -16,7 +16,7 @@ permalink: "people"
     <p>
     {% assign group = site.data.groups | where: "name",  person.group %}
     {% if group.size == 1   %}
-      <a href="/groups/{{ group[0].name }}">{{ group[0].label }}</a><br />
+      <a href=" {{ "/groups/" | append: group[0].name | relative_url }}">{{ group[0].label }}</a><br />
     {% endif %}
     {% if person.position == "head" %}
       Head of Research Group <br/>

@@ -7,7 +7,7 @@ title: "Research Projects"
 <ul>
   {% for post in projects %}
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
       {{ post.excerpt }}
     </li>
   {% endfor %}
