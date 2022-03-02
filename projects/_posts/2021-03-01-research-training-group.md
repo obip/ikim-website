@@ -1,7 +1,6 @@
 ---
 layout: page
-title: "FM test page"
-permalink: /test/
+title: "Research Training Group"
 ---
 Research Training Group "WisPerMed" - Knowledge- and Data-Based Personalization of Medicine at the Point of Care
 
@@ -18,3 +17,9 @@ The researchers do not rely solely on artificial intelligence (AI) in their scie
 Spokesperson: Prof. Dr. Britta Böckmann
 
 Co-speaker: PD Dr. Felix Nensa
+
+<br /><br />
+<img src="/img/wispermed-logo.png" alt="Wispermed Logo" style="width:200px;" />
+
+[For further information, please visit our website &rarr;](https://www.uni-due.de/grk_wispermed/grk_wispermed.php)
+

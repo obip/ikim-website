@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+{% assign group_obj = site.data.groups | where: "name", page.group %}
+{% assign group = group_obj[0] %}
+{% assign heads = site.data.people | where: "position", "head" %}
+{% assign jrg-heads = site.data.people | where: "position", "jrg-head" %}
+{% for h in heads %}
+  {% if h.group == page.group %}
+    {% assign head = h %}
+  {% endif %}
+{% endfor %}
+{% for h in jrg-heads %}
+  {% if h.jrg == page.group %}
+    {% assign head = h %}
+    {% assign jrg = true %}
+  {% endif %}
+{% endfor %}
+<h1>
+{% if jrg %}
+  Junior Research Group 
+{% endif %}
+{{ group.label | escape }} -  <a href="#head">{{ head.title }} {{ head.name }}</a></h1>
+{{ content }}
+
+<h2>Contact</h2>
+{%- include contact.html -%}
+<h2>Team</h2>
+{%- include team.html -%}

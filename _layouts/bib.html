@@ -1,0 +1,40 @@
+---
+---
+
+{% assign author_list = entry.author | split: " and " %}
+{% assign authors = '' | split: '' %}
+{% for author in author_list %}
+  {% assign tmp = author | split: "," | reverse | join " " %}
+  {% assign authors = authors | push: tmp %}
+{% endfor %}
+{{ authors | array_to_sentence_string }}.
+
+{% if links.pdf %}
+<a href="{{ links.pdf }}">{{ entry.title }}</a>.
+{% else %}
+<i>{{ entry.title }}.</i>
+{% endif %}
+
+{% if entry.booktitle %}
+  {{ entry.booktitle }}.
+{% elsif entry.journal %}
+  {{ entry.journal }}.
+{% elsif entry.school %}
+  {{ entry.school }}.
+{% elsif entry.institution %}
+  {{ entry.institution }}.
+{% endif %}
+
+{{ entry.year }}.
+{% if entry.publisher %}
+  {{ entry.publisher }}.
+{% endif %}
+
+{% if entry.doi %}
+  <a href="https://doi.org/{{ entry.doi }}">[doi]</a>
+{% endif %}
+<details>
+  <summary style="cursor:pointer;">BibTeX</summary>
+
+  <pre style="font-size:8pt;">{{ entry.bibtex }}</pre>
+</details>

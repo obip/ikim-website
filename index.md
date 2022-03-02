@@ -1,37 +1,42 @@
-## Welcome to GitHub Pages
+---
+layout: default
+title: IKIM – the Institute for Artificial Intelligence in Medicine
+---
+# {{ page.title }}
 
-You can use the [editor on GitHub](https://github.com/IKIM-Essen/ikim-website/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+In 2019, the Institute for Artificial Intelligence in Medicine (IKIM) was one of the first in Germany to start work in this important field of innovation.
+ 
+Our special advantage: We work in close cooperation with the established classical medical disciplines. This is because we are part of the Medical Faculty of the University of Duisburg Essen and the University Hospital Essen and are thus integrated into an excellent scientific environment. An absolute location advantage of our institute. And the IKIM was equipped with five newly established professorships right from the start.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## [Our research groups - discover our diverse research areas](/groups)
 
-### Markdown
+<details>
+  <summary style="cursor:pointer;">Learn more about our institute...</summary>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+  <p style="margin-top:20px;">
+  IKIM’s goal is to scientifically analyze and further develop the possibilities of artificial intelligence in medicine, thus making it available for patient care and establishing it in the training of tomorrow’s physicians. For no less than better therapies in the future and thus for the well-being of mankind.
+  </p>
+  
+  <p>
+  The university medical center in Essen is already a recognized pioneer in the field of digitalization in medicine in Germany. In terms of patient care, Essen has firmly established itself as one of the first Smart Hospitals in Germany. The IKIM will help make NRW the leading region for artificial intelligence in Germany.
+  </p>
 
-```markdown
-Syntax highlighted code block
+  <b>Artificial intelligence will revolutionize medical research.</b>
+  
+  <p>
+  Using AI, completely unknown highly complex correlations, patterns and causalities can be recognized. University medicine is predestined for this.
+  </p>
 
-# Header 1
-## Header 2
-### Header 3
+  <b>Research is not an end in itself</b>
+ 
+  <p>
+  Research is not an end in itself. The rapid application of scientific findings to patients is an integral part of our concept. Our goal: Personalized medicine becomes possible for the general population and for a wide range of diseases.
+  </p>
 
-- Bulleted
-- List
+  <b>Our goals: motivate, personalize, network</b>
+  
+  <p>
+  AI will revolutionize medical teaching and create the basis for training all future physicians in a more individual, targeted and sustainable way. At the University of Duisburg-Essen in the heart of the Ruhr area, equal opportunities are actually lived. Our goals: motivate, personalize, network.
+  </p>
+</details>
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/IKIM-Essen/ikim-website/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.

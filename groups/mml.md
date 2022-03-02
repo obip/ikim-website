@@ -1,7 +1,6 @@
 ---
-layout: page
-title: "FM test page"
-permalink: /test/
+layout: group
+group: mml
 ---
 
 Medical Machine Learning (MML)
