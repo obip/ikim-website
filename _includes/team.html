@@ -35,7 +35,7 @@
         {% endcase %}
     </h3>
     {% if person.img %}
-      <img style="width:250px;height: 180px;object-fit:cover;float:left;margin-right:20px;margin-bottom:20px;" src="{{ "/img/people/" | append person.img | relative_url}}" />
+      <img style="width:250px;height: 180px;object-fit:cover;float:left;margin-right:20px;margin-bottom:20px;" src="{{ "/img/people/" | append: person.img | relative_url}}" />
     {% endif %}
     <h3>{{ person.title}} {{ person.name }}{% if person.position == "phd" %}, Ph.D. Candidate{% endif %}</h3>
     <p>

@@ -8,7 +8,7 @@ permalink: "people"
   {% for person in position.items %}
     <div style="clear:left;border-bottom:1px solid silver;margin-bottom:5px;"></div>
     {% if person.img %}
-      <img style="width:250px;height: 180px;object-fit:cover;float:left;margin-right:20px;margin-bottom:20px;" src="/img/people/{{ person.img}}" />
+      <img style="width:250px;height: 180px;object-fit:cover;float:left;margin-right:20px;margin-bottom:20px;" src="{{ "/img/people/" | append: person.img | relative_url}}" />
       <h3>{{ person.title}} {{ person.name }}</h3>
     {% else %}
       <h3>{{ person.title}} {{ person.name }}</h3>

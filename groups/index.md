@@ -6,7 +6,7 @@ title: Research Groups
 {% for group in site.data.groups %}
   {% assign heads = site.data.people | where: "position", "head" %}
   {% assign jrgs = site.data.people | where: "position", "jrg-head" %}
-  <h4><a href="/groups/{{ group.name }}">{{ group.label }}</a>
+  <h4><a href="{{ "/groups/" | append: group.name | relative_url }}">{{ group.label }}</a>
   {% for head in heads %}
     {% if head.group == group.name %}
      {{ head.title }} {{ head.name }}
