@@ -3,7 +3,7 @@
   <div class="wrapper">
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
-    <a class="site-title" rel="author" href="{{ "/" | relative_url }}" title="{{ site.title | escape }}"><img style="width:300px;" src="/img/Logo-engl-IKIM.png" alt="{{ site.title | escape }}" /></a>
+    <a class="site-title" rel="author" href="{{ "/" | relative_url }}" title="{{ site.title | escape }}"><img style="width:300px;" src="{{ "/img/Logo-engl-IKIM.png" | relative_url }}" alt="{{ site.title | escape }}" /></a>
 
     {%- if page_paths -%}
       <nav class="site-nav">
@@ -17,10 +17,10 @@
         </label>
 
         <div class="trigger">
-          <a class="page-link" href="/people">People</a>
-          <a class="page-link" href="/groups" aria-haspopup="true">Groups</a>
-          <a class="page-link" href="/projects">Research Projects</a>
-          <a class="page-link" href="/publications">Publications</a>
+          <a class="page-link" href="{{ "/people" | relative_url }}">People</a>
+          <a class="page-link" href="{{ "/groups" | relative_url }}">Groups</a>
+          <a class="page-link" href="{{ "/projects" | relative_url }}">Research Projects</a>
+          <a class="page-link" href="{{ "/publications" | relative_url }}">Publications</a>
           <!--
           {%- for path in page_paths -%}
             {%- assign my_page = site.pages | where: "path", path | first -%}
