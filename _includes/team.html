@@ -1,0 +1,56 @@
+{% if head.jrg %}
+  {% assign team = site.data.people | where: "jrg", page.group | group_by: "position"%}
+{% else %}
+  {% assign team = site.data.people | where: "group", page.group | group_by: "position"%}
+{% endif %}
+
+{% for position in team %}
+  {% for person in position.items %}
+    {% if head.name == person.name %}
+      <h3 id="head">
+    {% elsif person.position == "admin" %}
+      <h3 id="admin">
+    {% else %}
+      <h3>
+    {% endif %}
+        {% case person.position %}
+          {% when "head" %}
+            Head of Research Group
+            {% when "jrg-head" %}
+              Head of Junior Research Group
+            {% when "admin" %}
+              Administration
+            {% when "tech" %}
+              {% if person.position-special %}
+                {{ person.position-special }}
+              {% else %}
+                Tech
+              {% endif %}
+            {% when "postdoc" %}
+              Researcher
+            {% when "phd" %}
+              Research Assistant
+            {% when "shk" %}
+              Student Assistant
+        {% endcase %}
+    </h3>
+    {% if person.img %}
+      <img style="width:250px;height: 180px;object-fit:cover;float:left;margin-right:20px;margin-bottom:20px;" src="/img/people/{{ person.img}}" />
+    {% endif %}
+    <h3>{{ person.title}} {{ person.name }}{% if person.position == "phd" %}, Ph.D. Candidate{% endif %}</h3>
+    <p>
+        {{ person.mail }} <br />
+        {% if person.phone %}
+          Phone: +{{ person.phone }} <br />
+        {% endif %}
+        {% if person.interests.size > 0 %}
+          Interests: {{ person.interests | array_to_sentence_string }}
+        {% endif %}
+        {% if person.jrg %}
+          {% assign jrg-group = site.data.groups | where: "name", person.jrg %}
+          <br />Junior Research Group <a href="/groups/{{ person.jrg }}">{{ jrg-group[0].label }}</a>
+        {% endif %}
+    </p>
+    <div style="clear:left;margin-bottom:5px;"></div>
+  {% endfor %}
+{% endfor %}

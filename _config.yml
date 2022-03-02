@@ -1,0 +1,14 @@
+theme: minima
+title: IKIM web site
+description: Institute for AI in medicine; University Hospital Essen; University of Duisburg-Essen; Germany
+twitter_username: IkimUme
+github_username: IKIM-Essen
+plugins: ['jekyll/scholar']
+scholar:
+  source: /_bibliography
+  bibliography: ikim.bib
+  repository: /files/publications
+  style: chicago-fullnote-bibliography
+  group_by: year
+  group_order: descending
+  bibliography_template: bib

@@ -1,0 +1,38 @@
+- name: ds
+  label: Data Science
+  address:
+    name: Girardethaus
+    street: Girardetstr. 2
+    additional: House 2, 2nd floor
+    zip: 45131
+    city: Essen
+
+- name: dso
+  label: Multimodal Computing & Machine Intelligence
+  address:
+    name: Girardethaus
+    street: Girardetstr. 2
+    additional: House 2, 2nd floor
+    zip: 45131
+    city: Essen
+
+- name: mml
+  label: Medical Machine Learning
+  address:
+    name: Girardethaus
+    street: Girardetstr. 2
+    additional: House 2, 4th floor
+    zip: 45131
+    city: Essen
+
+- name: diair
+  label: Data Integration and AI in Radiology
+
+- name: kei
+  label: Knowledge Extraction & Integration
+
+- name: tml
+  label: Trustworthy Machine Learning
+
+- name: ait
+  label: AI-guided Therapies

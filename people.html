@@ -1,0 +1,38 @@
+---
+layout: default
+permalink: "people"
+---
+
+{% assign people_by_position = site.data.people | group_by: "position" %}
+{% for position in people_by_position %}
+  {% for person in position.items %}
+    <div style="clear:left;border-bottom:1px solid silver;margin-bottom:5px;"></div>
+    {% if person.img %}
+      <img style="width:250px;height: 180px;object-fit:cover;float:left;margin-right:20px;margin-bottom:20px;" src="/img/people/{{ person.img}}" />
+      <h3>{{ person.title}} {{ person.name }}</h3>
+    {% else %}
+      <h3>{{ person.title}} {{ person.name }}</h3>
+    {% endif %}
+    <p>
+    {% assign group = site.data.groups | where: "name",  person.group %}
+    {% if group.size == 1   %}
+      <a href="/groups/{{ group[0].name }}">{{ group[0].label }}</a><br />
+    {% endif %}
+    {% if person.position == "head" %}
+      Head of Research Group <br/>
+    {% elsif person.position == "jrg-head" %}
+      {% assign jrg = site.data.groups | where: "name", person.jrg %}
+      Head of Junior Research Group <a href="/groups/{{ jrg[0].name }}">{{ jrg[0].label }}</a><br />
+    {% endif %}
+    {{ person.mail }} <br />
+    <!--
+    {% if person.phone %}
+      Phone: +{{ person.phone }} <br />
+    {% endif %}
+    {% if person.interests.size > 0 %}
+      Interests: {{ person.interests | array_to_sentence_string }}
+    {% endif %}
+    -->
+</p>
+  {% endfor %}
+{% endfor %}
