@@ -13,5 +13,3 @@ __Knowledge Extraction__ is the essential building block for obtaining relevant,
 __Explainable AI (X-AI)__ is a young research field addressing the challenge of providing an assurance that the artificial intelligence “does the right thing for the right reasons” which is key to enabling the uptake of artificial intelligence in high-stakes decision scenarios, such as health-care. X-AI envisions efficient human-machine cooperation by developing intelligible automated decision support agents. These intelligible extraction and prediction processes help fostering the stakeholders’ acceptance and trust.
 
 The MCMI research group is part of the Cancer Research Center Cologne Essen (CCCE), the Initiative Network of Excellence in Cancer Medicine NRW.
-
-test sentence
