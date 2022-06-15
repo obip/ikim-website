@@ -1,6 +1,7 @@
 ---
 ---
 
+
 {% assign author_list = entry.author | split: " and " %}
 {% assign authors = '' | split: '' %}
 {% for author in author_list %}
@@ -33,8 +34,13 @@
 {% if entry.doi %}
   <a href="https://doi.org/{{ entry.doi }}">[doi]</a>
 {% endif %}
-<details>
-  <summary style="cursor:pointer;">BibTeX</summary>
+{% if entry.url %}
+<a href="{{ entry.url }}">[url]</a>
+{% endif %}
 
-  <pre style="font-size:8pt;">{{ entry.bibtex }}</pre>
+<details>
+  <summary class="pointer">BibTeX</summary>
+
+  <pre>{{ entry.bibtex }}</pre>
 </details>
+

@@ -1,0 +1,19 @@
+
+<ul class="grouplist">
+    {% for group in site.data.groups %}
+      {% assign heads = site.data.people | where: "position", "head" %}
+      {% assign jrgs = site.data.people | where: "position", "jrg-head" %}
+      <li><a href="{{ "/groups/" | append: group.name | relative_url }}">{{ group.label }}</a>
+      {% for head in heads %}
+        {% if head.group == group.name %}
+         {{ head.title }} {{ head.name }}
+        {% endif %}
+      {% endfor %}
+      {% for head in jrgs %}
+        {% if head.jrg == group.name %}
+         {{ head.title }} {{ head.name }}
+        {% endif %}
+      {% endfor %}
+      </li>
+    {% endfor %}
+</ul>

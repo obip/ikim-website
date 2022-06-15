@@ -1,0 +1,150 @@
+/**
+ * Wrapper
+ */
+ $additional-width: 150px;
+ .wrapper-header {
+    max-width: -webkit-calc(#{$content-width + $additional-width} - (#{$spacing-unit} * 2));
+    max-width:         calc(#{$content-width + $additional-width} - (#{$spacing-unit} * 2));
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: $spacing-unit;
+    padding-left: $spacing-unit;
+    @extend %clearfix;
+  
+    @include media-query($on-laptop) {
+      max-width: -webkit-calc(#{$content-width + $additional-width} - (#{$spacing-unit}));
+      max-width:         calc(#{$content-width + $additional-width} - (#{$spacing-unit}));
+      padding-right: $spacing-unit / 2;
+      padding-left: $spacing-unit / 2;
+    }
+  }
+
+  .pointer {
+      cursor: pointer;
+  }
+
+  h1 {
+    @include relative-font-size(1.625);
+
+    @include media-query($on-laptop) {
+      @include relative-font-size(1.25);
+    }
+  }
+
+  h2 {
+    @include relative-font-size(1.425);
+
+    @include media-query($on-laptop) {
+      @include relative-font-size(1.15);
+    }
+  }
+
+  h3 {
+    @include relative-font-size(1.2);
+
+    @include media-query($on-laptop) {
+      @include relative-font-size(1.05);
+    }
+  }
+
+  h4 {
+    @include relative-font-size(1.05);
+
+    @include media-query($on-laptop) {
+      @include relative-font-size(1.05);
+    }
+  }
+
+  .post-title {
+    @include relative-font-size(1.625);
+    letter-spacing: -1px;
+    line-height: 1;
+  
+    @include media-query($on-laptop) {
+      @include relative-font-size(1.25);
+    }
+  }
+
+  .post-content {
+    margin-bottom: $spacing-unit;
+
+    h1 {
+      @include relative-font-size(1.625);
+  
+      @include media-query($on-laptop) {
+        @include relative-font-size(1.25);
+      }
+    }
+  
+    h2 {
+      @include relative-font-size(1.425);
+  
+      @include media-query($on-laptop) {
+        @include relative-font-size(1.15);
+      }
+    }
+  
+    h3 {
+      @include relative-font-size(1.2);
+  
+      @include media-query($on-laptop) {
+        @include relative-font-size(1.05);
+      }
+    }
+  
+    h4 {
+      @include relative-font-size(1.05);
+  
+      @include media-query($on-laptop) {
+        @include relative-font-size(1.05);
+      }
+    }
+  
+  }
+
+
+.grouplist li {
+  @include relative-font-size(1.15);
+  list-style-type: none;
+  margin-bottom: $spacing-unit / 2;
+}
+
+.small-bottom-margin {
+  margin-bottom: $spacing-unit / 6;
+}
+
+.contact {
+  float:left;
+  padding-right:40px;
+  margin-right:20px;
+  border-right:1px solid silver;
+}
+
+.person-img {
+  width:250px;
+  height: 180px;
+  object-fit:cover;
+  float:left;
+  margin-right:20px;
+  margin-bottom:20px;
+}
+
+.clear {
+  clear:left;
+}
+
+.person-separator {
+  clear:left;
+  border-bottom:1px solid silver;
+}
+
+.bib {
+  pre {
+    @include relative-font-size(0.6);
+  }
+  ol {list-style-type:none;}
+  ol.bibliography li {
+    @include relative-font-size(0.9);
+    margin-bottom: $spacing-unit / 4;
+  }
+}

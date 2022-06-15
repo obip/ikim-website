@@ -1,6 +1,6 @@
 ---
 layout: group
-group: dso
+group: mcmi
 ---
 The __MCMI research group__ headed by Prof. Dr. Christin Seifert focuses on the transfer of fundamental research in Machine Learning, Information Extraction, Natural Language Processing and Semantic Technologies and its application to the medical domain, and to Oncology in particular.
 

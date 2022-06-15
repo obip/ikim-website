@@ -24,7 +24,7 @@
   mail: christin.seifert@uni-due.de
   phone: +4920172377803
   position: head
-  group: dso
+  group: mcmi
   interests: ['Machine Learning', 'Natural Language Processing', 'Explainable AI', 'Medical Data Science', 'Information Visualization']
   img: seifert-christin.jpeg
 
@@ -45,7 +45,7 @@
   title: Dr.
   mail: joerg.schloetterer@uni-due.de
   position: jrg-head
-  group: dso
+  group: mcmi
   jrg: kei
   interests: ['Multimodal & Representation Learning', 'Knowledge Extraction', 'Natural Language Processing', 'Information Retrieval']
 
@@ -53,40 +53,40 @@
   mail: andrea.tonk@uk-essen.de
   phone: +4920172377825
   position: admin
-  group: dso
+  group: mcmi
 
 - name: Ryan Aydelott
   mail: ryan.aydelott@uk-essen.de
   position: tech
-  group: dso
+  group: mcmi
   position-special: Experimental/HPC Systems Specialist
 
 - name: Sultan Imangaliyev
   title: Dr.
   mail: sultan.imangaliyev@uni-due.de
   position: postdoc
-  group: dso
+  group: mcmi
   interests: ['deep learning on tabular data', 'explainable AI', 'biomarker selection', 'human microbiome', 'bioinformatics', 'systems biology', 'computational biology']
 
 - name: Meike Nauta
   title: M.Sc.
   mail: meike.nauta@uk-essen.de
   position: phd
-  group: dso
+  group: mcmi
   interests: ['Explainable AI and interpretable machine learning']
 
 - name: Van Bach Nguyen
   mail: vanbach.nguyen@uni-due.de
   title: M.Sc.
   position: phd
-  group: dso
+  group: mcmi
   interests: ['Natural Language Processing', 'Explainable AI', 'Conversational Agents']
 
 - name: Shreyasi Pathak
   mail: shreyasi.pathak@uk-essen.de
   title: M.Sc.
   position: phd
-  group: dso
+  group: mcmi
   interests: ['Explainable AI', 'Multimodal Deep Learning', 'Clinical Decision Making (breast cancer diagnosis)']  
 
 

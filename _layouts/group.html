@@ -17,13 +17,15 @@ layout: default
     {% assign jrg = true %}
   {% endif %}
 {% endfor %}
-<h1>
+<h1 class="small-bottom-margin">
 {% if jrg %}
   Junior Research Group 
 {% endif %}
-{{ group.label | escape }} -  <a href="#head">{{ head.title }} {{ head.name }}</a></h1>
+{{ group.label | escape }}</h1>
+<h2><a href="#head">{{ head.title }} {{ head.name }}</a></h2>
 {{ content }}
 
+<h2><a href="{{ "/publications#" | append: head.name | relative_url }}">Publications</a></h2>
 <h2>Contact</h2>
 {%- include contact.html -%}
 <h2>Team</h2>
