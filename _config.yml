@@ -12,4 +12,6 @@ scholar:
   style: chicago-fullnote-bibliography
   group_by: year
   group_order: descending
+  sort_by: year,month
+  order: descending
   bibliography_template: bib

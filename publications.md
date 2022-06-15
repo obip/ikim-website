@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="bib">
-{% bibliography --file mcmi.bib --file ds.bib %}
+{% bibliography --file mcmi.bib --file ds.bib --remove_duplicates %}
 </div>
 
 <script type="text/javascript">
