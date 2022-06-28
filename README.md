@@ -3,7 +3,9 @@ This is the web site for the Institute for AI in medicine at the University hosp
 > :warning: **Make sure you are on the `main`-branch**
 
 ![warning-img](img/main-branch.JPG)
-> :warning: what you see in the online preview is likely not what you get
+> :information_desk_person: what you see in the online preview is likely not what you get
+
+> :zzz: changes will take a few mins to take effect. Monitor progress at [actions tab](https://github.com/IKIM-Essen/ikim-website/actions)
 
 ## Howto...
 - [manage team members](#member)
