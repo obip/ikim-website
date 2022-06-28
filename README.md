@@ -15,6 +15,7 @@ This is the web site for the Institute for AI in medicine at the University hosp
 
 
 <h3 id="member">Manage Team members</h3>
+
 Members of a group are defined in `<group-acronym>.yml` at [`/_data/people`](/_data/people).
 
 Example entry:
@@ -38,13 +39,13 @@ Mandatory fields:
   * admin - Administration
   * tech - Technical staff
   * head - group leader  
-  Additional entries are optional, currently, only `board` (for ikim board members) is supported
+  Additional entries in the roles-list are optional, currently only `board` (for ikim board members) is supported
 
 Optional fields:
 - phone - phone nr, e.g. +4920112345
 - position-special - more details for tech-staff, e.g. `HPC specialist`
 - interests - a list of interests, e.g. `['machine learning', 'coffe']`
-- img - first, upload an image to [`/img/people`](/img/people), then provide the filename here, e.g. `max-mustermann.jpg`
+- img - first, upload an image to [`/img/people`](/img/people), then provide the filename here, e.g. `hilde-muster.jpg`
 #### Remove Member
 Simply delete the corresponding entry from the file
 #### Modify Member
@@ -56,10 +57,10 @@ Edit the entry as needed
 
 Replace `<group-acronym>.bib` at [`/_bibliography`](/_bibliography) with your latest bibtex list of publications relevant to ikim.
 
-Make sure that only either `doi` or `url` are set for an entry (not both). If both are available, `doi` is to prefer. You may use the export options of your favorite reference manager to remove the unnecessary one, e.g. [Zotero](https://www.zotero.org) with [Better Bibtex](https://retorque.re/zotero-better-bibtex/).
+Make sure that exclusively either `doi` or `url` are set for an entry (not both). If both are available, `doi` is to prefer. You may use the export options of your favorite reference manager to remove the unnecessary one, e.g. [Zotero](https://www.zotero.org) with [Better Bibtex](https://retorque.re/zotero-better-bibtex/).
 
 #### Author version pdf
-When you put the author version pdf at [`/pdf`](/pdf), using the bibtex citation-key as filename (e.g. `nautaUncoveringCorrectingShortcut2022.pdf`), the pdf will be available for download in the publication list.
+Put the author version pdf at [`/pdf`](/pdf) and use the bibtex citation-key as filename (e.g. `nautaUncoveringCorrectingShortcut2022.pdf`). The pdf will then be available for download in the publication list.
 
 
 
@@ -67,7 +68,7 @@ When you put the author version pdf at [`/pdf`](/pdf), using the bibtex citation
 
 Copy and edit an existing file at [`/projects/_posts`](/projects/_posts) or create a new one. 
 
-The file name must follow the follow the format `YYYY-MM-DD-name.md`. Use either the start date of the project or today's date, if the project starts in the future (future dates will not be displayed on the site). 
+The file name must be in the format `YYYY-MM-DD-name.md`. Use either the start date of the project or today's date, if the project starts in the future (future dates will not be displayed on the site). 
 
 The file contents must start with the front matter:  
 
