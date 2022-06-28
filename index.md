@@ -8,6 +8,4 @@ Our special advantage: We work in close cooperation with the established classic
 
 [Learn more about our institute...]({{ "/institute" | relative_url }})
 
-# Our research groups - discover our diverse research areas
-
 {%- include groups.html -%}

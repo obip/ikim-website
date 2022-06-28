@@ -1,6 +1,19 @@
+{% assign rgs = site.data.groups | where: "type", "rg" %}
+{% assign jrgs = site.data.groups | where: "type", "jrg" %}
 
+<h1>Research Groups</h1>
 <ul class="grouplist">
-    {% for group in site.data.groups %}
+    {% for group in rgs %}
+      <li><a href="{{ "/groups/" | append: group.name | relative_url }}">{{ group.label }}</a>
+      {% assign head = site.data.people[group.name] | find_exp: "item", "item.roles contains 'head'" %}
+      {{ head.title }} {{ head.name }}
+      </li>
+    {% endfor %}
+</ul>
+
+<h1>Junior Research Groups</h1>
+<ul class="grouplist">
+    {% for group in jrgs %}
       <li><a href="{{ "/groups/" | append: group.name | relative_url }}">{{ group.label }}</a>
       {% assign head = site.data.people[group.name] | find_exp: "item", "item.roles contains 'head'" %}
       {{ head.title }} {{ head.name }}

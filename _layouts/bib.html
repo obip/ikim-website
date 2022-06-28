@@ -1,7 +1,13 @@
 ---
 ---
 
-{% assign author_list = entry.author | split: " and " %}
+{% if entry.author %}
+  {% assign author_list = entry.author | split: " and " %}
+{% else %}
+  {% assign author_list = entry.editor | split: " and " %}
+{% endif %}
+
+
 {% assign authors = '' | split: '' %}
 {% for author in author_list %}
   {% assign tmp = author | split: "," | reverse | join " " %}
