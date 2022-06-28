@@ -1,0 +1,35 @@
+- name: Christin Seifert
+  title: Prof. Dr.
+  mail: christin.seifert@uni-due.de
+  phone: +4920172377803
+  roles: ['head','board']
+  interests: ['Machine Learning', 'Natural Language Processing', 'Explainable AI', 'Medical Data Science', 'Information Visualization']
+  img: seifert-christin.jpeg
+
+- name: Andrea Tonk
+  mail: andrea.tonk@uk-essen.de
+  phone: +4920172377825
+  roles: ['admin']
+
+- name: Ryan Aydelott
+  mail: ryan.aydelott@uk-essen.de
+  roles: ['tech']
+  position-special: Experimental/HPC Systems Specialist 
+
+- name: Sultan Imangaliyev
+  title: Dr.
+  mail: sultan.imangaliyev@uni-due.de
+  roles: ['postdoc']
+  interests: ['deep learning on tabular data', 'explainable AI', 'biomarker selection', 'human microbiome', 'bioinformatics', 'systems biology', 'computational biology']
+
+- name: Meike Nauta
+  title: M.Sc.
+  mail: meike.nauta@uk-essen.de
+  roles: ['phd']
+  interests: ['Explainable AI and interpretable machine learning']
+
+- name: Shreyasi Pathak
+  mail: shreyasi.pathak@uk-essen.de
+  title: M.Sc.
+  roles: ['phd']
+  interests: ['Explainable AI', 'Multimodal Deep Learning', 'Clinical Decision Making (breast cancer diagnosis)'] 

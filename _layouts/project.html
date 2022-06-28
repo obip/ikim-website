@@ -1,0 +1,13 @@
+---
+layout: page
+nav_active: projects
+---
+
+{{ content }}
+
+<hr class="light-separator" />
+{% for tag in page.tags %}
+{% assign group = site.data.groups | find: "name", tag %}
+<a href="{{ '/groups/' | append: group.name | relative_url }}"> {{ group.label }}</a>{% unless forloop.last %} | {% endunless %}
+
+{% endfor %}

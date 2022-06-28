@@ -7,7 +7,7 @@ github_username: IKIM-Essen
 plugins: ['jekyll/scholar']
 scholar:
   source: /_bibliography
-  bibliography: ikim.bib
+  bibliography: '**/*.bib{,tex}'
   repository: /files/publications
   style: chicago-fullnote-bibliography
   group_by: year

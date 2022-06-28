@@ -1,33 +1,36 @@
 ---
 layout: default
+nav_active: groups
 ---
 
-{% assign group_obj = site.data.groups | where: "name", page.group %}
-{% assign group = group_obj[0] %}
-{% assign heads = site.data.people | where: "position", "head" %}
-{% assign jrg-heads = site.data.people | where: "position", "jrg-head" %}
-{% for h in heads %}
-  {% if h.group == page.group %}
-    {% assign head = h %}
-  {% endif %}
-{% endfor %}
-{% for h in jrg-heads %}
-  {% if h.jrg == page.group %}
-    {% assign head = h %}
-    {% assign jrg = true %}
-  {% endif %}
-{% endfor %}
+{% assign group = site.data.groups | find: "name", page.group %}
 <h1 class="small-bottom-margin">
-{% if jrg %}
+{% if group.type == "jrg" %}
   Junior Research Group 
 {% endif %}
 {{ group.label | escape }}</h1>
+{% assign head = site.data.people[group.name] | find_exp: "item", "item.roles contains 'head'" %}
 <h2><a href="#head">{{ head.title }} {{ head.name }}</a></h2>
 {{ content }}
 
-<h2><a href="{{ "/publications#" | append: head.name | relative_url }}">Publications</a></h2>
-<!-- {% bibliography --max 5 --group_by none --file mcmi.bib %} -->
 <h2>Contact</h2>
 {%- include contact.html -%}
+
+<h2>Projects</h2>
+{% assign projects = site.posts | where_exp: "item","item.categories contains 'projects'" | where_exp: "item", "item.tags contains page.group" %}
+<ul>
+  {% for post in projects %}
+    <li>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a><br />
+      {{ post.excerpt }}
+    </li>
+  {% endfor %}
+</ul>
+
+<h2>Recent Publications - <a href="{{ "/publications#" | append: head.name | relative_url }}">see all...</a></h2>
+<div class="bib bibshort">
+  {% bibliography --max 5 --group_by none --file {{page.group}} %}
+</div>
+
 <h2>Team</h2>
 {%- include team.html -%}

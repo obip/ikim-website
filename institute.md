@@ -1,6 +1,7 @@
 ---
 layout: page
 title: IKIM – the Institute for Artificial Intelligence in Medicine
+nav_active: institute
 ---
 In 2019, the Institute for Artificial Intelligence in Medicine (IKIM) was one of the first in Germany to start work in this important field of innovation.
  
@@ -23,3 +24,22 @@ Research is not an end in itself. The rapid application of scientific findings t
 __Our goals: motivate, personalize, network__
   
 AI will revolutionize medical teaching and create the basis for training all future physicians in a more individual, targeted and sustainable way. At the University of Duisburg-Essen in the heart of the Ruhr area, equal opportunities are actually lived. Our goals: motivate, personalize, network.
+
+
+{% assign members = '' | split: '' %}
+{% for group in site.data.groups %}
+    {% assign persons = site.data.people[group.name] | where_exp: "item", "item.roles contains 'board'" %}
+    {% assign members = members | concat: persons %}
+{% endfor %}
+
+<h2 class="small-bottom-margin">Board</h2>
+Prof. Dr. Michael Forsting, Speaker  
+N.N., Geschäftsleitung  
+{% for group in site.data.groups %} {% assign members = site.data.people[group.name] | where_exp: "item", "item.roles contains 'board'" %} {% for member in members %} {{ member.title }} {{ member.name }}, <a href="{{ '/groups/' | append: group.name | relative_url }}"> {{ group.label }}</a><br />{% endfor %}{% endfor %} N.N., scientific staff members  
+N.N., Member from the group of the doctotal candidates and students respectively
+
+<h2 class="small-bottom-margin">Steering Group</h2>
+{% for p in site.data.people.steering-group %} {{ p.title }} {{ p.name }}, {{ p.affiliation }} <br /> {% endfor %}
+
+<h2 class="small-bottom-margin">Scientific Advisory Board</h2>
+{% for p in site.data.people.scientific-advisory-board %} {{ p.title }} {{ p.name }}, {{ p.affiliation }} <br /> {% endfor %}

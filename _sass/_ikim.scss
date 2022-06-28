@@ -148,3 +148,19 @@
     margin-bottom: $spacing-unit / 4;
   }
 }
+
+.bibshort {
+  ol.bibliography li details {
+    display: none;
+  }
+}
+
+.nav_active {
+  text-decoration: underline;
+  text-decoration-color: orange;
+}
+
+.light-separator {
+  border:0;
+  border-top: 1px solid #ccc;
+}

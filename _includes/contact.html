@@ -6,6 +6,6 @@
 </p>
 <p>
     <a href="#head">{{ head.title }} {{ head.name }}</a><br />
-    <a href="#admin">Office</a>
+    {% if group.type == 'rg' %}<a href="#admin">Office</a>{% endif %}
 </p>
 <div class="clear"></div>

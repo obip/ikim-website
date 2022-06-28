@@ -1,6 +1,8 @@
 ---
-layout: page
+layout: project
 title: "Research Training Group"
+excerpt: Research Training Group "WisPerMed" - Knowledge- and Data-Based Personalization of Medicine at the Point of Care
+tags: diair mcmi
 ---
 Research Training Group "WisPerMed" - Knowledge- and Data-Based Personalization of Medicine at the Point of Care
 

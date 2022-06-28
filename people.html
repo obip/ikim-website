@@ -1,29 +1,77 @@
 ---
 layout: default
 permalink: "people"
+nav_active: people
 ---
 
-{% assign people_by_position = site.data.people | group_by: "position" %}
-{% for position in people_by_position %}
-  {% for person in position.items %}
+{% assign people = '' | split: '' %}
+{% for group in site.data.groups %}
+  {% assign to_add = site.data.people[group.name] | where_exp: "item", "item.roles[0] != 'head'" %}
+  {% assign people = people | concat: to_add %}
+{% endfor %}
+
+{% for group in site.data.groups %}
+  {% if group.type == 'rg' %}
+    {% assign person = site.data.people[group.name] | find_exp: "item", "item.roles[0] == 'head'" %}
     <div class="person-separator small-bottom-margin"></div>
     {% if person.img %}
-      <img class="person-img" src="{{ "/img/people/" | append: person.img | relative_url}}" />
-      <h3>{{ person.title}} {{ person.name }}</h3>
-    {% else %}
-      <h3>{{ person.title}} {{ person.name }}</h3>
+      <img class="person-img" src="{{ "/img/people/" | append: person.img | relative_url}}" alt="Photo of {{ person.name }}" />
     {% endif %}
+    <h3>{{ person.title}} {{ person.name }}</h3>
     <p>
-    {% assign group = site.data.groups | where: "name",  person.group %}
-    {% if group.size == 1   %}
-      <a href=" {{ "/groups/" | append: group[0].name | relative_url }}">{{ group[0].label }}</a><br />
+    <a href=" {{ "/groups/" | append: group.name | relative_url }}">{{ group.label }}</a><br />
+    Head of Research Group <br/>
+    {{ person.mail }}
+    </p>
+  {% endif %}
+{% endfor %}
+
+{% for group in site.data.groups %}
+  {% if group.type == 'jrg' %}
+    {% assign parent_group = site.data.groups | find: "name", group.group %}
+    {{ site.data.groups[group.group] }}
+    {% assign person = site.data.people[group.name] | find_exp: "item", "item.roles[0] == 'head'" %}
+    <div class="person-separator small-bottom-margin"></div>
+    {% if person.img %}
+      <img class="person-img" src="{{ "/img/people/" | append: person.img | relative_url}}" alt="Photo of {{ person.name }}" />
     {% endif %}
-    {% if person.position == "head" %}
-      Head of Research Group <br/>
-    {% elsif person.position == "jrg-head" %}
-      {% assign jrg = site.data.groups | where: "name", person.jrg %}
-      Head of Junior Research Group <a href="/groups/{{ jrg[0].name }}">{{ jrg[0].label }}</a><br />
+    <h3>{{ person.title}} {{ person.name }}</h3>
+    <p>
+    {% if parent_group %}
+      <a href=" {{ "/groups/" | append: parent_group.name | relative_url }}">{{ parent_group.label }}</a><br />
     {% endif %}
+    Head of Junior Research Group <a href=" {{ "/groups/" | append: group.name | relative_url }}">{{ group.label }}</a><br />
+    {{ person.mail }}
+    </p>
+  {% endif %}
+{% endfor %}
+
+
+{% assign people_by_position = people | group_by_exp: "item", "item.roles | first" %}
+{% for position in people_by_position %}
+  {% assign sorted = position.items | sort_natural %}
+  {% for person in sorted %}
+    <div class="person-separator small-bottom-margin"></div>
+    {% if person.img %}
+      <img class="person-img" src="{{ "/img/people/" | append: person.img | relative_url}}" alt="Photo of {{ person.name }}" />
+    {% endif %}
+    <h3>{{ person.title}} {{ person.name }}</h3>
+    <p>
+    <!---->
+    {% for group in site.data.groups %}
+      {% for p in site.data.people[group.name] %}
+        {% if person.name == p.name %} 
+          {% if group.type == 'jrg' %}
+            {% assign parent_group = site.data.groups | find: "name", group.group %}   
+            {% if parent_group %}
+              <a href=" {{ "/groups/" | append: parent_group.name | relative_url }}">{{ parent_group.label }}</a><br />
+            {% endif %}
+            Junior Research Group 
+          {% endif %}
+          <a href=" {{ "/groups/" | append: group.name | relative_url }}">{{ group.label }}</a><br />
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
     {{ person.mail }} <br />
     <!--
     {% if person.phone %}
@@ -36,3 +84,4 @@ permalink: "people"
     </p>
   {% endfor %}
 {% endfor %}
+

@@ -18,12 +18,16 @@
 
 {% if entry.booktitle %}
   {{ entry.booktitle }}.
+  {% assign venue = entry.booktitle %}
 {% elsif entry.journal %}
   {{ entry.journal }}.
+  {% assign venue = entry.journal %}
 {% elsif entry.school %}
   {{ entry.school }}.
+  {% assign venue = entry.school %}
 {% elsif entry.institution %}
   {{ entry.institution }}.
+  {% assign venue = entry.institution %}
 {% endif %}
 
 {{ entry.year }}.
@@ -44,3 +48,4 @@
   <pre>{{ entry.bibtex }}</pre>
 </details>
 
+<input type="hidden" value="{{ authors | array_to_sentence_string }} {{ entry.title }} {{ venue }} {{ entry.year }}" />

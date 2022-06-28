@@ -1,22 +1,5 @@
-- name: ds
-  label: Data Science
-  address:
-    name: Girardethaus
-    street: Girardetstr. 2
-    additional: House 2, 2nd floor
-    zip: 45131
-    city: Essen
-
-- name: mcmi
-  label: Multimodal Computing & Machine Intelligence
-  address:
-    name: Girardethaus
-    street: Girardetstr. 2
-    additional: House 2, 2nd floor
-    zip: 45131
-    city: Essen
-
 - name: mml
+  type: rg
   label: Medical Machine Learning
   address:
     name: Girardethaus
@@ -25,14 +8,52 @@
     zip: 45131
     city: Essen
 
+- name: ds
+  type: rg
+  label: Data Science
+  address:
+    name: Girardethaus
+    street: Girardetstr. 2
+    additional: House 2, 2nd floor
+    zip: 45131
+    city: Essen
+
 - name: diair
+  type: rg
   label: Data Integration and AI in Radiology
 
-- name: kei
-  label: Knowledge Extraction & Integration
-
-- name: tml
-  label: Trustworthy Machine Learning
+- name: mcmi
+  type: rg
+  label: Multimodal Computing & Machine Intelligence
+  address:
+    name: Girardethaus
+    street: Girardetstr. 2
+    additional: House 2, 2nd floor
+    zip: 45131
+    city: Essen
 
 - name: ait
+  type: jrg
+  group: mml
   label: AI-guided Therapies
+  address:
+    name: Girardethaus
+    street: Girardetstr. 2
+    additional: House 2, 4th floor
+    zip: 45131
+    city: Essen
+
+- name: tml
+  type: jrg
+  label: Trustworthy Machine Learning
+  
+- name: kei
+  type: jrg
+  group: mcmi
+  label: Knowledge Extraction & Integration
+  address:
+    name: Girardethaus
+    street: Girardetstr. 2
+    additional: House 2, 2nd floor
+    zip: 45131
+    city: Essen
