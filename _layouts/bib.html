@@ -1,7 +1,6 @@
 ---
 ---
 
-
 {% assign author_list = entry.author | split: " and " %}
 {% assign authors = '' | split: '' %}
 {% for author in author_list %}
@@ -10,11 +9,7 @@
 {% endfor %}
 {{ authors | array_to_sentence_string }}.
 
-{% if links.pdf %}
-<a href="{{ links.pdf }}">{{ entry.title }}</a>.
-{% else %}
 <i>{{ entry.title }}.</i>
-{% endif %}
 
 {% if entry.booktitle %}
   {{ entry.booktitle }}.
@@ -40,6 +35,9 @@
 {% endif %}
 {% if entry.url %}
 <a href="{{ entry.url }}">[url]</a>
+{% endif %}
+{% if links.pdf %}
+<a href="{{ links.pdf }}">[pdf]</a>.
 {% endif %}
 
 <details>

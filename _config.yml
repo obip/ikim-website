@@ -8,7 +8,7 @@ plugins: ['jekyll/scholar']
 scholar:
   source: /_bibliography
   bibliography: '**/*.bib{,tex}'
-  repository: /files/publications
+  repository: /pdfs
   style: chicago-fullnote-bibliography
   group_by: year
   group_order: descending
