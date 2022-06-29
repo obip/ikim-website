@@ -36,7 +36,7 @@ AI will revolutionize medical teaching and create the basis for training all fut
 Prof. Dr. Michael Forsting, Speaker  
 N.N., Geschäftsleitung  
 {% for group in site.data.groups %} {% assign members = site.data.people[group.name] | where_exp: "item", "item.roles contains 'board'" %} {% for member in members %} {{ member.title }} {{ member.name }}, <a href="{{ '/groups/' | append: group.name | relative_url }}"> {{ group.label }}</a><br />{% endfor %}{% endfor %} N.N., scientific staff members  
-N.N., Member from the group of the doctotal candidates and students respectively
+N.N., Member from the group of the doctoral candidates and students respectively
 
 <h2 class="small-bottom-margin">Steering Group</h2>
 {% for p in site.data.people.steering-group %} {{ p.title }} {{ p.name }}, {{ p.affiliation }} <br /> {% endfor %}
