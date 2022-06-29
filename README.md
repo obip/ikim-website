@@ -32,7 +32,6 @@ Add a new entry to the end of the file. See the example above or existing entrie
 
 Mandatory fields:
 - name - first and last name
-- title - e.g. Prof. Dr.
 - mail - e-mail address
 - roles - must be a list, even if it only has a single entry. The first entry **must** be the position in the group. Possible values:
   * shk - student assistant
@@ -45,6 +44,7 @@ Mandatory fields:
 
 Optional fields:
 - phone - phone nr, e.g. +4920112345
+- title - e.g. Prof. Dr.
 - position-special - more details for tech-staff, e.g. `HPC specialist`
 - interests - a list of interests, e.g. `['machine learning', 'coffe']`
 - img - first, upload an image to [`/img/people`](/img/people), then provide the filename here, e.g. `hilde-muster.jpg`
