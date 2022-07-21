@@ -10,40 +10,41 @@
   mail: andrea.tonk@uk-essen.de
   phone: +4920172377825
   roles: ['admin']
-  img: Andrea-Tonk.jpeg
+  img: Andrea-Tonk.jpg
+  <img src="{{ "/img/Andrea-Tonk.jpeg" | relative_url }}" alt="alternative text, if the image cannot be displayed (accessibility)" />
 
 - name: Ryan Aydelott
   mail: ryan.aydelott@uk-essen.de
   roles: ['tech']
   position-special: Experimental/HPC Systems Specialist 
-  img: ryan-aydelott.jpeg
+  img: Ryan-Aydelott.jpg
 
 - name: Sultan Imangaliyev
   title: Dr.
   mail: sultan.imangaliyev@uni-due.de
   roles: ['postdoc']
   interests: ['deep learning on tabular data', 'explainable AI', 'biomarker selection', 'human microbiome', 'bioinformatics', 'systems biology', 'computational biology']
-  img: sultan-imangaliyev.jpeg
+  img: Sultan-Imangaliyev.jpg
 
 - name: Meike Nauta
   title: M.Sc.
   mail: meike.nauta@uk-essen.de
   roles: ['phd']
   interests: ['Explainable AI and interpretable machine learning']
-  img: meike-nauta.jpeg
+  img: Meike-Nauta.jpg
 
 - name: Shreyasi Pathak
   mail: shreyasi.pathak@uk-essen.de
   title: M.Sc.
   roles: ['phd']
   interests: ['Explainable AI', 'Multimodal Deep Learning', 'Clinical Decision Making (breast cancer diagnosis)'] 
-  img: shreyasi-pathak.jpeg
+  img: Shreyasi-Pathak.jpg
   
 - name: Paul Youssef
   mail: paul.youssef@uni-due.de
   title: M.Sc.
   roles: ['phd']
   interests: ['Clinical Decision Making', 'Natural Language Processing']
-  img: paul-youssef.jpeg
+  img: Paul-Youssef.jpg
   
   
