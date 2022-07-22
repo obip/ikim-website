@@ -56,7 +56,7 @@
           Interests: {{ person.interests | array_to_sentence_string }}
         {% endif %}
         {% if jrg %}
-          <br />Junior Research Group <a href="/groups/{{ jrg_group.name }}">{{ jrg_group.label }}</a>
+          <br />Junior Research Group <a href="{{ jrg_group.name | prepend: "/groups/" | relative_url }}">{{ jrg_group.label }}</a>
         {% endif %}
         {% if person.roles contains "board" %}
           <br /><a href="{{ "/institute" | relative_url }}">Board Member</a>
