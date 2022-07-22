@@ -25,6 +25,20 @@
   interests: ['deep learning on tabular data', 'explainable AI', 'biomarker selection', 'human microbiome', 'bioinformatics', 'systems biology', 'computational biology']
   img: Sultan-Imangaliyev.jpg
 
+- name: Osman Koras
+  title: M.Sc.
+  mail: osmanalperen.koras@uk-essen.de
+  roles: ['phd']
+  interests: 
+  img: Osman-Koras.jpg
+  
+- name: Phuong Quynh Le
+  title: M.Sc.
+  mail: phuongquynh.le@uk-essen.de
+  roles: ['phd']
+  interests: 
+  img: Phuong-Quynh-Le.jpg
+
 - name: Meike Nauta
   title: M.Sc.
   mail: meike.nauta@uk-essen.de
@@ -38,6 +52,13 @@
   roles: ['phd']
   interests: ['Explainable AI', 'Multimodal Deep Learning', 'Clinical Decision Making (breast cancer diagnosis)'] 
   img: Shreyasi-Pathak.jpg
+  
+- name: Jan Trienes
+  title: M.Sc.
+  mail: jan.trienes@uni-due.de
+  roles: ['phd']
+  interests: ['Natural Language Processing', 'Information Retrieval']
+  img: Jan-Trienes.jpg
   
 - name: Paul Youssef
   mail: paul.youssef@uni-due.de
