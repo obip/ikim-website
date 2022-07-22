@@ -11,7 +11,6 @@
   phone: +4920172377825
   roles: ['admin']
   img: Andrea-Tonk.jpg
-  <img src="{{ "/img/Andrea-Tonk.jpeg" | relative_url }}" alt="alternative text, if the image cannot be displayed (accessibility)" />
 
 - name: Ryan Aydelott
   mail: ryan.aydelott@uk-essen.de
