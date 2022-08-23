@@ -4,3 +4,9 @@
   phone:  +4920172377802
   roles: ['head','board']
   img: folker-meyer.jpg
+
+- name: Kerstin Bornemann
+  mail: kerstin.bornemann@uk-essen.de
+  phone: +492017237883
+  roles: ['admin']
+  img: kerstin-bornemann.jpeg
