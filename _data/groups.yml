@@ -8,16 +8,6 @@
     zip: 45131
     city: Essen
 
-- name: ds
-  type: rg
-  label: Data Science
-  address:
-    name: Girardethaus
-    street: Girardetstr. 2
-    additional: House 2, 2nd floor
-    zip: 45131
-    city: Essen
-
 - name: diair
   type: rg
   label: Data Integration and AI in Radiology
@@ -57,3 +47,14 @@
     additional: House 2, 2nd floor
     zip: 45131
     city: Essen
+    
+- name: ds
+  type: rg
+  label: Data Science
+  address:
+    name: Girardethaus
+    street: Girardetstr. 2
+    additional: House 2, 2nd floor
+    zip: 45131
+    city: Essen
+    
