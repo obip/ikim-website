@@ -3,27 +3,15 @@ layout: page
 title: IKIM – the Institute for Artificial Intelligence in Medicine
 nav_active: institute
 ---
-In 2019, the Institute for Artificial Intelligence in Medicine (IKIM) was one of the first in Germany to start work in this important field of innovation.
- 
-Our special advantage: We work in close cooperation with the established classical medical disciplines. This is because we are part of the Medical Faculty of the University of Duisburg Essen and the University Hospital Essen and are thus integrated into an excellent scientific environment. An absolute location advantage of our institute. And the IKIM was equipped with five newly established professorships right from the start.
+Founded in 2019 the Institute for Artificial Intelligence in Medicine (IKIM) brings together researchers from a number of disciplines to conduct research, improve patient care and the training of tomorrow’s physicians.
 
-IKIM’s goal is to scientifically analyze and further develop the possibilities of artificial intelligence in medicine, thus making it available for patient care and establishing it in the training of tomorrow’s physicians. For no less than better therapies in the future and thus for the well-being of mankind.
+The institute conducts applied and foundational research, integrating clinical applications, lab-based research, information technology and computer science. We are covering a range of topics, including understanding and reasoning about medical data (including clinical reports, medical imagery, genome data) for e.g.  understanding oncologically relevant patterns in large and complex data, understanding molecular disease mechanisms for e.g. (skin-)cancer, and deciphering the role of the microbiome in health and disease for e.g. viral infection or Sepsis.
 
-The university medical center in Essen is already a recognized pioneer in the field of digitalization in medicine in Germany. In terms of patient care, Essen has firmly established itself as one of the first Smart Hospitals in Germany. The IKIM will help make NRW the leading region for artificial intelligence in Germany.
+We use and devise a wide range of cutting-edge methods including (but not limited to) reproducible (bio-)informatics pipelines, virtual and augmented reality, machine learning (e.g.  federated learning, explainable AI), medical data warehousing, viral and bacterial genome sequencing, computer vision, single cell DNA sequencing, natural language understanding and sensor processing. 
 
-__Artificial intelligence will revolutionize medical research.__
-  
+To achieve these ambitious goals we develop solutions that can be used by clinicians, hospital staff, and researchers. 
 
-Using AI, completely unknown highly complex correlations, patterns and causalities can be recognized. University medicine is predestined for this.
-
-
-__Research is not an end in itself__
- 
-Research is not an end in itself. The rapid application of scientific findings to patients is an integral part of our concept. Our goal: Personalized medicine becomes possible for the general population and for a wide range of diseases.
-
-__Our goals: motivate, personalize, network__
-  
-AI will revolutionize medical teaching and create the basis for training all future physicians in a more individual, targeted and sustainable way. At the University of Duisburg-Essen in the heart of the Ruhr area, equal opportunities are actually lived. Our goals: motivate, personalize, network.
+The institute works towards a more individualized, targeted and sustainable future of medical care. At the University of Duisburg-Essen in the heart of the Ruhr area, equal opportunities are actually lived. Our goals: motivate, personalize, network.
 
 
 {% assign members = '' | split: '' %}
