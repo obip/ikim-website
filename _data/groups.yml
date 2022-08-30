@@ -58,3 +58,14 @@
     zip: 45131
     city: Essen
     
+- name: dss
+  type: rg
+  group: ds
+  label: Data Science for Sepsis
+  address:
+    name: Girardethaus
+    street: Girardetstr. 2
+    additional: House 2, 2nd floor
+    zip: 45131
+    city: Essen
+    
