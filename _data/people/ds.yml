@@ -10,3 +10,13 @@
   phone: +492017237883
   roles: ['admin']
   img: kerstin-bornemann.jpeg
+
+- name: Alexander Thomas
+  mail: alexander.thomas@uk-essen.de
+  roles: ['phd']
+  img: thomas-alexander.jpg
+
+- name: Katharina Block
+  mail: katharina.block@uk-essen.de
+  roles: ['phd']
+  img: block-katharina.jpg

@@ -59,7 +59,7 @@
     city: Essen
     
 - name: dss
-  type: rg
+  type: jrg
   group: ds
   label: Data Science for Sepsis
   address:

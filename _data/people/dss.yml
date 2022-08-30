@@ -1,0 +1,14 @@
+- name: Ivana Kraiselburd
+  title: Dr.
+  mail: ivana.kraiselburd@uni-due.de
+  roles: ['head']
+  interests: ['Bacterial Diversity ',  'Sepsis ', ' Machine learning & Prediction ']
+  img: Ivana-Kraiselburd.jpg
+
+- name: Ann-Kathrin Brüggemann
+  mail: Ann-Kathrin.Brueggemann@uk-essen.de
+  title: M.Sc.
+  roles: ['phd']
+  interests: ['Time Series Data', '16s rDNA' ]
+  img: Brueggemann-Ann-Kathrin.jpg
+
