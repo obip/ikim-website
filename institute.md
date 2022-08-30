@@ -3,11 +3,11 @@ layout: page
 title: IKIM – the Institute for Artificial Intelligence in Medicine
 nav_active: institute
 ---
-Founded in 2019 the Institute for Artificial Intelligence in Medicine (IKIM) brings together researchers from a number of disciplines to conduct research, improve patient care and the training of tomorrow’s physicians.
+Founded in 2019 the Institute for Artificial Intelligence in Medicine (IKIM) brings together researchers from a number of disciplines to perform research, improve patient care and train tomorrow’s physicians.
 
 The institute conducts applied and foundational research, integrating clinical applications, lab-based research, information technology and computer science. We are covering a range of topics, including understanding and reasoning about medical data (including clinical reports, medical imagery, genome data) for e.g.  understanding oncologically relevant patterns in large and complex data, understanding molecular disease mechanisms for e.g. (skin-)cancer, and deciphering the role of the microbiome in health and disease for e.g. viral infection or Sepsis.
 
-We use and devise a wide range of cutting-edge methods including (but not limited to) reproducible (bio-)informatics pipelines, virtual and augmented reality, machine learning (e.g.  federated learning, explainable AI), medical data warehousing, viral and bacterial genome sequencing, computer vision, single cell DNA sequencing, natural language understanding and sensor processing. 
+The institute is organized as a number of groups and junior groups. We use and devise a wide range of cutting-edge methods including (but not limited to) reproducible (bio-)informatics pipelines, virtual and augmented reality, machine learning (e.g.  federated learning, explainable AI), medical data warehousing, viral and bacterial genome sequencing, computer vision, single cell DNA sequencing, natural language understanding and sensor processing. 
 
 To achieve these ambitious goals we develop solutions that can be used by clinicians, hospital staff, and researchers. 
 
