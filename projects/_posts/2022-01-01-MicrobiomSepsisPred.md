@@ -16,4 +16,8 @@ PI: Prof. Dr. Folker Meyer
 Junior-Group leader: Dr. Ivana Kraiselburd
 
 <br /><br />
+<figure>
+    <img src="{{ "/img/MicrobiomSepsisPred.jpg" | relative_url }}" alt="Schematic View of MicrobiomSpesisPred" style="width:800px;" />
+    <figcaption>Schematic View of MicrobiomSpesisPred</figcaption>
+</figure>
 
