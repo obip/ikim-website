@@ -25,27 +25,13 @@
   interests: ['deep learning on tabular data', 'explainable AI', 'biomarker selection', 'human microbiome', 'bioinformatics', 'systems biology', 'computational biology']
   img: Sultan-Imangaliyev.jpg
 
-- name: Osman Koras
-  title: M.Sc.
-  mail: osmanalperen.koras@uk-essen.de
-  roles: ['phd']
-  interests: 
-  img: Osman-Koras.jpg
-  
-- name: Phuong Quynh Le
-  title: M.Sc.
-  mail: phuongquynh.le@uk-essen.de
-  roles: ['phd']
-  interests: 
-  img: Phuong-Quynh-Le.jpg
-
 - name: Meike Nauta
   title: M.Sc.
   mail: meike.nauta@uk-essen.de
   roles: ['phd']
   interests: ['Explainable AI and interpretable machine learning']
   img: Meike-Nauta.jpg
-
+  
 - name: Shreyasi Pathak
   mail: shreyasi.pathak@uk-essen.de
   title: M.Sc.
@@ -67,4 +53,24 @@
   interests: ['Clinical Decision Making', 'Natural Language Processing']
   img: Paul-Youssef.jpg
   
+- name: Osman Koras
+  title: M.Sc.
+  mail: osman.koras@uni-due.de
+  roles: ['phd']
+  interests: ['Natural Language Processing, Faithfulness in Natural Language Generation, Representation of Text Semantics and Machine Learning']
+  img: Osman-Koras.jpg
+  
+- name: Phuong Quynh Le
+  title: M.Sc.
+  mail: phuongquynh.le@uni-due.de
+  roles: ['phd']
+  interests: ['Explainable AI, Machine Learning']
+  img: Phuong-Quynh-Le.jpg
+
+- name: Meijie Li
+  title: M.Sc.
+  mail: meijie.li@uni-due.de
+  roles: ['phd']
+  interests: 
+  img: Meijie-Li.jpg
   
