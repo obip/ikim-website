@@ -11,28 +11,30 @@
   roles: ['admin']
   img: kerstin-bornemann.jpeg
 
-- name: Josefa Welling
-  title: MSc.
-  mail: josefa.welling@uk-essen.de
-  roles: ['phd']
-  img: welling-josefa.jpg
+- name: Ricarda Schmithausen
+  title: PD Dr.med. Dr. agr. 
+  mail: ricarda.schmithausen@uni-due.de
+  roles: ['postdoc']
+  img: schmithausen-ricarda.jpg
+  interests: ['one health', 'hygiene', 'outbreak epidemiology/surveillance', 'antibiotic resistance dynamics']
 
-- name: Jule Golsch
-  mail: jule.golsch@uk-essen.de
-  roles: ['tech']
-  img: golsch-jule.jpg
-
-- name: Alexander Thomas
-  mail: alexander.thomas@uk-essen.de
-  title: MSc.
-  roles: ['phd']
-  img: thomas-alexander.jpg
+- name: Simon Magin
+  title: Dr.
+  roles: ['postdoc']
+  mail: simon.magin@uk-essen.de
+  img: magin-simon.jpg
 
 - name: Katharina Block
   mail: katharina.block@uk-essen.de
   title: MSc.
   roles: ['phd']
   img: block-katharina.jpg
+
+- name: Jule Golsch
+  mail: jule.golsch@uk-essen.de
+  roles: ['tech']
+  img: golsch-jule.jpg
+
   
 - name: Hendrik Schmidt
   mail: hendrik.schmidt@uk-essen.de
@@ -40,14 +42,15 @@
   roles: ['tech']
   img: schmidt-hendrik.jpg
 
-- name: Ricarda Schmithausen
-  title: Dr. Dr.
-  mail: ricarda.schmithausen@uni-due.de
-  roles: ['postdoc']
-  img: schmithausen-ricarda.jpg
+- name: Alexander Thomas
+  mail: alexander.thomas@uk-essen.de
+  title: MSc.
+  roles: ['phd']
+  img: thomas-alexander.jpg
 
-- name: Simon Magin
-  title: Dr.
-  roles: ['postdoc']
-  mail: simon.magin@uk-essen.de
-  img: magin-simon.jpg
+- name: Josefa Welling
+  title: MSc.
+  mail: josefa.welling@uk-essen.de
+  roles: ['phd']
+  img: welling-josefa.jpg
+
