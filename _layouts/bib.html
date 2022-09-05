@@ -52,4 +52,4 @@
   <pre>{{ entry.bibtex }}</pre>
 </details>
 
-<input type="hidden" value="{{ authors | array_to_sentence_string }} {{ entry.title }} {{ venue }} {{ entry.year }}" />
+<input type="hidden" value="{{ authors | array_to_sentence_string | escape }} {{ entry.title | escape }} {{ venue | escape }} {{ entry.year }}" />
