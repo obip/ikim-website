@@ -23,7 +23,7 @@ The institute works towards a more individualized, targeted and sustainable futu
 <h2 class="small-bottom-margin">Board</h2>
 Prof. Dr. Michael Forsting, Speaker  
 N.N., Geschäftsleitung  
-{% for group in site.data.groups %} {% assign members = site.data.people[group.name] | where_exp: "item", "item.roles contains 'board'" %} {% for member in members %} {{ member.title }} {{ member.name }}, <a href="{{ '/groups/' | append: group.name | relative_url }}"> {{ group.label }}</a><br />{% endfor %}{% endfor %} N.N., scientific staff members  
+{% for group in site.data.groups %} {% assign members = site.data.people[group.name] | where_exp: "item", "item.roles contains 'board'" %} {% for member in members %} {{ member.title }} {{ member.name }}, {% if group.url %} <a href="{{group.url}}"> {% else %} <a href="{{ '/groups/' | append: group.name | relative_url }}"> {% endif %} {{ group.label }}</a><br />{% endfor %}{% endfor %} N.N., scientific staff members  
 N.N., Member from the group of the doctoral candidates and students respectively
 
 <h2 class="small-bottom-margin">Steering Group</h2>

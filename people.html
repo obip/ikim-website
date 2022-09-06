@@ -19,7 +19,11 @@ nav_active: people
     {% endif %}
     <h3>{{ person.title}} {{ person.name }}</h3>
     <p>
-    <a href=" {{ "/groups/" | append: group.name | relative_url }}">{{ group.label }}</a><br />
+    {% if group.url %}
+      <a href="{{group.url}}">{{ group.label }}</a><br />
+    {% else %}
+      <a href=" {{ "/groups/" | append: group.name | relative_url }}">{{ group.label }}</a><br />
+    {% endif %}
     Head of Research Group <br/>
     {{ person.mail }}
     </p>
@@ -38,9 +42,13 @@ nav_active: people
     <h3>{{ person.title}} {{ person.name }}</h3>
     <p>
     {% if parent_group %}
-      <a href=" {{ "/groups/" | append: parent_group.name | relative_url }}">{{ parent_group.label }}</a><br />
+      {% if group.url %}
+       <a href="{{parent_group.url}}">{{ parent_group.label }}</a><br />
+      {% else %}
+        <a href=" {{ "/groups/" | append: parent_group.name | relative_url }}">{{ parent_group.label }}</a><br />
+      {% endif %}
     {% endif %}
-    Head of Junior Research Group <a href=" {{ "/groups/" | append: group.name | relative_url }}">{{ group.label }}</a><br />
+    Head of Junior Research Group  {% if group.url %} <a href="{{group.url}}">{{ group.label }}</a><br /> {% else %} <a href=" {{ "/groups/" | append: group.name | relative_url }}">{{ group.label }}</a><br /> {% endif %}
     {{ person.mail }}
     </p>
   {% endif %}
@@ -64,11 +72,19 @@ nav_active: people
           {% if group.type == 'jrg' %}
             {% assign parent_group = site.data.groups | find: "name", group.group %}   
             {% if parent_group %}
-              <a href=" {{ "/groups/" | append: parent_group.name | relative_url }}">{{ parent_group.label }}</a><br />
+              {% if group.url %}
+                <a href="{{parent_group.url}}">{{ parent_group.label }}</a><br />
+              {% else %}
+                <a href=" {{ "/groups/" | append: parent_group.name | relative_url }}">{{ parent_group.label }}</a><br />
+              {% endif %}
             {% endif %}
             Junior Research Group 
           {% endif %}
-          <a href=" {{ "/groups/" | append: group.name | relative_url }}">{{ group.label }}</a><br />
+          {% if group.url %}
+            <a href="{{group.url}}">{{ group.label }}</a><br />
+          {% else %}
+            <a href=" {{ "/groups/" | append: group.name | relative_url }}">{{ group.label }}</a><br />
+          {% endif %}
         {% endif %}
       {% endfor %}
     {% endfor %}

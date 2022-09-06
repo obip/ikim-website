@@ -4,7 +4,11 @@
 <h1>Research Groups</h1>
 <ul class="grouplist">
     {% for group in rgs %}
-      <li><a href="{{ "/groups/" | append: group.name | relative_url }}">{{ group.label }}</a>
+      {% if group.url %}
+        <li><a href="{{group.url}}">{{ group.label }}</a>
+      {% else %}
+        <li><a href="{{ "/groups/" | append: group.name | relative_url }}">{{ group.label }}</a>
+      {% endif %}
       {% assign head = site.data.people[group.name] | find_exp: "item", "item.roles contains 'head'" %}
       {{ head.title }} {{ head.name }}
       </li>
@@ -14,7 +18,11 @@
 <h1>Junior Research Groups</h1>
 <ul class="grouplist">
     {% for group in jrgs %}
-      <li><a href="{{ "/groups/" | append: group.name | relative_url }}">{{ group.label }}</a>
+      {% if group.url %}
+        <li><a href="{{group.url}}">{{ group.label }}</a>
+      {% else %}
+        <li><a href="{{ "/groups/" | append: group.name | relative_url }}">{{ group.label }}</a>
+      {% endif %}
       {% assign head = site.data.people[group.name] | find_exp: "item", "item.roles contains 'head'" %}
       {{ head.title }} {{ head.name }}
       </li>
