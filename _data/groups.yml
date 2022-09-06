@@ -1,6 +1,7 @@
 - name: mml
   type: rg
   label: Medical Machine Learning
+  url: https://mml.ikim.nrw/
   address:
     name: Girardethaus
     street: Girardetstr. 2
@@ -11,6 +12,7 @@
 - name: diair
   type: rg
   label: Data Integration and AI in Radiology
+  url: https://ship-ai.ikim.nrw
 
 - name: mcmi
   type: rg
@@ -26,6 +28,7 @@
   type: jrg
   group: mml
   label: AI-guided Therapies
+  url: https://ait.ikim.nrw/
   address:
     name: Girardethaus
     street: Girardetstr. 2
@@ -36,6 +39,7 @@
 - name: tml
   type: jrg
   label: Trustworthy Machine Learning
+  url: http://trustworthyml.de/
   
 - name: kei
   type: jrg
