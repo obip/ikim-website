@@ -30,10 +30,10 @@
   roles: ['phd']
   img: block-katharina.jpg
 
-- name: Jule Golsch
-  mail: jule.golsch@uk-essen.de
+- name: Jule Gosch
+  mail: jule.gosch@uk-essen.de
   roles: ['tech']
-  img: golsch-jule.jpg
+  img: gosch-jule.jpg
   
 - name: Hendrik Schmidt
   mail: hendrik.schmidt@uk-essen.de
