@@ -1,3 +1,13 @@
+- name: accr
+  type: rg
+  label: Applied Computational Cancer Research
+  address:
+    name: Girardethaus
+    street: Girardetstr. 2
+    additional: House 2, 2nd floor
+    zip: 45131
+    city: Essen
+
 - name: diair
   type: rg
   label: Data Integration and AI in Radiology
