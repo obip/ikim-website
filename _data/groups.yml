@@ -1,3 +1,18 @@
+- name: diair
+  type: rg
+  label: Data Integration and AI in Radiology
+  url: https://ship-ai.ikim.nrw
+    
+- name: ds
+  type: rg
+  label: Data Science
+  address:
+    name: Girardethaus
+    street: Girardetstr. 2
+    additional: House 2, 2nd floor
+    zip: 45131
+    city: Essen
+    
 - name: mml
   type: rg
   label: Medical Machine Learning
@@ -8,11 +23,6 @@
     additional: House 2, 4th floor
     zip: 45131
     city: Essen
-
-- name: diair
-  type: rg
-  label: Data Integration and AI in Radiology
-  url: https://ship-ai.ikim.nrw
 
 - name: mcmi
   type: rg
@@ -35,11 +45,17 @@
     additional: House 2, 4th floor
     zip: 45131
     city: Essen
-
-- name: tml
+    
+- name: dss
   type: jrg
-  label: Trustworthy Machine Learning
-  url: http://trustworthyml.de/
+  group: ds
+  label: Data Science for Sepsis
+  address:
+    name: Girardethaus
+    street: Girardetstr. 2
+    additional: House 2, 2nd floor
+    zip: 45131
+    city: Essen
   
 - name: kei
   type: jrg
@@ -52,24 +68,7 @@
     zip: 45131
     city: Essen
     
-- name: ds
-  type: rg
-  label: Data Science
-  address:
-    name: Girardethaus
-    street: Girardetstr. 2
-    additional: House 2, 2nd floor
-    zip: 45131
-    city: Essen
-    
-- name: dss
+- name: tml
   type: jrg
-  group: ds
-  label: Data Science for Sepsis
-  address:
-    name: Girardethaus
-    street: Girardetstr. 2
-    additional: House 2, 2nd floor
-    zip: 45131
-    city: Essen
-    
+  label: Trustworthy Machine Learning
+  url: http://trustworthyml.de/
