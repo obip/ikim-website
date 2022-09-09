@@ -1,0 +1,13 @@
+- name: Florian Rambow
+  title: Prof. Dr.
+  mail: florian.rambow@uk-essen.de
+  roles: ['head']
+  interests: 
+  img: florian-rambow.jpg
+
+- name: Samira Makhzami
+  title: M.Sc.
+  mail: 
+  roles: ['phd']
+  interests:
+  img: samira-makhzami.jpg
