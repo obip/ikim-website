@@ -13,21 +13,3 @@ To achieve these ambitious goals we develop solutions that can be used by clinic
 
 The institute works towards a more individualized, targeted and sustainable future of medical care. At the University of Duisburg-Essen in the heart of the Ruhr area, equal opportunities are actually lived. Our goals: motivate, personalize, network.
 
-
-{% assign members = '' | split: '' %}
-{% for group in site.data.groups %}
-    {% assign persons = site.data.people[group.name] | where_exp: "item", "item.roles contains 'board'" %}
-    {% assign members = members | concat: persons %}
-{% endfor %}
-
-<h2 class="small-bottom-margin">Board</h2>
-Prof. Dr. Michael Forsting, Speaker  
-N.N., Geschäftsleitung  
-{% for group in site.data.groups %} {% assign members = site.data.people[group.name] | where_exp: "item", "item.roles contains 'board'" %} {% for member in members %} {{ member.title }} {{ member.name }}, {% if group.url %} <a href="{{group.url}}"> {% else %} <a href="{{ '/groups/' | append: group.name | relative_url }}"> {% endif %} {{ group.label }}</a><br />{% endfor %}{% endfor %} N.N., scientific staff members  
-N.N., Member from the group of the doctoral candidates and students respectively
-
-<h2 class="small-bottom-margin">Steering Group</h2>
-{% for p in site.data.people.steering-group %} {{ p.title }} {{ p.name }}, {{ p.affiliation }} <br /> {% endfor %}
-
-<h2 class="small-bottom-margin">Scientific Advisory Board</h2>
-{% for p in site.data.people.scientific-advisory-board %} {{ p.title }} {{ p.name }}, {{ p.affiliation }} <br /> {% endfor %}
