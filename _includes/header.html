@@ -26,6 +26,8 @@
           <a {{ 'class="page-link' }} {% if active == "groups" %} nav_active{% endif %}" href="{{ "/groups" | relative_url }}">Groups</a>
           <a {{ 'class="page-link' }} {% if active == "projects" %} nav_active{% endif %}" href="{{ "/projects" | relative_url }}">Research Projects</a>
           <a {{ 'class="page-link' }} {% if active == "publications" %} nav_active{% endif %}" href="{{ "/publications" | relative_url }}">Publications</a>
+          <a {{ 'class="page-link' }} {% if active == "about" %} nav_active{% endif %}" href="{{ "/about" | relative_url }}">About</a>
+                          
           <!--
           {%- for path in page_paths -%}
             {%- assign my_page = site.pages | where: "path", path | first -%}
