@@ -136,3 +136,4 @@ Github-pages does not support the scholar plugin. Hence, the site is first built
 - [ ] Filter publication list by group acronym, by group leader may miss a few entries
 - [ ] Clean filtering script
 - [ ] Add automatic broken link checker
+- [ ] Add IKIM on Google maps (add missing place)
