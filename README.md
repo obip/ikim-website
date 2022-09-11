@@ -137,3 +137,4 @@ Github-pages does not support the scholar plugin. Hence, the site is first built
 - [ ] Clean filtering script
 - [ ] Add automatic broken link checker
 - [ ] Add IKIM on Google maps (add missing place)
+- [ ] Add type alumni and non-research group "admin" (for institute but not group staff) 

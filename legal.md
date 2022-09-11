@@ -7,11 +7,11 @@ Herausgeber der Website und verantwortlich im Sinne des Presserechts sowie des T
 
  
 
-Universitätsklinikum Essen
-Hufelandstraße 55
-45147 Essen
+Universitätsklinikum Essen<br>
+Hufelandstraße 55<br>
+45147 Essen<br>
 
-Tel.: +49 (0) 201 – 723 – 0
+Tel.: +49 (0) 201 – 723 – 0<br>
 Fax: +49 (0) 201 – 723 – 4694
 
  
@@ -20,11 +20,11 @@ Vertreten durch den Vorstand:
 
  
 
-Vorstand:
-Prof. Dr. Jochen A. Werner (Ärztlicher Direktor)
-Prof. Dr. Kurt Werner Schmid (Stellvertretender Ärztlicher Direktor)
-Thorsten Kaatze (Kaufmännischer Direktor)
-Andrea Schmidt-Rumposch (Pflegedirektorin)
+Vorstand:<br>
+Prof. Dr. Jochen A. Werner (Ärztlicher Direktor)<br>
+Prof. Dr. Kurt Werner Schmid (Stellvertretender Ärztlicher Direktor)<br>
+Thorsten Kaatze (Kaufmännischer Direktor)<br>
+Andrea Schmidt-Rumposch (Pflegedirektorin)<br>
 Prof. Dr. Jan Buer (Dekan)
 
  
@@ -51,5 +51,5 @@ Das Universitätsklinikum Essen prüft und aktualisiert die Informationen auf se
 
 Copyright: Universitätsklinikum Essen ©2016
 
-© 2020 Institute for Artificial Intelligence,
+© 2020 Institute for Artificial Intelligence in Medicine
 
