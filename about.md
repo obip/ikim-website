@@ -16,6 +16,21 @@ Germany
 
 
 
+### Internal Advisory Board
+
+Prof. Dr. Jan Buer, Dean
+
+Prof. Dr. Jochen A. Werner, Medical Director
+
+Prof. Dr. Martin Schuler, Cancer Research Center Cologne Essen (CCCE)
+
+Prof. Dr. Michael Forsting, Medical Director ZIT
+
+Prof. Dr. Diana Arweiler-Harbeck, Faculty Council elected member group of the professors
+
+
+
+
 ### Scientific Advisory Board
 
 Prof. Dr. Susanne Boll-Westermann, OFFIS – Institut für Informatik and University of Oldenburg, Oldenburg, Germany [Website](https://uol.de/en/media-informatics/team/susanne-boll)
