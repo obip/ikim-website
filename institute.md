@@ -11,5 +11,5 @@ The institute is constituted by a number of research groups and junior research 
 
 To achieve these ambitious goals we develop solutions that can be used by clinicians, hospital staff, and researchers. 
 
-The institute works towards a more individualized, targeted and sustainable future of medical care. At the University of Duisburg-Essen in the heart of the Ruhr area, equal opportunities are actually lived. Our goals: motivate, personalize, network.
+The institute works towards a more individualized, targeted and sustainable future of medical care. At the University of Duisburg-Essen, in the heart of the Ruhr area, our goals are to motivate, personalize, network.
 
