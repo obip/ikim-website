@@ -138,3 +138,4 @@ Github-pages does not support the scholar plugin. Hence, the site is first built
 - [ ] Add automatic broken link checker
 - [ ] Add IKIM on Google maps (add missing place)
 - [ ] Add type alumni and non-research group "admin" (for institute but not group staff) 
+- [ ] Improve Bibtex deduplication (group and research group bibs can contain duplicate entries - e.g. Saber Zerhoudi, Christin Seifert, Jörg Schlötterer, and Michael Granitzer. Evaluating Simulated User Interaction and Search Behaviour. Advances in Information Retrieval. 2022.
