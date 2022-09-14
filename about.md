@@ -26,7 +26,7 @@ Germany
 
 ## Scientific Advisory Board
 
-**Prof. Dr. Susanne Boll-Westermann**, OFFIS – Institut für Informatik and University of Oldenburg, Oldenburg, Germany [Website](https://uol.de/en/media-informatics/team/susanne-boll)<br>
+**Prof. Dr. Susanne Boll-Westermann**, OFFIS – Institut für Informatik and University of Oldenburg, Oldenburg [Website](https://uol.de/en/media-informatics/team/susanne-boll)<br>
 **Prof. Dr. Ben Glocker**, Faculty of Engeneering, Department of Computing, Imperial College London [Website](https://www.imperial.ac.uk/people/b.glocker)<br>
 **Prof. (apl.) Dr. Daniel Gotthardt**, Mediteo GmbH, Gotthardt Healthgroup AG, XLHealth AG, Heidelberg<br>
 **Prof. Dr. Michael Schloter**, Helmholtz Zentrum Munich [Website](https://www.professoren.tum.de/en/honorary-professors/s/schloter-michael)
