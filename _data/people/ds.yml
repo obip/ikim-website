@@ -26,7 +26,7 @@
 
 - name: Katharina Block
   mail: katharina.block@uk-essen.de
-  title: MSc.
+  title: M.Sc.
   roles: ['phd']
   img: block-katharina.jpg
 
@@ -37,18 +37,18 @@
   
 - name: Hendrik Schmidt
   mail: hendrik.schmidt@uk-essen.de
-  title: MSc.
+  title: M.Sc.
   roles: ['tech']
   img: schmidt-hendrik.jpg
 
 - name: Alexander Thomas
   mail: alexander.thomas@uk-essen.de
-  title: MSc.
+  title: M.Sc.
   roles: ['phd']
   img: thomas-alexander.jpg
 
 - name: Josefa Welling
-  title: MSc.
+  title: M.Sc.
   interests: ['antibiotic resistances', 'ML']
   mail: josefa.welling@uk-essen.de
   roles: ['phd']
