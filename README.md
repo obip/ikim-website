@@ -122,7 +122,7 @@ The site is built with [jekyll](https://jekyllrb.com), [scholar](https://github.
 1. Install [Ruby](https://www.ruby-lang.org)
 2. Install [Bundler](https://bundler.io) `gem install bundler`
 3. Checkout repo, install dependencies in the repo with `bundle install`
-4. Run with `bundle exec jekyll serve`, the site is accessible at "http://127.0.0.1:4000/ikim-website/" (note the trailing `/`)
+4. Run with `bundle exec jekyll serve`, the site is accessible at "http://127.0.0.1:4000/" (note the trailing `/`)
 
 ## Deployment
 Github-pages does not support the scholar plugin. Hence, the site is first built via a github action at `/.github/workflows/build.yml` from the main branch. This action then pushes the ready-to-deploy build artefact to the gh-pages branch for deployment.
