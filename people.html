@@ -25,7 +25,7 @@ nav_active: people
       <a href=" {{ "/groups/" | append: group.name | relative_url }}">{{ group.label }}</a><br />
     {% endif %}
     Head of Research Group <br/>
-    {{ person.mail }}
+    <a href="mailto:{{ person.mail }}">{{ person.mail }}</a>
     </p>
   {% endif %}
 {% endfor %}
@@ -49,7 +49,7 @@ nav_active: people
       {% endif %}
     {% endif %}
     Head of Junior Research Group  {% if group.url %} <a href="{{group.url}}">{{ group.label }}</a><br /> {% else %} <a href=" {{ "/groups/" | append: group.name | relative_url }}">{{ group.label }}</a><br /> {% endif %}
-    {{ person.mail }}
+    <a href="mailto:{{ person.mail }}">{{ person.mail }}</a>
     </p>
   {% endif %}
 {% endfor %}
@@ -88,7 +88,8 @@ nav_active: people
         {% endif %}
       {% endfor %}
     {% endfor %}
-    {{ person.mail }} <br />
+    <a href="mailto:{{ person.mail }}">{{ person.mail }}</a>
+    <br />
     <!--
     {% if person.phone %}
       Phone: +{{ person.phone }} <br />

@@ -48,7 +48,7 @@
     {% endif %}
     <h3>{{ person.title}} {{ person.name }}{% if role.name == "phd" %}, Ph.D. Candidate{% endif %}</h3>
     <p>
-        {{ person.mail }} <br />
+        <a href="mailto:{{ person.mail }}">{{ person.mail }}</a><br />
         {% if person.phone %}
           Phone: +{{ person.phone }} <br />
         {% endif %}
