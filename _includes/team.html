@@ -1,3 +1,4 @@
+{% assign group = site.data.groups | find: "name", page.group %}
 {% assign team_rg = site.data.people[page.group] %}
 {% assign jrg_group = site.data.groups | find_exp: "item", "item.group == page.group" %}
 {% if jrg_group.name %}
@@ -8,45 +9,38 @@
 {% assign all = team_rg | concat: team_jrg %}
 {% assign team = all | group_by_exp: "item", "item.roles | first" %}
 
+
 {% for role in team %}
+  {% case role.name %}
+    {% when "tech" %}
+      <h3>Tech</h3>
+    {% when "postdoc" %}
+      <h3>Researchers</h3>
+    {% when "phd" %}
+      <h3>Research Assistants</h3>
+    {% when "shk" %}
+      <h3>Student Assistants</h3>
+  {% endcase %}
+
   {% for person in role.items %}
     {% if jrg_group.name %}
       {% assign jrg = team_jrg | find: "name", person.name %}
     {% endif %}
-    {% if head.name == person.name %}
-      <h3 id="head">
+    {% if role.name == "head" %}
+      {% if jrg %}
+        <h3>Head of Junior Research Group</h3>
+      {% elsif group.type == "jrg" %}
+        <h3 id="head">Head of Junior Research Group</h3>
+      {% else %}
+        <h3 id="head">Head of Research Group</h3>
+      {% endif %}
     {% elsif role.name == "admin" %}
-      <h3 id="admin">
-    {% else %}
-      <h3>
+      <h3 id="admin">Administration</h3>
     {% endif %}
-        {% case role.name %}
-          {% when "head" %}
-            {% if jrg || site.data.groups[page.group].type == "jrg" %}
-              Head of Junior Research Group
-            {% else %}
-              Head of Research Group
-            {% endif %}
-          {% when "admin" %}
-            Administration
-          {% when "tech" %}
-            {% if person.position-special %}
-              {{ person.position-special }}
-            {% else %}
-              Tech
-            {% endif %}
-          {% when "postdoc" %}
-            Researcher
-          {% when "phd" %}
-            Research Assistant
-          {% when "shk" %}
-            Student Assistant
-        {% endcase %}
-    </h3>
     {% if person.img %}
       <img class="person-img" src="{{ "/img/people/" | append: person.img | relative_url}}" alt="Photo of {{ person.name }}" />
     {% endif %}
-    <h3>{{ person.title}} {{ person.name }}{% if role.name == "phd" %}, Ph.D. Candidate{% endif %}</h3>
+    <h3>{{ person.title}} {{ person.name }}{% if role.name == "phd" %}, Ph.D. Candidate{% endif %}{% if person.position-special %}, {{ person.position-special }}{% endif %}</h3>
     <p>
         <a href="mailto:{{ person.mail }}">{{ person.mail }}</a><br />
         {% if person.phone %}
@@ -57,9 +51,6 @@
         {% endif %}
         {% if jrg %}
           <br />Junior Research Group <a href="{{ jrg_group.name | prepend: "/groups/" | relative_url }}">{{ jrg_group.label }}</a>
-        {% endif %}
-        {% if person.roles contains "board" %}
-          <br /><a href="{{ "/institute" | relative_url }}">Board Member</a>
         {% endif %}
     </p>
     <div class="clear small-bottom-margin"></div>
