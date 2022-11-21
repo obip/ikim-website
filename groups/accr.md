@@ -3,8 +3,7 @@ layout: group
 group: accr
 ---
 ***“Wolfgang und Gertrud Böttcher Stiftungsprofessur”***
-
-***Stiftung Universitätsmedizin Essen***
+<br> *Stiftung Universitätsmedizin Essen*
 
 The __ACCR group__ headed by Prof. Dr. Florian Rambow focuses on resolving and perturbing cancer cell fate decisions to prevent 
 cancer progression and therapy resistance. We leverage the power of spatially resolved single-cell approaches in combination with 
