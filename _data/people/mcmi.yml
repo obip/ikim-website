@@ -1,7 +1,6 @@
 - name: Christin Seifert
   title: Prof. Dr.
-  mail: christin.seifert@uni-due.de
-  mail: ['christin.seifert@uk-essen.de','christin.seifert@uni-due.de']
+  mail: ['christin.seifert@uni-due.de','christin.seifert@uk-essen.de']
   phone: +4920172377803
   roles: ['head','board']
   interests: ['Machine Learning', 'Natural Language Processing', 'Explainable AI', 'Medical Data Science']
@@ -35,15 +34,13 @@
   
 - name: Jan Trienes
   title: M.Sc.
-  mail: jan.trienes@uni-due.de
-  mail: jan.trienes@uk-essen.de
+  mail: ['jan.trienes@uni-due.de','jan.trienes@uk-essen.de']
   roles: ['phd']
   interests: ['Natural Language Processing', 'Information Retrieval']
   img: Jan-Trienes.jpg
   
 - name: Paul Youssef
-  mail: paul.youssef@uni-due.de
-  mail: paul.youssef@uk-essen.de
+  mail: ['paul.youssef@uni-due.de','paul.youssef@uk-essen.de']
   title: M.Sc.
   roles: ['phd']
   interests: ['Clinical Decision Making', 'Natural Language Processing']
@@ -51,24 +48,21 @@
   
 - name: Osman Koras
   title: M.Sc.
-  mail: osman.koras@uni-due.de
-  mail: osmanalperen.koras@uk-essen.de
+  mail: mail: ['osman.koras@uni-due.de','osmanalperen.koras@uk-essen.de']
   roles: ['phd']
   interests: ['Natural Language Processing, Faithfulness in Natural Language Generation, Representation of Text Semantics and Machine Learning']
   img: Osman-Koras.jpg
   
 - name: Phuong Quynh Le
   title: M.Sc.
-  mail: phuongquynh.le@uni-due.de
-  mail: phuongquynh.le@uk-essen.de
+  mail: ['phuongquynh.le@uni-due.de','phuongquynh.le@uk-essen.de']
   roles: ['phd']
   interests: ['Explainable AI, Machine Learning']
   img: Phuong-Quynh-Le.jpg
 
 - name: Meijie Li
   title: M.Sc.
-  mail: meijie.li@uni-due.de
-  mail: meijie.li@uk-essen.de
+  mail: ['meijie.li@uni-due.de','meijie.li@uk-essen.de']
   roles: ['phd']
   interests: 
   img: Meijie-Li.jpg
