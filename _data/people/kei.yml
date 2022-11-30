@@ -1,12 +1,14 @@
 - name: Jörg Schlötterer
   title: Dr.
   mail: joerg.schloetterer@uni-due.de
+  mail: joerg.schloetterer@uk-essen.de
   roles: ['head']
   interests: ['Multimodal & Representation Learning', 'Knowledge Extraction', 'Natural Language Processing', 'Information Retrieval']
   img: Joerg-Schloetterer.jpg
 
 - name: Van Bach Nguyen
   mail: vanbach.nguyen@uni-due.de
+  mail: vanbach.nguyen@uk-essen.de
   title: M.Sc.
   roles: ['phd']
   interests: ['Natural Language Processing', 'Explainable AI', 'Conversational Agents']
