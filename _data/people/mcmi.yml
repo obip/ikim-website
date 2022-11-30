@@ -1,7 +1,7 @@
 - name: Christin Seifert
   title: Prof. Dr.
   mail: christin.seifert@uni-due.de
-  mail: christin.seifert@uk-essen.de
+  mail: ['christin.seifert@uk-essen.de','christin.seifert@uni-due.de']
   phone: +4920172377803
   roles: ['head','board']
   interests: ['Machine Learning', 'Natural Language Processing', 'Explainable AI', 'Medical Data Science']

@@ -25,7 +25,16 @@ nav_active: people
       <a href=" {{ "/groups/" | append: group.name | relative_url }}">{{ group.label }}</a><br />
     {% endif %}
     Head of Research Group <br/>
-    <a href="mailto:{{ person.mail }}">{{ person.mail }}</a>
+    {% if person.mail %}
+    {% if person.mail.first %}
+      {% for m in person.mail %}
+        <a href="mailto:{{ m }}">{{ m }}</a>{% unless forloop.last %}, {% endunless %}
+      {% endfor %}
+      <br />
+    {% else %}
+      <a href="mailto:{{ person.mail }}">{{ person.mail }}</a><br />
+    {% endif %}
+    {% endif %}
     </p>
   {% endif %}
 {% endfor %}
@@ -49,7 +58,16 @@ nav_active: people
       {% endif %}
     {% endif %}
     Head of Junior Research Group  {% if group.url %} <a href="{{group.url}}">{{ group.label }}</a><br /> {% else %} <a href=" {{ "/groups/" | append: group.name | relative_url }}">{{ group.label }}</a><br /> {% endif %}
-    <a href="mailto:{{ person.mail }}">{{ person.mail }}</a>
+    {% if person.mail %}
+    {% if person.mail.first %}
+      {% for m in person.mail %}
+        <a href="mailto:{{ m }}">{{ m }}</a>{% unless forloop.last %}, {% endunless %}
+      {% endfor %}
+      <br />
+    {% else %}
+      <a href="mailto:{{ person.mail }}">{{ person.mail }}</a><br />
+    {% endif %}
+    {% endif %}
     </p>
   {% endif %}
 {% endfor %}
@@ -88,7 +106,16 @@ nav_active: people
         {% endif %}
       {% endfor %}
     {% endfor %}
-    <a href="mailto:{{ person.mail }}">{{ person.mail }}</a>
+    {% if person.mail %}
+    {% if person.mail.first %}
+      {% for m in person.mail %}
+        <a href="mailto:{{ m }}">{{ m }}</a>{% unless forloop.last %}, {% endunless %}
+      {% endfor %}
+      <br />
+    {% else %}
+      <a href="mailto:{{ person.mail }}">{{ person.mail }}</a><br />
+    {% endif %}
+    {% endif %}
     <br />
     <!--
     {% if person.phone %}

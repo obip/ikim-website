@@ -42,7 +42,16 @@
     {% endif %}
     <h3>{{ person.title}} {{ person.name }}{% if role.name == "phd" %}, Ph.D. Candidate{% endif %}{% if person.position-special %}, {{ person.position-special }}{% endif %}</h3>
     <p>
-        <a href="mailto:{{ person.mail }}">{{ person.mail }}</a><br />
+        {% if person.mail %}
+          {% if person.mail.first %}
+            {% for m in person.mail %}
+              <a href="mailto:{{ m }}">{{ m }}</a>{% unless forloop.last %}, {% endunless %}
+            {% endfor %}
+            <br />
+          {% else %}
+            <a href="mailto:{{ person.mail }}">{{ person.mail }}</a><br />
+          {% endif %}
+        {% endif %}
         {% if person.phone %}
           Phone: +{{ person.phone }} <br />
         {% endif %}
