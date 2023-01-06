@@ -9,10 +9,17 @@ updates:
       interval: "daily"
     commit-message:
       prefix: "chore(dep)"
+    target-branch: "main"
+    labels:
+      - "github-actions dependencies"
   # Update ruby dependencies
   - package-ecosystem: "bundler"
     directory: "/"
+    vendor: true
     schedule:
       interval: "daily"
     commit-message:
       prefix: "chore(dep)"
+    target-branch: "main"
+    labels:
+      - "Ruby dependencies"
