@@ -9,7 +9,6 @@ updates:
       interval: "daily"
     commit-message:
       prefix: "chore(dep)"
-    target-branch: "main"
     labels:
       - "github-actions dependencies"
   # Update ruby dependencies
@@ -20,6 +19,5 @@ updates:
       interval: "daily"
     commit-message:
       prefix: "chore(dep)"
-    target-branch: "main"
     labels:
       - "Ruby dependencies"
