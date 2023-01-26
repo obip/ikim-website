@@ -1,0 +1,37 @@
+---
+layout: default
+nav_active: publications
+---
+
+{% assign group = site.data.groups | find: "name", page.group %}
+<h1 class="small-bottom-margin">{{ group.label | escape }} - <a href="{{ "/publications" | relative_url }}">see all...</a></h1>
+<input id="filter" type="text" size=20 placeholder="filter..." />
+<div class="bib">
+    {{ content }}
+</div>
+
+<script type="text/javascript">
+  function filter(text) {
+    text = text.toLowerCase();
+    var bibitems = document.querySelectorAll('ol.bibliography li');
+    bibitems.forEach(el => el.style.display = 'none');
+    bibitems.forEach(el => {
+      var c = el.children;
+      var tmp = c[c.length -1].value.toLowerCase();
+      if(tmp.includes(text)) {
+        el.style.display = 'inline';
+      }
+    });
+  };
+  document.addEventListener("DOMContentLoaded", function(event) {
+    document.querySelector('#filter').addEventListener('input', (e) => {
+      filter(document.querySelector('#filter').value);
+    });
+    var urlParts   = document.URL.split('#');
+    if (urlParts.length > 1) {
+        var anchor = decodeURIComponent(urlParts[1]);
+        document.querySelector('#filter').value = anchor;
+        filter(anchor);
+    }
+  });
+</script>

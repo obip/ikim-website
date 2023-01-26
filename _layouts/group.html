@@ -27,7 +27,7 @@ nav_active: groups
   {% endfor %}
 </ul>
 
-<h2>Recent Publications - <a href="{{ "/publications#" | append: head.name | relative_url }}">see all...</a></h2>
+<h2>Recent Publications - <a href="{{ "/publications/" | append: page.group | relative_url }}">see all...</a></h2>
 <div class="bib bibshort">
   {% bibliography --max 5 --group_by none --file {{page.group}} %}
 </div>
