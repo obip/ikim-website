@@ -1,10 +1,4 @@
-- name: Christin Seifert
-  title: Prof. Dr.
-  mail: ['christin.seifert@uni-due.de','christin.seifert@uk-essen.de']
-  phone: +4920172377803
-  roles: ['head','board']
-  interests: ['Machine Learning', 'Natural Language Processing', 'Explainable AI', 'Medical Data Science']
-  img: seifert-christin.jpeg
+- name: N.N.
 
 - name: Andrea Tonk
   mail: andrea.tonk@uk-essen.de
@@ -18,33 +12,12 @@
   position-special: Experimental/HPC Systems Specialist 
   img: Ryan-Aydelott.jpg
 
-- name: Meike Nauta
-  title: M.Sc.
-  mail: meike.nauta@uk-essen.de
-  roles: ['phd']
-  interests: ['Explainable AI and interpretable machine learning']
-  img: Meike-Nauta.jpg
-  
-- name: Shreyasi Pathak
-  mail: shreyasi.pathak@uk-essen.de
-  title: M.Sc.
-  roles: ['phd']
-  interests: ['Explainable AI', 'Multimodal Deep Learning', 'Clinical Decision Making (breast cancer diagnosis)'] 
-  img: Shreyasi-Pathak.jpg
-  
 - name: Jan Trienes
   title: M.Sc.
   mail: ['jan.trienes@uni-due.de','jan.trienes@uk-essen.de']
   roles: ['phd']
   interests: ['Natural Language Processing', 'Information Retrieval']
   img: Jan-Trienes.jpg
-  
-- name: Paul Youssef
-  mail: ['paul.youssef@uni-due.de','paul.youssef@uk-essen.de']
-  title: M.Sc.
-  roles: ['phd']
-  interests: ['Clinical Decision Making', 'Natural Language Processing']
-  img: Paul-Youssef.jpg
   
 - name: Osman Koras
   title: M.Sc.
