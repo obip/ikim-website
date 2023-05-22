@@ -17,3 +17,10 @@
   roles: ['phd']
   interests:
   img: samira-makhzami.jpg
+  
+- name: Yichao Hua
+  title: Dr.
+  mail: yichao.hua@uk-essen.de
+  roles: ['postdoc']
+  interests:
+  img: yichao-hua.jpg
