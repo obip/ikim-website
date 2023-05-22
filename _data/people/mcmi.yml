@@ -1,10 +1,8 @@
 - name: N.N.
-
-- name: Andrea Tonk
-  mail: andrea.tonk@uk-essen.de
-  phone: +4920172377825
-  roles: ['admin']
-  img: Andrea-Tonk.jpg
+  mail: 
+  phone: 
+  roles: ['head']
+  img: 
 
 - name: Ryan Aydelott
   mail: ryan.aydelott@uk-essen.de
