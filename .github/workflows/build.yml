@@ -19,6 +19,11 @@ jobs:
         path: vendor/bundle
         key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile') }}
         restore-keys: ${{ runner.os }}-gems-
+    - name: Workaround for build
+      run: |
+        git config --global http.version HTTP/1.1
+        git config --global http.postBuffer 157286400
+        apt-get install -y git-lfs
     - name: Build and deploy
       uses: helaili/jekyll-action@v2
       with:
