@@ -2,11 +2,10 @@
 {% assign team_rg = site.data.people[page.group] %}
 {% assign jrg_group = site.data.groups | find_exp: "item", "item.group == page.group" %}
 {% if jrg_group.name %}
-  {% assign team_jrg = site.data.people[jrg_group.name] %}
+  {% assign all = team_rg | concat: site.data.people[jrg_group.name] %}
 {% else %}
-  {% assign team_jrg = '' | split: '' %}
+  {% assign all = team_rg %}
 {% endif %}
-{% assign all = team_rg | concat: team_jrg %}
 {% assign team = all | group_by_exp: "item", "item.roles | first" %}
 
 
