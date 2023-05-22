@@ -66,17 +66,7 @@
     additional: House 2, 2nd floor
     zip: 45131
     city: Essen
-  
-- name: kei
-  type: jrg
-  group: mcmi
-  label: Knowledge Extraction & Integration
-  address:
-    name: Girardethaus
-    street: Girardetstr. 2
-    additional: House 2, 2nd floor
-    zip: 45131
-    city: Essen
+
     
 - name: tml
   type: jrg
