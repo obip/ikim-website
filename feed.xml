@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2023-06-15T10:16:04+00:00</updated><id>/feed.xml</id><title type="html">IKIM web site</title><subtitle>Institute for AI in Medicine / University Hospital Essen / University of Duisburg-Essen / Germany</subtitle><entry><title type="html">MicrobiomSepsisPred</title><link href="/projects/2022/01/01/MicrobiomSepsisPred.html" rel="alternate" type="text/html" title="MicrobiomSepsisPred" /><published>2022-01-01T00:00:00+00:00</published><updated>2022-01-01T00:00:00+00:00</updated><id>/projects/2022/01/01/MicrobiomSepsisPred</id><content type="html" xml:base="/projects/2022/01/01/MicrobiomSepsisPred.html"><![CDATA[<p>Goal of the project is to enable prediction of future Sepsis events by analyzing the patients microbiome. The project will create a predictive model for sepsis as well as identify a number of predictive bio-markers. 
+By using shotgun metagenome sequencing the project aims to create an inventory of genomes involved in Sepsis as well as determine any possible antibiotic drug resistance. While the use of shotgun sequencing enables a deep 
+characterization of a patients microbiome it is not well suited for clinical use, hence the determination of biomarkers that are more suitable for clinical use.</p>
+
+<p>The group will contribute the bioinformatic tools required for predicting biomarkers from metagenomes and complete genomes (MAGs).</p>
+
+<p>PI: Prof. Dr. Folker Meyer</p>
+
+<p>Junior-Group leader: Dr. Ivana Kraiselburd</p>
+
+<p><br /><br /></p>
+<figure>
+    <img src="/img/MicrobiomSepsisPred.jpg" alt="Schematic View of MicrobiomSpesisPred" style="width:800px;" />
+    <figcaption>Schematic View of MicrobiomSpesisPred</figcaption>
+</figure>]]></content><author><name></name></author><category term="projects" /><category term="ds" /><category term="dss" /><summary type="html"><![CDATA[Prediction of Sepsis on the basis of microbiome sequence data]]></summary></entry><entry><title type="html">Research Training Group</title><link href="/projects/2021/03/01/research-training-group.html" rel="alternate" type="text/html" title="Research Training Group" /><published>2021-03-01T00:00:00+00:00</published><updated>2021-03-01T00:00:00+00:00</updated><id>/projects/2021/03/01/research-training-group</id><content type="html" xml:base="/projects/2021/03/01/research-training-group.html"><![CDATA[<p>Research Training Group “WisPerMed” - Knowledge- and Data-Based Personalization of Medicine at the Point of Care</p>
+
+<p>At the center of the research training group WisPerMed, which is funded by the German Research Foundation (DFG) with a total of 5 million euros, is the goal of a knowledge- and data-based personalization of the therapy of malignant melanoma. In the first cohort, twelve different projects are being worked on by 7 female doctoral students and 5 male doctoral students.</p>
+
+<p>A special feature of the research group are interdisciplinary working groups, which consist of 3-4 PhD students from different disciplines. Their goal is to exchange ideas among themselves and to develop a research project that will be published in a peer-reviewed journal.</p>
+
+<p>The researchers do not rely solely on artificial intelligence (AI) in their scientific work, but also deliberately integrate user experience and behavior. During the three-year curriculum, the participating young scientists can pursue a doctorate in computer science, psychology or medical informatics.</p>
+
+<p>Spokesperson: Prof. Dr. Britta Böckmann</p>
+
+<p>Co-speaker: PD Dr. Felix Nensa</p>
+
+<p><br /><br />
+<img src="/img/wispermed-logo.png" alt="Wispermed Logo" style="width:200px;" /></p>
+
+<p><a href="https://www.uni-due.de/grk_wispermed/grk_wispermed.php">For further information, please visit our website →</a></p>]]></content><author><name></name></author><category term="projects" /><category term="diair" /><category term="mcmi" /><summary type="html"><![CDATA[Research Training Group "WisPerMed" - Knowledge- and Data-Based Personalization of Medicine at the Point of Care]]></summary></entry></feed>
