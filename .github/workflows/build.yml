@@ -16,16 +16,16 @@ jobs:
     - name: Setup ruby
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: "ruby"
+        ruby-version: "3.2"
         bundler-cache: true
     - name: Run the jekyll build
-      run: sudo find / -name jekyll
+      run: ./vendor/bundle/ruby/3.2.0/bin/jekyll build
     - name: Upload the created pages artifact
       uses: actions/upload-pages-artifact@v1
       with:
         name: "github-pages"
         path: "_site/"
-        retention_days: "1"
+        retention-days: "1"
   
   publish:
     runs-on: ubuntu-latest
