@@ -106,11 +106,11 @@
 .grouplist li {
   @include relative-font-size(1.15);
   list-style-type: none;
-  margin-bottom: $spacing-unit / 2;
+  margin-bottom: calc($spacing-unit / 2);
 }
 
 .small-bottom-margin {
-  margin-bottom: $spacing-unit / 6;
+  margin-bottom: calc($spacing-unit / 6);
 }
 
 .contact {
@@ -145,7 +145,7 @@
   ol {list-style-type:none;}
   ol.bibliography li {
     @include relative-font-size(0.9);
-    margin-bottom: $spacing-unit / 4;
+    margin-bottom: calc($spacing-unit / 4);
   }
 }
 
