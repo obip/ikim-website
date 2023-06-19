@@ -14,7 +14,9 @@ jobs:
       with:
         ref: main
     - name: Build
-      uses: actions/jekyll-build-pages@v1
+      uses: docker://jekyll/jekyll:stable
+      with:
+        entrypoint: bundle && jekyll build
     - name: Upload the created pages artifact
       uses: actions/upload-pages-artifact@v1
       with:
