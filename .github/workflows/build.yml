@@ -14,9 +14,11 @@ jobs:
       with:
         ref: main
     - name: Build
-      uses: docker://jekyll/builder:stable
-      with:
-        entrypoint: bundle && jekyll build
+      run: |
+        apt update && apt upgrade -y && apt install -y ruby-full build-essential zlib1g-dev && \
+        echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc && echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc && \
+        echo 'export PATH="$HOME/gems/ && bin:$PATH"' >> ~/.bashrc && source ~/.bashrc && \
+        gem install jekyll bundler && cd /srv/jekyll && export LANG=C.UTF-8 && bundle3.0 && jekyll build
     - name: Upload the created pages artifact
       uses: actions/upload-pages-artifact@v1
       with:
