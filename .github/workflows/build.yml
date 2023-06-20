@@ -19,7 +19,7 @@ jobs:
         ruby-version: '3.0'
         bundler-cache: true
     - name: Build
-      run: find ./ -name jekyll
+      run: ./vendor/bundle/ruby/3.0.0/bin/jekyll build
     - name: Upload the created pages artifact
       uses: actions/upload-pages-artifact@v1
       with:
