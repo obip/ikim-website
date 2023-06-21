@@ -21,8 +21,9 @@ jobs:
     - name: Build
       run: |
         export GEM_HOME=$PWD/vendor/bundle/ruby/3.0.0/gems 
+        export PATH=$PATH:$PWD/vendor/bundle/ruby/3.0.0/bin
         gem env
-        ./vendor/bundle/ruby/3.0.0/bin/jekyll build
+        jekyll build
     - name: Upload the created pages artifact
       uses: actions/upload-pages-artifact@v1
       with:
