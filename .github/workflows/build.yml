@@ -10,8 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     container:
       image: ubuntu:latest
-      volumes: 
-        - $GITHUB_WORKSPACE:/srv/jekyll
     steps:
     - name: Checkout
       uses: actions/checkout@v3
