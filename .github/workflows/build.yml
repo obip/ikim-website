@@ -8,21 +8,25 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    container:
+      image: ubuntu:latest
+      volumes: $GITHUB_WORKSPACE:/srv/jekyll
     steps:
     - name: Checkout
       uses: actions/checkout@v3
       with:
         ref: main
-    - name: Setup ruby
-      uses: ruby/setup-ruby@v1
-      with:
-        ruby-version: '3.0'
-        bundler-cache: true
     - name: Build
       run: |
-        export GEM_HOME=$PWD/vendor/bundle/ruby/3.0.0/gems 
-        export PATH=$PATH:$PWD/vendor/bundle/ruby/3.0.0/bin
-        gem env
+        apt update && apt upgrade -y
+        apt install -y ruby-full build-essential zlib1g-dev locales
+        echo "en_US UTF-8" > /etc/locale.gen
+        locale-gen en_US.UTF-8
+        export LANG=en_US.UTF-8
+        export LANGUAGE=en_US:en
+        export LC_ALL=en_US.UTF-8
+        cd /srv/jekyll
+        bundle3.0
         jekyll build
     - name: Upload the created pages artifact
       uses: actions/upload-pages-artifact@v1
