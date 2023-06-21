@@ -24,7 +24,6 @@ jobs:
         export LANG=en_US.UTF-8
         export LANGUAGE=en_US:en
         export LC_ALL=en_US.UTF-8
-        cd /srv/jekyll
         bundle3.0
         jekyll build
     - name: Upload the created pages artifact
