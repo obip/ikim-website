@@ -40,6 +40,12 @@
   roles: ['tech']
   img: schmidt-hendrik.jpg
 
+- name: Ryan Aydelott
+  mail: ryan.aydelott@uk-essen.de
+  roles: ['tech']
+  position-special: Experimental/HPC Systems Specialist 
+  img: Ryan-Aydelott.jpg
+
 - name: Alexander Thomas
   mail: alexander.thomas@uk-essen.de
   title: M.Sc.
