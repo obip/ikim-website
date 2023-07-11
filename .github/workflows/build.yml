@@ -30,6 +30,11 @@ jobs:
         export LC_ALL=en_US.UTF-8
         bundle3.0
         jekyll build
+    - name: Change file permissions of build artifacts if necessary
+      run: |
+        chmod -c -R +rX "_site/" | while read line; do
+          echo "::warning title=Invalid file permissions automatically fixed::$line"
+        done
     - name: Upload the created pages artifact
       uses: actions/upload-pages-artifact@v1
       with:
