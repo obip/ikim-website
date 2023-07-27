@@ -125,7 +125,7 @@ The site is built with [jekyll](https://jekyllrb.com), [scholar](https://github.
 4. Run with `bundle exec jekyll serve`, the site is accessible at "http://127.0.0.1:4000/" (note the trailing `/`)
 
 ## Deployment
-Github-pages does not support the scholar plugin. Hence, the site is first built via a github action at `/.github/workflows/build.yml` from the main branch. This action then pushes the ready-to-deploy build artefact to the gh-pages branch for deployment.
+Github-pages does not support the scholar plugin. Hence, the site is first built via a github action at `/.github/workflows/build.yml` from the main branch and uploaded as an artifact. Next the build artificat is deployed to GitHub-Pages via the actions/deploy-pages GitHub-Action.
 
 ## Theme customization
 `/assets/main.scss` loads the minima theme and customization in `/_sass/_ikim.scss`
