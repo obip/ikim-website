@@ -40,11 +40,6 @@
   roles: ['tech']
   img: gosch-jule.jpg
   
-- name: Hendrik Schmidt
-  mail: hendrik.schmidt@uk-essen.de
-  title: M.Sc.
-  roles: ['tech']
-  
 - name: Ryan Aydelott
   mail: ryan.aydelott@uk-essen.de
   roles: ['tech']
