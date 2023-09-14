@@ -1,1 +1,5 @@
-
+- name: Britta Böckmann
+  title: Prof. Dr.
+  mail: britta.boeckmann@uk-essen.de
+  roles: ['head']
+  img: boeckmann-britta.jpeg
