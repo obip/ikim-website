@@ -3,8 +3,8 @@
   label: Applied Computational Cancer Research
   address:
     name: Girardethaus
-    street: Girardetstr. 2
-    additional: House 2, 2nd floor
+    street: Girardetstr. 8
+    additional: House 8, 2nd floor
     zip: 45131
     city: Essen
 
@@ -30,7 +30,18 @@
   address:
     name: Girardethaus
     street: Girardetstr. 2
-    additional: House 2, 4th floor
+    additional: House 2, 3rd floor
+    zip: 45131
+    city: Essen
+
+- name: grk
+  type: rg
+  label: WisPerMed
+  url: https://wispermed.com/
+  address:
+    name: Girardethaus
+    street: Girardetstr. 2
+    additional: House 2, 3rd floor
     zip: 45131
     city: Essen
 
