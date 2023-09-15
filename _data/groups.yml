@@ -36,7 +36,7 @@
 
 - name: grk
   type: rg
-  label: Knowledge- and data-driven Personalization of Medicine at the Point of Care
+  label: WisPerMed RTG
   url: https://wispermed.com/
   address:
     name: Girardethaus
