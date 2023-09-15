@@ -8,6 +8,11 @@
     zip: 45131
     city: Essen
 
+- name: bco
+  type: rg
+  label: Bioinformactics and Computational Oncology
+  url: koesterlab.github.io
+
 - name: diair
   type: rg
   label: Data Integration and AI in Radiology
