@@ -12,6 +12,13 @@
   type: rg
   label: Bioinformactics and Computational Oncology
   url: koesterlab.github.io
+  address:
+    name: Girardethaus
+    street: Girardetstr. 2
+    additional: House 2, 4th floor
+    zip: 45131
+    city: Essen
+
 
 - name: diair
   type: rg
