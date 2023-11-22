@@ -11,9 +11,14 @@ characterization of a patients microbiome it is not well suited for clinical use
 
 The group will contribute the bioinformatic tools required for predicting biomarkers from metagenomes and complete genomes (MAGs).
 
-PI: Prof. Dr. Folker Meyer
-
 Junior-Group leader: Dr. Ivana Kraiselburd
+
+### Funding
+Funded by the German Ministry for Education and Research (Bundesministerium für Bildung und Forschung, BMBF).
+
+<figure>
+    <img src="{{ "/img/BMBF_funding.jpg | relative_url }}" alt=" funded by BMBF " style="width:200px;" /> 
+</figure>
 
 <br /><br />
 <figure>
