@@ -89,9 +89,13 @@
     additional: House 2, 2nd floor
     zip: 45131
     city: Essen
-
     
 - name: tml
   type: jrg
   label: Trustworthy Machine Learning
   url: http://trustworthyml.de/
+
+- name: conco
+  type: jrg
+  label: Computational Oncology
+  url: https://kocakavuklab.vercel.app
