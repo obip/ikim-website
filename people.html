@@ -9,6 +9,7 @@ nav_active: people
   {% assign to_add = site.data.people[group.name] | where_exp: "item", "item.roles[0] != 'head'" %}
   {% assign people = people | concat: to_add %}
 {% endfor %}
+{% assign people = people | unique %}
 
 {% for group in site.data.groups %}
   {% if group.type == 'rg' %}
