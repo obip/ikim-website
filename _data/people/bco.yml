@@ -3,3 +3,9 @@
   mail: johannes-koester@uni-due.de
   roles: ['head']
   img: koester-johannes.jpg
+
+- name: Andrea Tonk
+  mail: andrea.tonk@uk-essen.de
+  phone: +4920172377825
+  roles: ['admin']
+  img: Andrea-Tonk.jpg
