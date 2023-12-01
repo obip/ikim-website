@@ -11,65 +11,9 @@
   interests: ['Natural Language Processing', 'Information Retrieval']
   img: Jan-Trienes.jpg
   
-- name: Osman Koras
-  title: M.Sc.
-  mail: ['osman.koras@uni-due.de','osmanalperen.koras@uk-essen.de']
-  roles: ['phd']
-  interests: ['Natural Language Processing, Faithfulness in Natural Language Generation, Representation of Text Semantics and Machine Learning']
-  img: Osman-Koras.jpg
-  
 - name: Phuong Quynh Le
   title: M.Sc.
   mail: ['phuongquynh.le@uni-due.de','phuongquynh.le@uk-essen.de']
   roles: ['phd']
   interests: ['Explainable AI, Machine Learning']
   img: Phuong-Quynh-Le.jpg
-
-- name: Meijie Li
-  title: M.Sc.
-  mail: ['meijie.li@uni-due.de','meijie.li@uk-essen.de']
-  roles: ['phd']
-  interests: 
-  img: Meijie-Li.jpg
-  
-- name: Celina Bandowski
-  mail: celina.bandowski@uk-essen.de
-  roles: ['shk']
-  interests: 
-  img: 
-  
-- name: Theresa Bernsmann
-  mail: theresa.bernsmann@uk-essen.de
-  roles: ['shk']
-  interests: 
-  img: 
-  
-- name: Monika Coers
-  mail: monika.coers@uk-essen.de
-  roles: ['shk']
-  interests: 
-  img: 
-  
-- name: Bahadir Eryilmaz
-  mail: bahadir.eryilmaz@uk-essen.de
-  roles: ['shk']
-  interests: 
-  img: 
-  
-- name: Hannah Louisa Göke
-  mail: hannahlouisa.goeke@uk-essen.de
-  roles: ['shk']
-  interests: 
-  img: 
-  
-- name: Lisa Meißner
-  mail: lisa.meissner@uk-essen.de
-  roles: ['shk']
-  interests: 
-  img: 
-  
-- name: Justin Roschlak
-  mail: justinjoel.roschlak@uk-essen.de
-  roles: ['shk']
-  interests: 
-  img: 
