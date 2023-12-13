@@ -10,7 +10,7 @@
 
 - name: bco
   type: rg
-  label: Bioinformactics and Computational Oncology
+  label: Bioinformatics and Computational Oncology
   url: https://koesterlab.github.io
   address:
     name: Girardethaus
