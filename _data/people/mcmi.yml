@@ -10,10 +10,3 @@
   roles: ['phd']
   interests: ['Natural Language Processing', 'Information Retrieval']
   img: Jan-Trienes.jpg
-  
-- name: Phuong Quynh Le
-  title: M.Sc.
-  mail: ['phuongquynh.le@uni-due.de','phuongquynh.le@uk-essen.de']
-  roles: ['phd']
-  interests: ['Explainable AI, Machine Learning']
-  img: Phuong-Quynh-Le.jpg
