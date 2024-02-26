@@ -2,6 +2,9 @@
 layout: group
 group: ds
 ---
+Folker Meyer is a Professor at the Medical Department and at the Computer Science Department of University of Duisburg-Essen.
+
+
 The data science lab is part of the Institute for AI in medicine (IKIM), University Hospital Essen, Medical Faculty University of Duisburg-Essen. We are focused on efficient, reproducible and sustainable Data Science and Microbiome Analysis.
 
 __Data science__ brings together a number of disciplines and methods for the purpose of extracting knowledge from structured and unstructured data. It strives to achieve semantic integration of data from a variety of sources and disciplines, suitable technical platforms for integration are required to facilitate the process. Related to other disciplines like big data and machine learning, data science is part of the value-add chain from data to information to clinical and public health decision making.
