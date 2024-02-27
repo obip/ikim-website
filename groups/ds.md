@@ -2,7 +2,7 @@
 layout: group
 group: ds
 ---
-Folker Meyer is a Professor at the Medical Department and at the Computer Science Department of University of Duisburg-Essen.
+Folker Meyer is a Professor at the [Department of Medicine](https://www.uni-due.de/med/) and at the [Computer Science Department](https://www.uni-due.de/informatik/) of University of Duisburg-Essen.
 
 
 The data science lab is part of the Institute for AI in medicine (IKIM), University Hospital Essen, Medical Faculty University of Duisburg-Essen. We are focused on efficient, reproducible and sustainable Data Science and Microbiome Analysis.
