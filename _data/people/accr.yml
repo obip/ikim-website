@@ -14,7 +14,7 @@
 - name: Samira Makhzami
   title: M.Sc.
   mail: samira.rambow-makhzami@uk-essen.de
-  roles: ['phd']
+  roles:
   interests:
   img: Samira-Makhzami.jpg
   
