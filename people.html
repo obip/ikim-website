@@ -76,8 +76,9 @@ nav_active: people
 
 {% assign people_by_position = people | group_by_exp: "item", "item.roles | first" %}
 {% for position in people_by_position %}
-  {% assign sorted = position.items | sort_natural %}
-  {% for person in sorted %}
+  {% assign sorted = position.items | group_by: "name" | sort_natural %}
+  {% for p in sorted %}
+    {% assign person = p.items | first %}
     <div class="person-separator small-bottom-margin"></div>
     {% if person.img %}
       <img class="person-img" src="{{ "/img/people/" | append: person.img | relative_url}}" alt="Photo of {{ person.name }}" />
