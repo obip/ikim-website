@@ -38,3 +38,10 @@
   roles: ['phd']
   interests:
   img: Otte-Lea.jpg
+
+- name: Marcel Bargull
+  title: B.Sc.
+  mail: marcel.bargull@uk-essen.de
+  roles: ['tech']
+  interests:
+  img: 
