@@ -31,6 +31,7 @@
   
 - name: Adrian Doerr
   mail: adrian.doerr@uk-essen.de
+  interests: ['antibiotic resistance', 'wastewater analysis']
   title: M.Sc.
   roles: ['phd']
   img: doerr-adrian.jpg
@@ -54,8 +55,21 @@
 
 - name: Josefa Welling
   title: M.Sc.
-  interests: ['antibiotic resistances', 'ML']
+  interests: ['antibiotic resistance', 'ML']
   mail: josefa.welling@uk-essen.de
   roles: ['phd']
   img: Welling-Josefa_4-3.jpg
+
+- name: Shivohum Nishad
+  title: M.Sc.
+  interests: ['antibiotic resistance', 'wastewater analysis']
+  mail: shivohum.nishad@uk-essen.de
+  roles: ['phd']
+  img: Nisha-Shivo.jpg
+
+- name: Leah Consten
+  title: M.Sc.
+  mail: shivohum.nishad@uk-essen.de
+  roles: ['tech']
+  img: Leah-Consten.jpg
 

@@ -5,7 +5,7 @@ group: ds
 Folker Meyer is a Professor at the [Department of Medicine](https://www.uni-due.de/med/) and at the [Computer Science Department](https://www.uni-due.de/informatik/) of University of Duisburg-Essen.
 
 
-The data science lab is part of the Institute for AI in medicine (IKIM), University Hospital Essen, Medical Faculty University of Duisburg-Essen. We are focused on efficient, reproducible and sustainable Data Science and Microbiome Analysis.
+The data science lab is part of the Institute for AI in medicine (IKIM), University Hospital Essen, Medical Faculty University of Duisburg-Essen. We are focused on efficient, reproducible and sustainable Data Science and Microbiome Analysis in the context of __One Health__. The group is affiliaed with the (Center for Water and the Environment](https://www.uni-due.de/zwu/start.php).
 
 __Data science__ brings together a number of disciplines and methods for the purpose of extracting knowledge from structured and unstructured data. It strives to achieve semantic integration of data from a variety of sources and disciplines, suitable technical platforms for integration are required to facilitate the process. Related to other disciplines like big data and machine learning, data science is part of the value-add chain from data to information to clinical and public health decision making.
 
@@ -16,3 +16,6 @@ __Microbiome and virome analysis__ presents an opportunity to assist with the ra
 The group hosts the [junior group MicrobiomeSepsisPred](./groups/dss) funded by the BMBF.
 
 __Wastewater based epidemiology (WBE)__ presents a unique opportunity to characterize the virome and microbiome of an entire community. WBE is a specialized form of environmental genomics and allows characterizing microbial and viral life in urban environments, integrating material from thousands of individuals. Using WBE we create preditive models of pathogens in the population and the environment.  We also work towards the establishment of anomaly detection systems. The group routinely analyses samples from waste water treatments plants, the sewer system and the hospital environment.
+
+
+The group runs a (meta-) genomic sequencing laboratory with both long and short read technology capabilities as well as robotic sample handling and library preparation facilities.
