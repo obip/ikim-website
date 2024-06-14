@@ -3,10 +3,3 @@
   phone: 
   roles: ['head']
   img: 
-
-- name: Jan Trienes
-  title: M.Sc.
-  mail: ['jan.trienes@uni-due.de','jan.trienes@uk-essen.de']
-  roles: ['phd']
-  interests: ['Natural Language Processing', 'Information Retrieval']
-  img: Jan-Trienes.jpg
