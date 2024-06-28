@@ -23,6 +23,12 @@
   mail: simon.magin@uk-essen.de
   img: magin-simon.jpg
 
+- name: Miriam Balzer
+  mail: miriam.balzer@uk-essen.de
+  title: M.Sc.
+  roles: ['phd']
+  img: 
+
 - name: Katharina Block
   mail: katharina.block@uk-essen.de
   title: M.Sc.
@@ -69,7 +75,7 @@
 
 - name: Leah Consten
   title: M.Sc.
-  mail: Leah.Consten@uk-essen.de
+  mail: leah.consten@uk-essen.de
   roles: ['tech']
   img: Consten_Leah.jpeg
 

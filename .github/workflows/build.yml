@@ -13,7 +13,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     container:
-      image: ubuntu:latest
+      image: ubuntu:24.04
     steps:
     - name: Checkout
       uses: actions/checkout@v4
@@ -28,7 +28,7 @@ jobs:
         export LANG=en_US.UTF-8
         export LANGUAGE=en_US:en
         export LC_ALL=en_US.UTF-8
-        bundle3.0
+        bundle3.2
         jekyll build
     - name: Change file permissions of build artifacts if necessary
       run: |
