@@ -19,7 +19,6 @@
     zip: 45131
     city: Essen
 
-
 - name: diair
   type: rg
   label: Data Integration and AI in Radiology
@@ -46,16 +45,6 @@
     zip: 45131
     city: Essen
 
-- name: mcmi
-  type: rg
-  label: Multimodal Computing & Machine Intelligence
-  address:
-    name: Girardethaus
-    street: Girardetstr. 2
-    additional: House 2, 2nd floor
-    zip: 45131
-    city: Essen
-
 - name: ait
   type: jrg
   group: mml
@@ -74,8 +63,8 @@
   label: Data Science for Sepsis
   address:
     name: Girardethaus
-    street: Girardetstr. 2
-    additional: House 2, 2nd floor
+    street: Girardetstr. 8
+    additional: House 8, 2nd floor
     zip: 45131
     city: Essen
     
