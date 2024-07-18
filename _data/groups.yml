@@ -34,6 +34,17 @@
     zip: 45131
     city: Essen
     
+- name: mml
+  type: rg
+  label: Medical Machine Learning
+  url: https://mml.ikim.nrw/
+  address:
+    name: Girardethaus
+    street: Girardetstr. 2
+    additional: House 2, 3rd floor
+    zip: 45131
+    city: Essen
+
 - name: grk
   type: rg
   label: WisPerMed RTG
