@@ -39,6 +39,13 @@
   interests:
   img: Otte-Lea.jpg
 
+- name: Hua Dong
+  title: M.Sc.
+  mail: hua.dong@uk-essen.de
+  roles: ['phd']
+  interests:
+  img: Dong-Hua.jpg
+
 - name: Marcel Bargull
   title: B.Sc.
   mail: marcel.bargull@uk-essen.de
