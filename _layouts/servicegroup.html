@@ -1,0 +1,24 @@
+---
+layout: default
+nav_active: groups
+---
+
+{% assign group = site.data.groups | find: "name", page.group %}
+<h1 class="small-bottom-margin">
+
+{% assign group = site.data.groups | find: "name", page.group %}
+<h1 class="small-bottom-margin">
+{% if group.type == "jrg" %}
+    Junior Research Group 
+{% endif %}
+{{ group.label | escape }}</h1>
+{% assign head = site.data.people[group.name] | find_exp: "item", "item.roles contains 'head'" %}
+<h2><a href="#head">{{ head.title }} {{ head.name }}</a></h2>
+{{ content }}
+
+<h2>Contact</h2>
+{%- include contact.html -%}
+
+
+<h2>Team</h2>
+{%- include team.html -%}

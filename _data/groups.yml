@@ -88,3 +88,15 @@
   type: jrg
   label: Computational Oncology
   url: https://kocakavuklab.vercel.app
+
+- name: mvgcore
+  type: core
+  group: ds
+  label: Microbiome and Virome Genome Analysis Core Facility
+  address:
+    name: IG1
+    street: Virchowstrasse 171
+    additional: 4thfloor A
+    zip: 45131
+    city: Essen
+    
