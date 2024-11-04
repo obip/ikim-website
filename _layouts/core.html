@@ -11,7 +11,9 @@ nav_active: groups
 
 {{ group.label | escape }}</h1>
 {% assign head = site.data.people[group.name] | find_exp: "item", "item.roles contains 'co-lead'" %}
-<h2><a href="#head">{{ head.title }} {{ head.name }}</a></h2>
+
+
+
 {{ content }}
 
 
