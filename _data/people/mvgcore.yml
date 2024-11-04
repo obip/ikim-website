@@ -2,8 +2,23 @@
   title: Prof. Dr.
   mail: folker.meyer@uni-due.de
   phone:  +4920172377802
-  roles: ['head','board']
+  roles: ['co-lead']
   img: meyer-folker.jpg
   interests: ['One Health',  'Data Science', 'Genomics']
 
 
+- name: Ivana Kraiselburd
+  title: Dr.
+  mail: ivana.kraiselburd@uni-due.de
+  roles: ['co-lead']
+  interests: ['Bacterial Diversity',  'Sepsis', 'Machine learning & Prediction']
+  img: kraiselburd-ivana.jpg
+
+- name: Jan Buer
+  title: Prof. Dr.
+  phone: +492017233500
+  mail: jan.buer@uni-due.de
+  roles: ['co-lead']
+  img: buer-jan.jpg
+
+  

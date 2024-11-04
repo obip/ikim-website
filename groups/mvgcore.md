@@ -1,10 +1,12 @@
 ---
-layout: servicegroup
+layout: core
 group: mvgcore
 ---
-The microbiome and virome core facility of the [Department of Medicine](https://www.uni-due.de/med/) is operated by the [Institute for AI in medicine(IKIM)](./groups/ds).
+The microbiome and virome core facility of the [Department of Medicine](https://www.uni-due.de/med/) is operated by the [Institute for AI in medicine(IKIM)](./groups/ds) and the Institute of Medical Microbiology.
 
-The facility is co-led by Dr. Ivana Kraiselburd and Prof. Dr. Folker Meyer.
+The facility is co-led by Dr. Ivana Kraiselburd, Prof. Dr. Folker Meyer and Prof. Dr. Jan Buer.
+·      
+
 
 <figure>
     <img src="{{"/img/mvgcoreslide.jpg" | relative_url }}" alt="Rendering Nucleic Acid samples into electronic sequences and their computational analysis." style="width:800px;" />
