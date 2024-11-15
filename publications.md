@@ -5,7 +5,7 @@ nav_active: publications
 
 <input id="filter" type="text" size=20 placeholder="filter..." />
 <div class="bib">
-{% bibliography -f mcmi.bib -f ds.bib -f diair.bib -f mml.bib -f tml.bib -f kei.bib -f ait.bib -f accr.bib --remove_duplicates %}
+{% bibliography -f bco.bib -f mcmi.bib -f ds.bib -f diair.bib -f mml.bib -f tml.bib -f kei.bib -f ait.bib -f accr.bib --remove_duplicates %}
 </div>
 
 <script type="text/javascript">
