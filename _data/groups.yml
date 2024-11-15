@@ -45,16 +45,15 @@
     zip: 45131
     city: Essen
 
-- name: grk
+- name: mi
   type: rg
-  label: WisPerMed RTG
-  url: https://wispermed.com/
+  label: Medical Informatics
+  url: https://www.fh-dortmund.de/personen/Britta-Bockmann/index.php
   address:
-    name: Girardethaus
-    street: Girardetstr. 2
-    additional: House 2, 3rd floor
-    zip: 45131
-    city: Essen
+    name: FH Dortmund
+    street: Emil-Figge-Straße 38-44
+    zip: 44227
+    city: Dortmund
 
 - name: ait
   type: jrg

@@ -16,9 +16,9 @@ The researchers do not rely solely on artificial intelligence (AI) in their scie
 
  
 
-Spokesperson: Prof. Dr. Britta Böckmann
+Spokesperson: Prof. Dr. Felix Nensa
 
-Co-speaker: PD Dr. Felix Nensa
+Co-speaker: Prof. Dr. Christoph Friedrich
 
 <br /><br />
 <img src="{{ "/img/wispermed-logo.png" | relative_url }}" alt="Wispermed Logo" style="width:200px;" />
