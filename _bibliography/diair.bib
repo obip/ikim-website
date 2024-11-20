@@ -57,4 +57,2296 @@
   timestamp = {Thu, 16 Sep 2021 01:00:00 +0200}
 }
 
+@ARTICLE{Schafer2024-fs,
+  title     = "{BioKGrapher}: Initial evaluation of automated knowledge graph
+               construction from biomedical literature",
+  author    = "Sch{\"a}fer, Henning and Idrissi-Yaghir, Ahmad and Arzideh,
+               Kamyar and Damm, Hendrik and Pakull, Tabea M G and Schmidt,
+               Cynthia S and Bahn, Mikel and Lodde, Georg and Livingstone,
+               Elisabeth and Schadendorf, Dirk and Nensa, Felix and Horn, Peter
+               A and Friedrich, Christoph M",
+  abstract  = "Background The growth of biomedical literature presents
+               challenges in extracting and structuring knowledge. Knowledge
+               Graphs (KGs) offer a solution by representing relationships
+               between biomedical entities. However, manual construction of KGs
+               is labor-intensive and time-consuming, highlighting the need for
+               automated methods. This work introduces BioKGrapher, a tool for
+               automatic KG construction using large-scale publication data,
+               with a focus on biomedical concepts related to specific medical
+               conditions. BioKGrapher allows researchers to construct KGs from
+               PubMed IDs. Methods The BioKGrapher pipeline begins with Named
+               Entity Recognition and Linking (NER+NEL) to extract and
+               normalize biomedical concepts from PubMed, mapping them to the
+               Unified Medical Language System (UMLS). Extracted concepts are
+               weighted and re-ranked using Kullback-Leibler divergence and
+               local frequency balancing. These concepts are then integrated
+               into hierarchical KGs, with relationships formed using
+               terminologies like SNOMED CT and NCIt. Downstream applications
+               include multi-label document classification using
+               Adapter-infused Transformer models. Results BioKGrapher
+               effectively aligns generated concepts with clinical practice
+               guidelines from the German Guideline Program in Oncology (GGPO),
+               achieving F 1 -Scores of up to 0.6. In multi-label
+               classification, Adapter-infused models using a BioKGrapher
+               cancer-specific KG improved micro F 1 -Scores by up to 0.89
+               percentage points over a non-specific KG and 2.16 points over
+               base models across three BERT variants. The drug-disease
+               extraction case study identified indications for Nivolumab and
+               Rituximab. Conclusion BioKGrapher is a tool for automatic KG
+               construction, aligning with the GGPO and enhancing downstream
+               task performance. It offers a scalable solution for managing
+               biomedical knowledge, with potential applications in literature
+               recommendation, decision support, and drug repurposing.",
+  journal   = "Comput. Struct. Biotechnol. J.",
+  publisher = "Elsevier BV",
+  volume    =  24,
+  pages     = "639--660",
+  month     =  dec,
+  year      =  2024,
+  keywords  = "Clinical guidelines; Entity linking; Knowledge graph; Named
+               entity recognition; Software",
+  copyright = "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  language  = "en"
+}
+
+@ARTICLE{Hoyer2024-xp,
+  title     = "{AI-based} digital histopathology for perihilar
+               cholangiocarcinoma: A step, not a jump",
+  author    = "Hoyer, Dieter P and Ting, Saskia and Rogacka, Nina and Koitka,
+               Sven and Hosch, Ren{\'e} and Flaschel, Nils and Haubold,
+               Johannes and Malamutmann, Eugen and St{\"u}ben, Bj{\"o}rn-Ole
+               and Treckmann, J{\"u}rgen and Nensa, Felix and Baldini, Giulia",
+  abstract  = "Introduction: Perihilar cholangiocarcinoma (PHCC) is a rare
+               malignancy with limited survival prediction accuracy. Artificial
+               intelligence (AI) and digital pathology advancements have shown
+               promise in predicting outcomes in cancer. We aimed to improve
+               prognosis prediction for PHCC by combining AI-based
+               histopathological slide analysis with clinical factors. Methods:
+               We retrospectively analyzed 317 surgically treated PHCC patients
+               (January 2009-December 2018) at the University Hospital of
+               Essen. Clinical data, surgical details, pathology, and outcomes
+               were collected. Convolutional neural networks (CNN) analyzed
+               whole-slide images. Survival models incorporated clinical and
+               histological features. Results: Among 142 eligible patients,
+               independent survival predictors were tumor grade (G), tumor size
+               (T), and intraoperative transfusion requirement. The CNN-based
+               model combining clinical and histopathological features
+               demonstrates proof of concept in prognosis prediction, limited
+               by histopathological complexity and feature extraction
+               challenges. However, the CNN-based model generated heatmaps
+               assisting pathologists in identifying areas of interest.
+               Conclusion: AI-based digital pathology showed potential in PHCC
+               prognosis prediction, though refinement is necessary for
+               clinical relevance. Future research should focus on enhancing AI
+               models and exploring novel approaches to improve PHCC patient
+               prognosis prediction.",
+  journal   = "J. Pathol. Inform.",
+  publisher = "Elsevier BV",
+  volume    =  15,
+  number    =  100345,
+  pages     = "100345",
+  month     =  dec,
+  year      =  2024,
+  keywords  = "Artificial intelligence; Cholangiocarcinoma; Digital pathology;
+               Klatskin; Segmentation; Survival analysis",
+  copyright = "http://creativecommons.org/licenses/by/4.0/",
+  language  = "en"
+}
+
+@ARTICLE{Nensa2024-qd,
+  title     = "Beyond accuracy: Reproducibility must lead {AI} advances in
+               radiology",
+  author    = "Nensa, Felix and Pinto Dos Santos, Daniel and Dietzel, Mathias",
+  journal   = "Eur. J. Radiol.",
+  publisher = "Elsevier BV",
+  volume    =  180,
+  number    =  111703,
+  pages     = "111703",
+  month     =  nov,
+  year      =  2024,
+  language  = "en"
+}
+
+@ARTICLE{Brehmer2024-cb,
+  title     = "Establishing medical intelligence-leveraging Fast Healthcare
+               Interoperability Resources to improve clinical management:
+               Retrospective cohort and clinical implementation study",
+  author    = "Brehmer, Alexander and Sauer, Christopher Martin and Salazar
+               Rodr{\'\i}guez, Jayson and Herrmann, Kelsey and Kim, Moon and
+               Keyl, Julius and Bahnsen, Fin Hendrik and Frank, Benedikt and
+               K{\"o}hrmann, Martin and Rassaf, Tienush and Mahabadi,
+               Amir-Abbas and Hadaschik, Boris and Darr, Christopher and
+               Herrmann, Ken and Tan, Susanne and Buer, Jan and Brenner,
+               Thorsten and Reinhardt, Hans Christian and Nensa, Felix and
+               Gertz, Michael and Egger, Jan and Kleesiek, Jens",
+  abstract  = "BACKGROUND: FHIR (Fast Healthcare Interoperability Resources)
+               has been proposed to enable health data interoperability. So
+               far, its applicability has been demonstrated for selected
+               research projects with limited data. OBJECTIVE: This study aimed
+               to design and implement a conceptual medical intelligence
+               framework to leverage real-world care data for clinical
+               decision-making. METHODS: A Python package for the use of
+               multimodal FHIR data (FHIRPACK [FHIR Python Analysis Conversion
+               Kit]) was developed and pioneered in 5 real-world clinical use
+               cases, that is, myocardial infarction, stroke, diabetes, sepsis,
+               and prostate cancer. Patients were identified based on the
+               ICD-10 (International Classification of Diseases, Tenth
+               Revision) codes, and outcomes were derived from laboratory
+               tests, prescriptions, procedures, and diagnostic reports.
+               Results were provided as browser-based dashboards. RESULTS: For
+               2022, a total of 1,302,988 patient encounters were analyzed. (1)
+               Myocardial infarction: in 72.7\% (261/359) of cases, medication
+               regimens fulfilled guideline recommendations. (2) Stroke: out of
+               1277 patients, 165 received thrombolysis and 108 thrombectomy.
+               (3) Diabetes: in 443,866 serum glucose and 16,180 glycated
+               hemoglobin A1c measurements from 35,494 unique patients, the
+               prevalence of dysglycemic findings was 39\% (13,887/35,494).
+               Among those with dysglycemia, diagnosis was coded in 44.2\%
+               (6138/13,887) of the patients. (4) Sepsis: In 1803 patients,
+               Staphylococcus epidermidis was the primarily isolated pathogen
+               (773/2672, 28.9\%) and piperacillin and tazobactam was the
+               primarily prescribed antibiotic (593/1593, 37.2\%). (5) PC: out
+               of 54, three patients who received radical prostatectomy were
+               identified as cases with prostate-specific antigen persistence
+               or biochemical recurrence. CONCLUSIONS: Leveraging FHIR data
+               through large-scale analytics can enhance health care quality
+               and improve patient outcomes across 5 clinical specialties. We
+               identified (1) patients with sepsis requiring less broad
+               antibiotic therapy, (2) patients with myocardial infarction who
+               could benefit from statin and antiplatelet therapy, (3) patients
+               who had a stroke with longer than recommended times to
+               intervention, (4) patients with hyperglycemia who could benefit
+               from specialist referral, and (5) patients with PC with early
+               increases in cancer markers.",
+  journal   = "J. Med. Internet Res.",
+  publisher = "JMIR Publications Inc.",
+  volume    =  26,
+  pages     = "e55148",
+  month     =  oct,
+  year      =  2024,
+  keywords  = "FHIR; clinical decision-making; clinical informatics; clinical
+               management; data exchange; electronic health records;
+               interoperability; medical intelligence; quality improvement;
+               quality of care; real-world evidence",
+  language  = "en"
+}
+
+@ARTICLE{Salhofer2024-eq,
+  title     = "{CT-based} body composition analysis and pulmonary fat
+               attenuation volume as biomarkers to predict overall survival in
+               patients with non-specific interstitial pneumonia",
+  author    = "Salh{\"o}fer, Luca and Bonella, Francesco and Meetschen, Mathias
+               and Umutlu, Lale and Forsting, Michael and Schaarschmidt,
+               Benedikt M and Opitz, Marcel and Beck, Nikolas and Zensen,
+               Sebastian and Hosch, Ren{\'e} and Parmar, Vicky and Nensa, Felix
+               and Haubold, Johannes",
+  abstract  = "BACKGROUND: Non-specific interstitial pneumonia (NSIP) is an
+               interstitial lung disease that can result in end-stage fibrosis.
+               We investigated the influence of body composition and pulmonary
+               fat attenuation volume (CTpfav) on overall survival (OS) in NSIP
+               patients. METHODS: In this retrospective single-center study, 71
+               NSIP patients with a median age of 65 years (interquartile range
+               21.5), 39 females (55\%), who had a computed tomography from
+               August 2009 to February 2018, were included, of whom 38 (54\%)
+               died during follow-up. Body composition analysis was performed
+               using an open-source nnU-Net-based framework. Features were
+               combined into: Sarcopenia (muscle/bone); Fat (total adipose
+               tissue/bone); Myosteatosis (inter-/intra-muscular adipose
+               tissue/total adipose tissue); Mediastinal (mediastinal adipose
+               tissue/bone); and Pulmonary fat index (CTpfav/lung volume).
+               Kaplan-Meier analysis with a log-rank test and multivariate Cox
+               regression were used for survival analyses. RESULTS: Patients
+               with a higher (> median) Sarcopenia and lower (< median)
+               Mediastinal Fat index had a significantly better survival
+               probability (2-year survival rate: 83\% versus 71\% for high
+               versus low Sarcopenia index, p = 0.023; 83\% versus 72\% for low
+               versus high Mediastinal fat index, p = 0.006). In univariate
+               analysis, individuals with a higher Pulmonary fat index
+               exhibited significantly worse survival probability (2-year
+               survival rate: 61\% versus 94\% for high versus low, p = 0.003).
+               Additionally, it was an independent risk predictor for death
+               (hazard ratio 2.37, 95\% confidence interval 1.03-5.48, p =
+               0.043). CONCLUSION: Fully automated body composition analysis
+               offers interesting perspectives in patients with NSIP. Pulmonary
+               fat index was an independent predictor of OS. RELEVANCE
+               STATEMENT: The Pulmonary fat index is an independent predictor
+               of OS in patients with NSIP and demonstrates the potential of
+               fully automated, deep-learning-driven body composition analysis
+               as a biomarker for prognosis estimation. KEY POINTS: This is the
+               first study assessing the potential of CT-based body composition
+               analysis in patients with non-specific interstitial pneumonia
+               (NSIP). A single-center analysis of 71 patients with
+               board-certified diagnosis of NSIP is presented Indices related
+               to muscle, mediastinal fat, and pulmonary fat attenuation volume
+               were significantly associated with survival at univariate
+               analysis. CT pulmonary fat attenuation volume, normalized by
+               lung volume, resulted as an independent predictor for death.",
+  journal   = "Eur. Radiol. Exp.",
+  publisher = "Springer Science and Business Media LLC",
+  volume    =  8,
+  number    =  1,
+  pages     = "114",
+  month     =  oct,
+  year      =  2024,
+  keywords  = "Body composition; Deep learning; Lung diseases (interstitial);
+               Survival analysis; Tomography (x-ray computed)",
+  copyright = "https://creativecommons.org/licenses/by/4.0",
+  language  = "en"
+}
+
+@ARTICLE{Welsner2024-yr,
+  title    = "Opportunistic screening for low bone mineral density in adults
+              with cystic fibrosis using low-dose computed tomography of the
+              chest with artificial intelligence",
+  author   = "Welsner, Matthias and Navel, Henning and Hosch, Rene and
+              Rathsmann, Peter and Stehling, Florian and Mathew, Annie and
+              Sutharsan, Sivagurunathan and Strassburg, Svenja and
+              Westh{\"o}lter, Dirk and Taube, Christian and Zensen, Sebastian
+              and Schaarschmidt, Benedikt M and Forsting, Michael and Nensa,
+              Felix and Holtkamp, Mathias and Haubold, Johannes and
+              Salh{\"o}fer, Luca and Opitz, Marcel",
+  abstract = "Background: Cystic fibrosis bone disease (CFBD) is a common
+              comorbidity in adult people with cystic fibrosis (pwCF),
+              resulting in an increased risk of bone fractures. This study
+              evaluated the capacity of artificial intelligence (AI)-assisted
+              low-dose chest CT (LDCT) opportunistic screening for detecting
+              low bone mineral density (BMD) in adult pwCF. Methods: In this
+              retrospective single-center study, 65 adult pwCF (mean age 30.1
+              $\pm$ 7.5 years) underwent dual-energy X-ray absorptiometry (DXA)
+              of the lumbar vertebrae L1 to L4 to determine BMD and
+              corresponding z-scores and completed LDCTs of the chest within
+              three months as part of routine clinical care. A fully automated
+              CT-based AI algorithm measured the attenuation values (Hounsfield
+              units [HU]) of the thoracic vertebrae Th9-Th12 and first lumbar
+              vertebra L1. The ability of the algorithm to diagnose CFBD was
+              assessed using receiver operating characteristic (ROC) curves.
+              Results: HU values of Th9 to L1 and DXA-derived BMD and the
+              corresponding z-scores of L1 to L4 showed a strong correlation
+              (all p < 0.05). The area under the curve (AUC) for diagnosing low
+              BMD was highest for L1 (0.796; p = 0.001) and Th11 (0.835; p <
+              0.001), resulting in a specificity of 84.9\% at a sensitivity
+              level of 75\%. The HU threshold values for distinguishing normal
+              from low BMD were <197 (L1) and <212 (Th11), respectively.
+              Conclusions: Routine LDCT of the chest with the fully automated
+              AI-guided determination of thoracic and lumbar vertebral
+              attenuation values is a valuable tool for predicting low BMD in
+              adult pwCF, with the best results for Th11 and L1. However,
+              further studies are required to define clear threshold values.",
+  journal  = "J. Clin. Med.",
+  volume   =  13,
+  number   =  19,
+  month    =  oct,
+  year     =  2024,
+  keywords = "DXA; adults; artificial intelligence; bone disease; bone mineral
+              density; computed tomography; cystic fibrosis; opportunistic
+              screening; osteoporosis",
+  language = "en"
+}
+
+@ARTICLE{Styczen2024-xi,
+  title    = "Impact of imaging biomarkers from body composition analysis on
+              outcome of endovascularly treated acute ischemic stroke patients",
+  author   = "Styczen, Hanna and Maus, Volker and Weiss, Daniel and Goertz,
+              Lukas and Hosch, Ren{\'e} and Rubbert, Christian and Beck,
+              Nikolas and Holtkamp, Mathias and Salh{\"o}fer, Luca and
+              Schubert, Rosa and Deuschl, Cornelius and Nensa, Felix and
+              Haubold, Johannes",
+  abstract = "BACKGROUND: We investigate the association of imaging biomarkers
+              extracted from fully automated body composition analysis (BCA) of
+              computed tomography (CT) angiography images of endovascularly
+              treated acute ischemic stroke (AIS) patients regarding
+              angiographic and clinical outcome. METHODS: Retrospective
+              analysis of AIS patients treated with mechanical thrombectomy
+              (MT) at three tertiary care-centers between March 2019-January
+              2022. Baseline demographics, angiographic outcome and clinical
+              outcome evaluated by the modified Rankin Scale (mRS) at discharge
+              were noted. Multiple tissues, such as muscle, bone, and adipose
+              tissue were acquired with a deep-learning-based, fully automated
+              BCA from CT images of the supra-aortic angiography. RESULTS: A
+              total of 290 stroke patients who underwent MT due to cerebral
+              vessel occlusion in the anterior circulation were included in the
+              study. In the univariate analyses, among all BCA markers, only
+              the lower sarcopenia marker was associated with a poor outcome
+              (P=0.007). It remained an independent predictor for an
+              unfavorable outcome in a logistic regression analysis (OR 0.6,
+              95\% CI 0.3 to 0.9, P=0.044). Fat index (total adipose
+              tissue/bone) and myosteatosis index (inter- and intramuscular
+              adipose tissue/total adipose tissue*100) did not affect clinical
+              outcomes. CONCLUSION: Acute ischemic stroke patients with a lower
+              sarcopenia marker are at risk for an unfavorable outcome. Imaging
+              biomarkers extracted from BCA can be easily obtained from
+              existing CT images, making it readily available at the beginning
+              of treatment. However, further research is necessary to determine
+              whether sarcopenia provides additional value beyond established
+              outcome predictors. Understanding its role could lead to
+              optimized, individualized treatment plans for post-stroke
+              patients, potentially improving recovery outcomes.",
+  journal  = "J. Neurointerv. Surg.",
+  month    =  sep,
+  year     =  2024,
+  keywords = "CT Angiography; Stroke; Thrombectomy",
+  language = "en"
+}
+
+@ARTICLE{Baldini2024-ei,
+  title     = "Addressing the contrast media recognition challenge: A fully
+               automated machine learning approach for predicting contrast
+               phases in {CT} imaging",
+  author    = "Baldini, Giulia and Hosch, Ren{\'e} and Schmidt, Cynthia S and
+               Borys, Katarzyna and Kroll, Lennard and Koitka, Sven and
+               Haubold, Patrizia and Pelka, Obioma and Nensa, Felix and
+               Haubold, Johannes",
+  abstract  = "OBJECTIVES: Accurately acquiring and assigning different
+               contrast-enhanced phases in computed tomography (CT) is relevant
+               for clinicians and for artificial intelligence orchestration to
+               select the most appropriate series for analysis. However, this
+               information is commonly extracted from the CT metadata, which is
+               often wrong. This study aimed at developing an automatic
+               pipeline for classifying intravenous (IV) contrast phases and
+               additionally for identifying contrast media in the
+               gastrointestinal tract (GIT). MATERIALS AND METHODS: This
+               retrospective study used 1200 CT scans collected at the
+               investigating institution between January 4, 2016 and September
+               12, 2022, and 240 CT scans from multiple centers from The Cancer
+               Imaging Archive for external validation. The open-source
+               segmentation algorithm TotalSegmentator was used to identify
+               regions of interest (pulmonary artery, aorta, stomach,
+               portal/splenic vein, liver, portal vein/hepatic veins, inferior
+               vena cava, duodenum, small bowel, colon, left/right kidney,
+               urinary bladder), and machine learning classifiers were trained
+               with 5-fold cross-validation to classify IV contrast phases
+               (noncontrast, pulmonary arterial, arterial, venous, and
+               urographic) and GIT contrast enhancement. The performance of the
+               ensembles was evaluated using the receiver operating
+               characteristic area under the curve (AUC) and 95\% confidence
+               intervals (CIs). RESULTS: For the IV phase classification task,
+               the following AUC scores were obtained for the internal test
+               set: 99.59\% [95\% CI, 99.58-99.63] for the noncontrast phase,
+               99.50\% [95\% CI, 99.49-99.52] for the pulmonary-arterial phase,
+               99.13\% [95\% CI, 99.10-99.15] for the arterial phase, 99.8\%
+               [95\% CI, 99.79-99.81] for the venous phase, and 99.7\% [95\%
+               CI, 99.68-99.7] for the urographic phase. For the external
+               dataset, a mean AUC of 97.33\% [95\% CI, 97.27-97.35] and
+               97.38\% [95\% CI, 97.34-97.41] was achieved for all contrast
+               phases for the first and second annotators, respectively.
+               Contrast media in the GIT could be identified with an AUC of
+               99.90\% [95\% CI, 99.89-99.9] in the internal dataset, whereas
+               in the external dataset, an AUC of 99.73\% [95\% CI,
+               99.71-99.73] and 99.31\% [95\% CI, 99.27-99.33] was achieved
+               with the first and second annotator, respectively. CONCLUSIONS:
+               The integration of open-source segmentation networks and
+               classifiers effectively classified contrast phases and
+               identified GIT contrast enhancement using anatomical landmarks.",
+  journal   = "Invest. Radiol.",
+  publisher = "Ovid Technologies (Wolters Kluwer Health)",
+  volume    =  59,
+  number    =  9,
+  pages     = "635--645",
+  month     =  sep,
+  year      =  2024,
+  language  = "en"
+}
+
+@ARTICLE{Klug2024-du,
+  title     = "From admission to discharge: a systematic review of clinical
+               natural language processing along the patient journey",
+  author    = "Klug, Katrin and Beckh, Katharina and Antweiler, Dario and
+               Chakraborty, Nilesh and Baldini, Giulia and Laue, Katharina and
+               Hosch, Ren{\'e} and Nensa, Felix and Schuler, Martin and
+               Giesselbach, Sven",
+  abstract  = "BACKGROUND: Medical text, as part of an electronic health
+               record, is an essential information source in healthcare.
+               Although natural language processing (NLP) techniques for
+               medical text are developing fast, successful transfer into
+               clinical practice has been rare. Especially the hospital domain
+               offers great potential while facing several challenges including
+               many documents per patient, multiple departments and complex
+               interrelated processes. METHODS: In this work, we survey
+               relevant literature to identify and classify approaches which
+               exploit NLP in the clinical context. Our contribution involves a
+               systematic mapping of related research onto a prototypical
+               patient journey in the hospital, along which medical documents
+               are created, processed and consumed by hospital staff and
+               patients themselves. Specifically, we reviewed which dataset
+               types, dataset languages, model architectures and tasks are
+               researched in current clinical NLP research. Additionally, we
+               extract and analyze major obstacles during development and
+               implementation. We discuss options to address them and argue for
+               a focus on bias mitigation and model explainability. RESULTS:
+               While a patient's hospital journey produces a significant amount
+               of structured and unstructured documents, certain steps and
+               documents receive more research attention than others.
+               Diagnosis, Admission and Discharge are clinical patient steps
+               that are researched often across the surveyed paper. In
+               contrast, our findings reveal significant under-researched areas
+               such as Treatment, Billing, After Care, and Smart Home.
+               Leveraging NLP in these stages can greatly enhance clinical
+               decision-making and patient outcomes. Additionally, clinical NLP
+               models are mostly based on radiology reports, discharge letters
+               and admission notes, even though we have shown that many other
+               documents are produced throughout the patient journey. There is
+               a significant opportunity in analyzing a wider range of medical
+               documents produced throughout the patient journey to improve the
+               applicability and impact of NLP in healthcare. CONCLUSIONS: Our
+               findings suggest that there is a significant opportunity to
+               leverage NLP approaches to advance clinical decision-making
+               systems, as there remains a considerable understudied potential
+               for the analysis of patient journey data.",
+  journal   = "BMC Med. Inform. Decis. Mak.",
+  publisher = "Springer Science and Business Media LLC",
+  volume    =  24,
+  number    =  1,
+  pages     = "238",
+  month     =  aug,
+  year      =  2024,
+  keywords  = "Bias; Clinical natural language processing; Explainable ML;
+               Out-of-distribution generalization; Patient journey",
+  copyright = "https://creativecommons.org/licenses/by/4.0",
+  language  = "en"
+}
+
+@ARTICLE{Muller2024-sm,
+  title     = "{AI-derived} body composition parameters as prognostic factors
+               in patients with {HCC} undergoing {TACE} in a multicenter study",
+  author    = "M{\"u}ller, Lukas and M{\"a}hringer-Kunz, Aline and Auer, Timo
+               Alexander and Fehrenbach, Uli and Gebauer, Bernhard and Haubold,
+               Johannes and Schaarschmidt, Benedikt Michael and Kim, Moon-Sung
+               and Hosch, Ren{\'e} and Nensa, Felix and Kleesiek, Jens and
+               Diallo, Thierno D and Eisenbl{\"a}tter, Michel and Kuzior, Hanna
+               and Roehlen, Natascha and Bettinger, Dominik and Steinle, Verena
+               and Mayer, Philipp and Zopfs, David and Pinto Dos Santos, Daniel
+               and Kloeckner, Roman",
+  abstract  = "Background \& Aims: Body composition assessment (BCA) parameters
+               have recently been identified as relevant prognostic factors for
+               patients with hepatocellular carcinoma (HCC). Herein, we aimed
+               to investigate the role of BCA parameters for prognosis
+               prediction in patients with HCC undergoing transarterial
+               chemoembolization (TACE). Methods: This retrospective
+               multicenter study included a total of 754 treatment-na{\"\i}ve
+               patients with HCC who underwent TACE at six tertiary care
+               centers between 2010-2020. Fully automated artificial
+               intelligence-based quantitative 3D volumetry of abdominal cavity
+               tissue composition was performed to assess skeletal muscle
+               volume (SM), total adipose tissue (TAT), intra- and
+               intermuscular adipose tissue, visceral adipose tissue, and
+               subcutaneous adipose tissue (SAT) on pre-intervention computed
+               tomography scans. BCA parameters were normalized to the slice
+               number of the abdominal cavity. We assessed the influence of BCA
+               parameters on median overall survival and performed multivariate
+               analysis including established estimates of survival. Results:
+               Univariate survival analysis revealed that impaired median
+               overall survival was predicted by low SM (p <0.001), high TAT
+               volume (p = 0.013), and high SAT volume (p = 0.006). In
+               multivariate survival analysis, SM remained an independent
+               prognostic factor (p = 0.039), while TAT and SAT volumes no
+               longer showed predictive ability. This predictive role of SM was
+               confirmed in a subgroup analysis of patients with BCLC stage B.
+               Conclusions: SM is an independent prognostic factor for survival
+               prediction. Thus, the integration of SM into novel scoring
+               systems could potentially improve survival prediction and
+               clinical decision-making. Fully automated approaches are needed
+               to foster the implementation of this imaging biomarker into
+               daily routine. Impact and implications: Body composition
+               assessment parameters, especially skeletal muscle volume, have
+               been identified as relevant prognostic factors for many diseases
+               and treatments. In this study, skeletal muscle volume has been
+               identified as an independent prognostic factor for patients with
+               hepatocellular carcinoma undergoing transarterial
+               chemoembolization. Therefore, skeletal muscle volume as a
+               metaparameter could play a role as an opportunistic biomarker in
+               holistic patient assessment and be integrated into decision
+               support systems. Workflow integration with artificial
+               intelligence is essential for automated, quantitative body
+               composition assessment, enabling broad availability in
+               multidisciplinary case discussions.",
+  journal   = "JHEP Rep.",
+  publisher = "Elsevier BV",
+  volume    =  6,
+  number    =  8,
+  pages     = "101125",
+  month     =  aug,
+  year      =  2024,
+  keywords  = "Artificial Intelligence; Body Composition; Hepatocellular
+               Carcinoma; Transarterial Chemoembolization",
+  copyright = "http://creativecommons.org/licenses/by/4.0/",
+  language  = "en"
+}
+
+@ARTICLE{Kohnke2024-oo,
+  title     = "A proof of concept for microcirculation monitoring using machine
+               learning based hyperspectral imaging in critically ill patients:
+               a monocentric observational study",
+  author    = "Kohnke, Judith and Pattberg, Kevin and Nensa, Felix and
+               Kuhlmann, Henning and Brenner, Thorsten and Schmidt, Karsten and
+               Hosch, Ren{\'e} and Espeter, Florian",
+  abstract  = "BACKGROUND: Impaired microcirculation is a cornerstone of sepsis
+               development and leads to reduced tissue oxygenation, influenced
+               by fluid and catecholamine administration during treatment.
+               Hyperspectral imaging (HSI) is a non-invasive bedside technology
+               for visualizing physicochemical tissue characteristics. Machine
+               learning (ML) for skin HSI might offer an automated approach for
+               bedside microcirculation assessment, providing an individualized
+               tissue fingerprint of critically ill patients in intensive care.
+               The study aimed to determine if machine learning could be
+               utilized to automatically identify regions of interest (ROIs) in
+               the hand, thereby distinguishing between healthy individuals and
+               critically ill patients with sepsis using HSI. METHODS: HSI raw
+               data from 75 critically ill sepsis patients and from 30 healthy
+               controls were recorded using TIVITA\textregistered{} Tissue
+               System and analyzed using an automated ML approach.
+               Additionally, patients were divided into two groups based on
+               their SOFA scores for further subanalysis: less severely ill
+               (SOFA $\leq$ 5) and severely ill (SOFA > 5). The analysis of the
+               HSI raw data was fully-automated using MediaPipe for ROI
+               detection (palm and fingertips) and feature extraction. HSI
+               Features were statistically analyzed to highlight relevant
+               wavelength combinations using Mann-Whitney-U test and Benjamini,
+               Krieger, and Yekutieli (BKY) correction. In addition, Random
+               Forest models were trained using bootstrapping, and feature
+               importances were determined to gain insights regarding the
+               wavelength importance for a model decision. RESULTS: An
+               automated pipeline for generating ROIs and HSI feature
+               extraction was successfully established. HSI raw data analysis
+               accurately distinguished healthy controls from sepsis patients.
+               Wavelengths at the fingertips differed in the ranges of 575-695
+               nm and 840-1000 nm. For the palm, significant differences were
+               observed in the range of 925-1000 nm. Feature importance plots
+               indicated relevant information in the same wavelength ranges.
+               Combining palm and fingertip analysis provided the highest
+               reliability, with an AUC of 0.92 to distinguish between sepsis
+               patients and healthy controls. CONCLUSION: Based on this proof
+               of concept, the integration of automated and standardized ROIs
+               along with automated skin HSI analyzes, was able to
+               differentiate between healthy individuals and patients with
+               sepsis. This approach offers a reliable and objective assessment
+               of skin microcirculation, facilitating the rapid identification
+               of critically ill patients.",
+  journal   = "Crit. Care",
+  publisher = "Springer Science and Business Media LLC",
+  volume    =  28,
+  number    =  1,
+  pages     = "230",
+  month     =  jul,
+  year      =  2024,
+  copyright = "https://creativecommons.org/licenses/by/4.0",
+  language  = "en"
+}
+
+@ARTICLE{Ruckert2024-au,
+  title     = "{ROCOv2}: Radiology objects in {COntext} version 2, an updated
+               multimodal image dataset",
+  author    = "R{\"u}ckert, Johannes and Bloch, Louise and Br{\"u}ngel, Raphael
+               and Idrissi-Yaghir, Ahmad and Sch{\"a}fer, Henning and Schmidt,
+               Cynthia S and Koitka, Sven and Pelka, Obioma and Abacha, Asma
+               Ben and G Seco de Herrera, Alba and M{\"u}ller, Henning and
+               Horn, Peter A and Nensa, Felix and Friedrich, Christoph M",
+  abstract  = "Automated medical image analysis systems often require large
+               amounts of training data with high quality labels, which are
+               difficult and time consuming to generate. This paper introduces
+               Radiology Object in COntext version 2 (ROCOv2), a multimodal
+               dataset consisting of radiological images and associated medical
+               concepts and captions extracted from the PMC Open Access subset.
+               It is an updated version of the ROCO dataset published in 2018,
+               and adds 35,705 new images added to PMC since 2018. It further
+               provides manually curated concepts for imaging modalities with
+               additional anatomical and directional concepts for X-rays. The
+               dataset consists of 79,789 images and has been used, with minor
+               modifications, in the concept detection and caption prediction
+               tasks of ImageCLEFmedical Caption 2023. The dataset is suitable
+               for training image annotation models based on image-caption
+               pairs, or for multi-label image classification using Unified
+               Medical Language System (UMLS) concepts provided with each
+               image. In addition, it can serve for pre-training of medical
+               domain models, and evaluation of deep learning models for
+               multi-task learning.",
+  journal   = "Sci. Data",
+  publisher = "Springer Science and Business Media LLC",
+  volume    =  11,
+  number    =  1,
+  pages     = "688",
+  month     =  jun,
+  year      =  2024,
+  copyright = "https://creativecommons.org/licenses/by/4.0",
+  language  = "en"
+}
+
+@ARTICLE{Schuler2024-jz,
+  title     = "Early metabolic response by {PET} predicts sensitivity to
+               next-line targeted therapy in {EGFR-mutated} lung cancer with
+               unknown mechanism of acquired resistance",
+  author    = "Schuler, Martin and Hense, J{\"o}rg and Darwiche, Kaid and
+               Michels, Sebastian and Hautzel, Hubertus and Kobe, Carsten and
+               Lueong, Smiths and Metzenmacher, Martin and Herold, Thomas and
+               Zaun, Gregor and Laue, Katharina and Drzezga, Alexander and
+               Theegarten, Dirk and Nensa, Felix and Wolf, J{\"u}rgen and
+               Herrmann, Ken and Wiesweg, Marcel",
+  abstract  = "Targeted therapy with epidermal growth factor receptor (EGFR)
+               tyrosine kinase inhibitors (TKIs) has established the precision
+               oncology paradigm in lung cancer. Most patients with
+               EGFR-mutated lung cancer respond but eventually acquire
+               resistance. Methods: Patients exhibiting the EGFR p.T790M
+               resistance biomarker benefit from sequenced targeted therapy
+               with osimertinib. We hypothesized that metabolic response as
+               detected by 18F-FDG PET after short-course osimertinib
+               identifies additional patients susceptible to sequenced therapy.
+               Results: Fourteen patients with EGFR-mutated lung cancer and
+               resistance to first- or second-generation EGFR TKI testing
+               negatively for EGFR p.T790M were enrolled in a phase II study.
+               Five patients (36\%) achieved a metabolic 18F-FDG PET response
+               and continued osimertinib. In those, the median duration of
+               treatment was not reached (95\% CI, 24 mo to not estimable),
+               median progression-free survival was 18.7 mo (95\% CI, 14.6 mo
+               to not estimable), and median overall survival was 41.5 mo.
+               Conclusion: Connecting theranostic osimertinib treatment with
+               early metabolic response assessment by PET enables early
+               identification of patients with unknown mechanisms of TKI
+               resistance who derive dramatic clinical benefit from sequenced
+               osimertinib. This defines a novel paradigm for personalization
+               of targeted therapies in patients with lung cancer dependent on
+               a tractable driver oncogene.",
+  journal   = "J. Nucl. Med.",
+  publisher = "Society of Nuclear Medicine",
+  volume    =  65,
+  number    =  6,
+  pages     = "851--855",
+  month     =  jun,
+  year      =  2024,
+  keywords  = "EGFR TKI; FDG PET/CT; metabolic response; resistance; targeted
+               therapy",
+  language  = "en"
+}
+
+@ARTICLE{Haubold2024-ib,
+  title     = "{BOA}: A {CT-based} body and organ analysis for radiologists at
+               the Point of care",
+  author    = "Haubold, Johannes and Baldini, Giulia and Parmar, Vicky and
+               Schaarschmidt, Benedikt Michael and Koitka, Sven and Kroll,
+               Lennard and van Landeghem, Natalie and Umutlu, Lale and
+               Forsting, Michael and Nensa, Felix and Hosch, Ren{\'e}",
+  abstract  = "Purpose The study aimed to develop the open-source body and
+               organ analysis (BOA), a comprehensive computed tomography (CT)
+               image segmentation algorithm with a focus on workflow
+               integration. Methods The BOA combines 2 segmentation algorithms:
+               body composition analysis (BCA) and TotalSegmentator. The BCA
+               was trained with the nnU-Net framework using a dataset including
+               300 CT examinations. The CTs were manually annotated with 11
+               semantic body regions: subcutaneous tissue, muscle, bone,
+               abdominal cavity, thoracic cavity, glands, mediastinum,
+               pericardium, breast implant, brain, and spinal cord. The models
+               were trained using 5-fold cross-validation, and at inference
+               time, an ensemble was used. Afterward, the segmentation
+               efficiency was evaluated on a separate test set comprising 60 CT
+               scans. In a postprocessing step, a tissue segmentation (muscle,
+               subcutaneous adipose tissue, visceral adipose tissue,
+               intermuscular adipose tissue, epicardial adipose tissue, and
+               paracardial adipose tissue) is created by subclassifying the
+               body regions. The BOA combines this algorithm and the
+               open-source segmentation software TotalSegmentator to have an
+               all-in-one comprehensive selection of segmentations. In
+               addition, it integrates into clinical workflows as a DICOM
+               node--triggered service using the open-source Orthanc research
+               PACS (Picture Archiving and Communication System) server to make
+               the automated segmentation algorithms available to clinicians.
+               The BCA model's performance was evaluated using the
+               S{\o}rensen-Dice score. Finally, the segmentations from the 3
+               different tools (BCA, TotalSegmentator, and BOA) were compared
+               by assessing the overall percentage of the segmented human body
+               on a separate cohort of 150 whole-body CT scans. Results The
+               results showed that the BCA outperformed the previous
+               publication, achieving a higher S{\o}rensen-Dice score for the
+               previously existing classes, including subcutaneous tissue
+               (0.971 vs 0.962), muscle (0.959 vs 0.933), abdominal cavity
+               (0.983 vs 0.973), thoracic cavity (0.982 vs 0.965), bone (0.961
+               vs 0.942), and an overall good segmentation efficiency for newly
+               introduced classes: brain (0.985), breast implant (0.943),
+               glands (0.766), mediastinum (0.880), pericardium (0.964), and
+               spinal cord (0.896). All in all, it achieved a 0.935 average
+               S{\o}rensen-Dice score, which is comparable to the one of the
+               TotalSegmentator (0.94). The TotalSegmentator had a mean voxel
+               body coverage of 31\% $\pm$ 6\%, whereas BCA had a coverage of
+               75\% $\pm$ 6\% and BOA achieved 93\% $\pm$ 2\%. Conclusions The
+               open-source BOA merges different segmentation algorithms with a
+               focus on workflow integration through DICOM node integration,
+               offering a comprehensive body segmentation in CT images with a
+               high coverage of the body volume.",
+  journal   = "Invest. Radiol.",
+  publisher = "Ovid Technologies (Wolters Kluwer Health)",
+  volume    =  59,
+  number    =  6,
+  pages     = "433--441",
+  month     =  jun,
+  year      =  2024,
+  language  = "en"
+}
+
+@ARTICLE{Koitka2024-gg,
+  title     = "{SAROS}: A dataset for whole-body region and organ segmentation
+               in {CT} imaging",
+  author    = "Koitka, Sven and Baldini, Giulia and Kroll, Lennard and van
+               Landeghem, Natalie and Pollok, Olivia B and Haubold, Johannes
+               and Pelka, Obioma and Kim, Moon and Kleesiek, Jens and Nensa,
+               Felix and Hosch, Ren{\'e}",
+  abstract  = "The Sparsely Annotated Region and Organ Segmentation (SAROS)
+               dataset was created using data from The Cancer Imaging Archive
+               (TCIA) to provide a large open-access CT dataset with
+               high-quality annotations of body landmarks. In-house
+               segmentation models were employed to generate annotation
+               proposals on randomly selected cases from TCIA. The dataset
+               includes 13 semantic body region labels (abdominal/thoracic
+               cavity, bones, brain, breast implant, mediastinum, muscle,
+               parotid/submandibular/thyroid glands, pericardium, spinal cord,
+               subcutaneous tissue) and six body part labels (left/right
+               arm/leg, head, torso). Case selection was based on the DICOM
+               series description, gender, and imaging protocol, resulting in
+               882 patients (438 female) for a total of 900 CTs. Manual review
+               and correction of proposals were conducted in a continuous
+               quality control cycle. Only every fifth axial slice was
+               annotated, yielding 20150 annotated slices from 28 data
+               collections. For the reproducibility on downstream tasks, five
+               cross-validation folds and a test set were pre-defined. The
+               SAROS dataset serves as an open-access resource for training and
+               evaluating novel segmentation models, covering various scanner
+               vendors and diseases.",
+  journal   = "Sci. Data",
+  publisher = "Springer Science and Business Media LLC",
+  volume    =  11,
+  number    =  1,
+  pages     = "483",
+  month     =  may,
+  year      =  2024,
+  copyright = "https://creativecommons.org/licenses/by/4.0",
+  language  = "en"
+}
+
+@ARTICLE{Westholter2024-ga,
+  title    = "Elexacaftor/tezacaftor/ivacaftor influences body composition in
+              adults with cystic fibrosis: a fully automated {CT-based}
+              analysis",
+  author   = "Westh{\"o}lter, Dirk and Haubold, Johannes and Welsner, Matthias
+              and Salh{\"o}fer, Luca and Wienker, Johannes and Sutharsan,
+              Sivagurunathan and Stra{\ss}burg, Svenja and Taube, Christian and
+              Umutlu, Lale and Schaarschmidt, Benedikt M and Koitka, Sven and
+              Zensen, Sebastian and Forsting, Michael and Nensa, Felix and
+              Hosch, Ren{\'e} and Opitz, Marcel",
+  abstract = "A poor nutritional status is associated with worse pulmonary
+              function and survival in people with cystic fibrosis (pwCF). CF
+              transmembrane conductance regulator modulators can improve
+              pulmonary function and body weight, but more data is needed to
+              evaluate its effects on body composition. In this retrospective
+              study, a pre-trained deep-learning network was used to perform a
+              fully automated body composition analysis on chest CTs from 66
+              adult pwCF before and after receiving
+              elexacaftor/tezacaftor/ivacaftor (ETI) therapy. Muscle and
+              adipose tissues were quantified and divided by bone volume to
+              obtain body size-adjusted ratios. After receiving ETI therapy,
+              marked increases were observed in all adipose tissue ratios among
+              pwCF, including the total adipose tissue ratio (+ 46.21\%, p <
+              0.001). In contrast, only small, but statistically significant
+              increases of the muscle ratio were measured in the overall study
+              population (+ 1.63\%, p = 0.008). Study participants who were
+              initially categorized as underweight experienced more pronounced
+              effects on total adipose tissue ratio (p = 0.002), while gains in
+              muscle ratio were equally distributed across BMI categories (p =
+              0.832). Our findings suggest that ETI therapy primarily affects
+              adipose tissues, not muscle tissue, in adults with CF. These
+              effects are primarily observed among pwCF who were initially
+              underweight. Our findings may have implications for the future
+              nutritional management of pwCF.",
+  journal  = "Sci. Rep.",
+  volume   =  14,
+  number   =  1,
+  pages    = "9465",
+  month    =  apr,
+  year     =  2024,
+  language = "en"
+}
+
+@ARTICLE{Wienker2024-sw,
+  title    = "Body composition impacts outcome of bronchoscopic lung volume
+              reduction in patients with severe emphysema: a fully automated
+              {CT-based} analysis",
+  author   = "Wienker, Johannes and Darwiche, Kaid and R{\"u}sche, Nele and
+              B{\"u}scher, Erik and Karpf-Wissel, R{\"u}diger and Winantea,
+              Jane and {\"O}zkan, Filiz and Westh{\"o}lter, Dirk and Taube,
+              Christian and Kersting, David and Hautzel, Hubertus and
+              Salh{\"o}fer, Luca and Hosch, Ren{\'e} and Nensa, Felix and
+              Forsting, Michael and Schaarschmidt, Benedikt M and Zensen,
+              Sebastian and Theysohn, Jens and Umutlu, Lale and Haubold,
+              Johannes and Opitz, Marcel",
+  abstract = "Chronic Obstructive Pulmonary Disease (COPD) is characterized by
+              progressive and irreversible airflow limitation, with individual
+              body composition influencing disease severity. Severe emphysema
+              worsens symptoms through hyperinflation, which can be relieved by
+              bronchoscopic lung volume reduction (BLVR). To investigate how
+              body composition, assessed through CT scans, impacts outcomes in
+              emphysema patients undergoing BLVR. Fully automated CT-based body
+              composition analysis (BCA) was performed in patients with
+              end-stage emphysema receiving BLVR with valves.
+              Post-interventional muscle and adipose tissues were quantified,
+              body size-adjusted, and compared to baseline parameters. Between
+              January 2015 and December 2022, 300 patients with severe
+              emphysema underwent endobronchial valve treatment. Significant
+              improvements were seen in outcome parameters, which were defined
+              as changes in pulmonary function, physical performance, and
+              quality of life (QoL) post-treatment. Muscle volume remained
+              stable (1.632 vs. 1.635 for muscle bone adjusted ratio (BAR) at
+              baseline and after 6 months respectively), while bone adjusted
+              adipose tissue volumes, especially total and pericardial adipose
+              tissue, showed significant increase (2.86 vs. 3.00 and 0.16 vs.
+              0.17, respectively). Moderate to strong correlations between bone
+              adjusted muscle volume and weaker correlations between adipose
+              tissue volumes and outcome parameters (pulmonary function, QoL
+              and physical performance) were observed. Particularly after
+              6-month, bone adjusted muscle volume changes positively
+              corresponded to improved outcomes ($\Delta$Forced expiratory
+              volume in 1 s [FEV1], r = 0.440; $\Delta$Inspiratory vital
+              capacity [IVC], r = 0.397; $\Delta$6Minute walking distance
+              [6MWD], r = 0.509 and $\Delta$COPD assessment test [CAT], r =
+              -0.324; all p 10, respectively). BCA results among patients
+              divided by the minimal clinically important difference for forced
+              expiratory volume of the first second (FEV1) showed significant
+              differences in bone-adjusted muscle and intramuscular adipose
+              tissue (IMAT) volumes and their respective changes after 6 months
+              ($\Delta$Muscle, BAR\% -5 vs. 3.4 and $\Delta$IMAT, BAR\% -0.62
+              vs. 0.60 for groups with $\Delta$FEV1 $\leq$ 100 mL vs > 100 mL).
+              Altered body composition, especially increased muscle volume, is
+              associated with functional improvements in BLVR-treated patients.",
+  journal  = "Sci. Rep.",
+  volume   =  14,
+  number   =  1,
+  pages    = "8718",
+  month    =  apr,
+  year     =  2024,
+  keywords = "Artificial intelligence; Body composition; Bronchoscopic lung
+              volume reduction; Chronic obstructive pulmonary disease; Computed
+              tomography; Deep learning; Emphysema; Valves",
+  language = "en"
+}
+
+@ARTICLE{Parmar2024-hk,
+  title     = "Fully automated {MR-based} virtual biopsy of primary {CNS}
+               lymphomas",
+  author    = "Parmar, Vicky and Haubold, Johannes and Salh{\"o}fer, Luca and
+               Meetschen, Mathias and Wrede, Karsten and Glas, Martin and
+               Guberina, Maja and Blau, Tobias and Bos, Denise and Kureishi,
+               Anisa and Hosch, Ren{\'e} and Nensa, Felix and Forsting, Michael
+               and Deuschl, Cornelius and Umutlu, Lale",
+  abstract  = "Abstract Background Primary central nervous system lymphomas
+               (PCNSL) pose a challenge as they may mimic gliomas on MRI
+               imaging, compelling precise differentiation for appropriate
+               treatment. This study focuses on developing an automated
+               MRI-based workflow to distinguish between PCNSL and gliomas.
+               Methods MRI examinations of 240 therapy-naive patients (141
+               males and 99 females, mean age: 55.16 years) with cerebral
+               gliomas and PCNSLs (216 gliomas and 24 PCNSLs), each comprising
+               a non-contrast T1-weighted, Fluid Attenuated Inversion Recovery
+               (FLAIR), and contrast-enhanced T1-weighted sequence were
+               included in the study. HD-GLIO, a pre-trained segmentation
+               network, was used to generate segmentations automatically. To
+               validate the segmentation efficiency, 237 manual segmentations
+               were prepared (213 gliomas and 24 PCNSLs). Subsequently,
+               radiomics features were extracted following feature and training
+               of an XGBoost algorithm for classification. Results The
+               segmentation models for gliomas and PCNSLs achieved a mean
+               S{\o}rensen--Dice coefficient of 0.82 and 0.80 for whole tumors,
+               respectively. Three classification models were developed in this
+               study to differentiate gliomas from PCNSLs. The first model
+               differentiated PCNSLs from gliomas, with an area under the curve
+               (AUC) of 0.99 (F1-score: 0.75). The second model discriminated
+               between high-grade gliomas and PCNSLs with an AUC of 0.91
+               (F1-score: 0.6), and the third model differentiated between
+               low-grade gliomas and PCNSLs with an AUC of 0.95 (F1-score:
+               0.89). Conclusion This study serves as a pilot investigation
+               presenting an automated virtual biopsy workflow that
+               distinguishes PCNSLs from cerebral gliomas. Prior to clinical
+               use, it is necessary to validate the results in a prospective
+               multicenter setting with a larger number of PCNSL patients.",
+  journal   = "Neurooncol. Adv.",
+  publisher = "Oxford University Press (OUP)",
+  volume    =  6,
+  number    =  1,
+  pages     = "vdae022",
+  month     =  jan,
+  year      =  2024,
+  keywords  = "artificial intelligence; central nervous system; glioma;
+               lymphoma; neoplasms magnetic resonance imaging",
+  language  = "en"
+}
+
+@ARTICLE{Meetschen2024-en,
+  title     = "{AI-assisted} X-ray fracture detection in residency training:
+               Evaluation in pediatric and adult trauma patients",
+  author    = "Meetschen, Mathias and Salh{\"o}fer, Luca and Beck, Nikolas and
+               Kroll, Lennard and Ziegenfu{\ss}, Christoph David and
+               Schaarschmidt, Benedikt Michael and Forsting, Michael and Mizan,
+               Shamoun and Umutlu, Lale and Hosch, Ren{\'e} and Nensa, Felix
+               and Haubold, Johannes",
+  abstract  = "Background: This study aimed to evaluate the impact of an
+               AI-assisted fracture detection program on radiology residents'
+               performance in pediatric and adult trauma patients and assess
+               its implications for residency training. Methods: This study,
+               conducted retrospectively, included 200 radiographs from
+               participants aged 1 to 95 years (mean age: 40.7 $\pm$ 24.5
+               years), encompassing various body regions. Among these, 50\%
+               (100/200) displayed at least one fracture, totaling one hundred
+               thirty-five fractures, assessed by four radiology residents with
+               different experience levels. A machine learning algorithm was
+               employed for fracture detection, and the ground truth was
+               established by consensus among two experienced senior
+               radiologists. Fracture detection accuracy, reporting time, and
+               confidence were evaluated with and without AI support. Results:
+               Radiology residents' sensitivity for fracture detection improved
+               significantly with AI support (58\% without AI vs. 77\% with AI,
+               p < 0.001), while specificity showed minor improvements (77\%
+               without AI vs. 79\% with AI, p = 0.0653). AI stand-alone
+               performance achieved a sensitivity of 93\% with a specificity of
+               77\%. AI support for fracture detection significantly reduced
+               interpretation time for radiology residents by an average of
+               approximately 2.6 s (p = 0.0156) and increased resident
+               confidence in the findings (p = 0.0013). Conclusion: AI support
+               significantly enhanced fracture detection sensitivity among
+               radiology residents, particularly benefiting less experienced
+               radiologists. It does not compromise specificity and reduces
+               interpretation time, contributing to improved efficiency. This
+               study underscores AI's potential in radiology, emphasizing its
+               role in training and interpretation improvement.",
+  journal   = "Diagnostics (Basel)",
+  publisher = "MDPI AG",
+  volume    =  14,
+  number    =  6,
+  pages     = "596",
+  month     =  mar,
+  year      =  2024,
+  keywords  = "X-rays; artificial intelligence; bone; diagnostic imaging;
+               fractures; quality improvement",
+  copyright = "https://creativecommons.org/licenses/by/4.0/",
+  language  = "en"
+}
+
+@ARTICLE{Umutlu2024-vg,
+  title     = "Radiomics analysis of multiparametric {PET/MRI} for {N-} and
+               M-staging in patients with primary cervical cancer",
+  author    = "Umutlu, Lale and Nensa, Felix and Demircioglu, Aydin and Antoch,
+               Gerald and Herrmann, Ken and Forsting, Michael and Grueneisen,
+               Johannes Stefan",
+  abstract  = "PURPOSE: The aim of this study was to investigate the potential
+               of multiparametric 18F-FDG PET/MR imaging as a platform for
+               radiomics analysis and machine learning algorithms based on
+               primary cervical cancers to predict N- and M-stage in patients.
+               MATERIALS AND METHODS: A total of 30 patients with
+               histopathological confirmation of primary and untreated cervical
+               cancer were prospectively enrolled for a multiparametric 18F-FDG
+               PET/MR examination, comprising a dedicated protocol for imaging
+               of the female pelvis. The primary tumor in the uterine cervix
+               was manually segmented on post-contrast T1-weighted images.
+               Quantitative features were extracted from the segmented tumors
+               using the Radiomic Image Processing Toolbox for the R software
+               environment for statistical computing and graphics. 45 different
+               image features were calculated from non-enhanced as well as
+               post-contrast T1-weighted TSE images, T2-weighted TSE images,
+               the ADC map, the parametric Ktrans, Kep, Ve and iAUC maps and
+               PET images, respectively. Statistical analysis and modeling was
+               performed using Python 3.5 and the scikit-learn software machine
+               learning library for the Python programming language. RESULTS:
+               Prediction of M-stage was superior when compared to N-stage.
+               Prediction of M-stage using SVM with SVM-RFE as feature
+               selection obtained the highest performance providing sensitivity
+               of 91 \% and specificity of 92 \%. Using receiver operating
+               characteristic (ROC) analysis of the pooled predictions, the
+               area under the curve (AUC) was 0.97. Prediction of N-stage using
+               RBF-SVM with MIFS as feature selection reached sensitivity of 83
+               \%, specificity of 67 \% and an AUC of 0.82. CONCLUSION: M- and
+               N-stage can be predicted based on isolated radiomics analyses of
+               the primary tumor in cervical cancers, thus serving as a
+               template for noninvasive tumor phenotyping and patient
+               stratification using high-dimensional feature vectors extracted
+               from multiparametric PET/MRI data. KEY POINTS: · Radiomics
+               analysis based on multiparametric PET/MRI enables prediction of
+               the metastatic status of cervical cancers. · Prediction of
+               M-stage is superior to N-stage. · Multiparametric PET/MRI
+               displays a valuable platform for radiomics analyses .",
+  journal   = "Nuklearmedizin",
+  publisher = "Georg Thieme Verlag KG",
+  volume    =  63,
+  number    =  1,
+  pages     = "34--42",
+  month     =  feb,
+  year      =  2024,
+  language  = "en"
+}
+
+@ARTICLE{Haubold2024-gi,
+  title     = "{AI} as a new frontier in contrast media research: Bridging the
+               gap between contrast media reduction, the contrast-free question
+               and new application discoveries",
+  author    = "Haubold, Johannes and Hosch, Ren{\'e} and Jost, Gregor and
+               Kreis, Felix and Forsting, Michael and Pietsch, Hubertus and
+               Nensa, Felix",
+  abstract  = "ABSTRACT: Artificial intelligence (AI) techniques are currently
+               harnessed to revolutionize the domain of medical imaging. This
+               review investigates 3 major AI-driven approaches for contrast
+               agent management: new frontiers in contrast agent dose
+               reduction, the contrast-free question, and new applications. By
+               examining recent studies that use AI as a new frontier in
+               contrast media research, we synthesize the current state of the
+               field and provide a comprehensive understanding of the potential
+               and limitations of AI in this context. In doing so, we show the
+               dose limits of reducing the amount of contrast agents and
+               demonstrate why it might not be possible to completely eliminate
+               contrast agents in the future. In addition, we highlight
+               potential new applications to further increase the radiologist's
+               sensitivity at normal doses. At the same time, this review shows
+               which network architectures provide promising approaches and
+               reveals possible artifacts of a paired image-to-image
+               conversion. Furthermore, current US Food and Drug Administration
+               regulatory guidelines regarding AI/machine learning-enabled
+               medical devices are highlighted.",
+  journal   = "Invest. Radiol.",
+  publisher = "Ovid Technologies (Wolters Kluwer Health)",
+  volume    =  59,
+  number    =  2,
+  pages     = "206--213",
+  month     =  feb,
+  year      =  2024,
+  language  = "en"
+}
+
+@ARTICLE{Fuchs2024-cz,
+  title    = "Closing the loop for {AI-ready} radiology",
+  author   = "Fuchs, Moritz and Gonzalez, Camila and Frisch, Yannik and Hahn,
+              Paul and Matthies, Philipp and Gruening, Maximilian and Pinto Dos
+              Santos, Daniel and Dratsch, Thomas and Kim, Moon and Nensa, Felix
+              and Trenz, Manuel and Mukhopadhyay, Anirban",
+  abstract = "BACKGROUND: In recent years, AI has made significant advancements
+              in medical diagnosis and prognosis. However, the incorporation of
+              AI into clinical practice is still challenging and
+              under-appreciated. We aim to demonstrate a possible vertical
+              integration approach to close the loop for AI-ready radiology.
+              METHOD: This study highlights the importance of two-way
+              communication for AI-assisted radiology. As a key part of the
+              methodology, it demonstrates the integration of AI systems into
+              clinical practice with structured reports and AI visualization,
+              giving more insight into the AI system. By integrating
+              cooperative lifelong learning into the AI system, we ensure the
+              long-term effectiveness of the AI system, while keeping the
+              radiologist in the loop. RESULTS: We demonstrate the use of
+              lifelong learning for AI systems by incorporating AI
+              visualization and structured reports. We evaluate Memory
+              Aware-Synapses and Rehearsal approach and find that both
+              approaches work in practice. Furthermore, we see the advantage of
+              lifelong learning algorithms that do not require the storing or
+              maintaining of samples from previous datasets. CONCLUSION: In
+              conclusion, incorporating AI into the clinical routine of
+              radiology requires a two-way communication approach and seamless
+              integration of the AI system, which we achieve with structured
+              reports and visualization of the insight gained by the model.
+              Closing the loop for radiology leads to successful integration,
+              enabling lifelong learning for the AI system, which is crucial
+              for sustainable long-term performance. KEY POINTS: · The
+              integration of AI systems into the clinical routine with
+              structured reports and AI visualization.. · Two-way communication
+              between AI and radiologists is necessary to enable AI that keeps
+              the radiologist in the loop.. · Closing the loop enables lifelong
+              learning, which is crucial for long-term, high-performing AI in
+              radiology..",
+  journal  = "Rofo",
+  volume   =  196,
+  number   =  2,
+  pages    = "154--162",
+  month    =  feb,
+  year     =  2024,
+  language = "en"
+}
+
+@ARTICLE{Salhofer2024-xh,
+  title    = "The importance of educational tools and a new software solution
+              for visualizing and quantifying report correction in radiology
+              training",
+  author   = "Salh{\"o}fer, Luca and Haubold, Johannes and Gutt, Maurice and
+              Hosch, Ren{\'e} and Umutlu, Lale and Meetschen, Mathias and
+              Schuessler, Maximilian and Forsting, Michael and Nensa, Felix and
+              Schaarschmidt, Benedikt Michael",
+  abstract = "A novel software, DiffTool, was developed in-house to keep track
+              of changes made by board-certified radiologists to preliminary
+              reports created by residents and evaluate its impact on
+              radiological hands-on training. Before (t0) and after (t2-4) the
+              deployment of the software, 18 residents (median age: 29 years;
+              33\% female) completed a standardized questionnaire on
+              professional training. At t2-4 the participants were also
+              requested to respond to three additional questions to evaluate
+              the software. Responses were recorded via a six-point Likert
+              scale ranging from 1 (``strongly agree'') to 6 (``strongly
+              disagree''). Prior to the release of the software, 39\% (7/18) of
+              the residents strongly agreed with the statement that they
+              manually tracked changes made by board-certified radiologists to
+              each of their radiological reports while 61\% were less inclined
+              to agree with that statement. At t2-4, 61\% (11/18) stated that
+              they used DiffTool to track differences. Furthermore, we observed
+              an increase from 33\% (6/18) to 44\% (8/18) of residents who
+              agreed to the statement ``I profit from every corrected report''.
+              The DiffTool was well accepted among residents with a regular
+              user base of 72\% (13/18), while 78\% (14/18) considered it a
+              relevant improvement to their training. The results of this study
+              demonstrate the importance of providing a time-efficient way to
+              analyze changes made to preliminary reports as an additive for
+              professional training.",
+  journal  = "Sci. Rep.",
+  volume   =  14,
+  number   =  1,
+  pages    = "1172",
+  month    =  jan,
+  year     =  2024,
+  language = "en"
+}
+
+@ARTICLE{Rempe2024-tl,
+  title     = "k-strip: A novel segmentation algorithm in k-space for the
+               application of skull stripping",
+  author    = "Rempe, Moritz and Mentzel, Florian and Pomykala, Kelsey L and
+               Haubold, Johannes and Nensa, Felix and Kroeninger, Kevin and
+               Egger, Jan and Kleesiek, Jens",
+  abstract  = "BACKGROUND AND OBJECTIVE: We present a novel deep learning-based
+               skull stripping algorithm for magnetic resonance imaging (MRI)
+               that works directly in the information rich complex valued
+               k-space. METHODS: Using four datasets from different
+               institutions with a total of around 200,000 MRI slices, we show
+               that our network can perform skull-stripping on the raw data of
+               MRIs while preserving the phase information which no other skull
+               stripping algorithm is able to work with. For two of the
+               datasets, skull stripping performed by HD-BET (Brain Extraction
+               Tool) in the image domain is used as the ground truth, whereas
+               the third and fourth dataset comes with per-hand annotated brain
+               segmentations. RESULTS: All four datasets were very similar to
+               the ground truth (DICE scores of 92 \%-99 \% and Hausdorff
+               distances of under 5.5 pixel). Results on slices above the
+               eye-region reach DICE scores of up to 99 \%, whereas the
+               accuracy drops in regions around the eyes and below, with
+               partially blurred output. The output of k-Strip often has
+               smoothed edges at the demarcation to the skull. Binary masks are
+               created with an appropriate threshold. CONCLUSION: With this
+               proof-of-concept study, we were able to show the feasibility of
+               working in the k-space frequency domain, preserving phase
+               information, with consistent results. Besides preserving
+               valuable information for further diagnostics, this approach
+               makes an immediate anonymization of patient data possible,
+               already before being transformed into the image domain. Future
+               research should be dedicated to discovering additional ways the
+               k-space can be used for innovative image analysis and further
+               workflows.",
+  journal   = "Comput. Methods Programs Biomed.",
+  publisher = "Elsevier BV",
+  volume    =  243,
+  number    =  107912,
+  pages     = "107912",
+  month     =  jan,
+  year      =  2024,
+  keywords  = "Complex convolutional networks; Deep learning; Magnetic
+               resonance imaging (MRI); Skull stripping; k-space",
+  copyright = "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  language  = "en"
+}
+
+@ARTICLE{Dada2024-bv,
+  title    = "Information extraction from weakly structured radiological
+              reports with natural language queries",
+  author   = "Dada, Amin and Ufer, Tim Leon and Kim, Moon and Hasin, Max and
+              Spieker, Nicola and Forsting, Michael and Nensa, Felix and Egger,
+              Jan and Kleesiek, Jens",
+  abstract = "OBJECTIVES: Provide physicians and researchers an efficient way
+              to extract information from weakly structured radiology reports
+              with natural language processing (NLP) machine learning models.
+              METHODS: We evaluate seven different German bidirectional encoder
+              representations from transformers (BERT) models on a dataset of
+              857,783 unlabeled radiology reports and an annotated reading
+              comprehension dataset in the format of SQuAD 2.0 based on 1223
+              additional reports. RESULTS: Continued pre-training of a BERT
+              model on the radiology dataset and a medical online encyclopedia
+              resulted in the most accurate model with an F1-score of 83.97\%
+              and an exact match score of 71.63\% for answerable questions and
+              96.01\% accuracy in detecting unanswerable questions. Fine-tuning
+              a non-medical model without further pre-training led to the
+              lowest-performing model. The final model proved stable against
+              variation in the formulations of questions and in dealing with
+              questions on topics excluded from the training set. CONCLUSIONS:
+              General domain BERT models further pre-trained on radiological
+              data achieve high accuracy in answering questions on radiology
+              reports. We propose to integrate our approach into the workflow
+              of medical practitioners and researchers to extract information
+              from radiology reports. CLINICAL RELEVANCE STATEMENT: By reducing
+              the need for manual searches of radiology reports, radiologists'
+              resources are freed up, which indirectly benefits patients. KEY
+              POINTS: • BERT models pre-trained on general domain datasets and
+              radiology reports achieve high accuracy (83.97\% F1-score) on
+              question-answering for radiology reports. • The best performing
+              model achieves an F1-score of 83.97\% for answerable questions
+              and 96.01\% accuracy for questions without an answer. •
+              Additional radiology-specific pretraining of all investigated
+              BERT models improves their performance.",
+  journal  = "Eur. Radiol.",
+  volume   =  34,
+  number   =  1,
+  pages    = "330--337",
+  month    =  jan,
+  year     =  2024,
+  keywords = "Information extraction; Machine learning; Natural language
+              processing",
+  language = "en"
+}
+
+@ARTICLE{Engelke2023-cr,
+  title     = "Optimizing platelet transfusion through a personalized deep
+               learning risk assessment system for demand management",
+  author    = "Engelke, Merlin and Schmidt, Cynthia Sabrina and Baldini, Giulia
+               and Parmar, Vicky and Hosch, Ren{\'e} and Borys, Katarzyna and
+               Koitka, Sven and Turki, Amin T and Haubold, Johannes and Horn,
+               Peter A and Nensa, Felix",
+  abstract  = "ABSTRACT: Platelet demand management (PDM) is a
+               resource-consuming task for physicians and transfusion managers
+               of large hospitals. Inpatient numbers and institutional
+               standards play significant roles in PDM. However, reliance on
+               these factors alone commonly results in platelet shortages.
+               Using data from multiple sources, we developed, validated,
+               tested, and implemented a patient-specific approach to support
+               PDM that uses a deep learning-based risk score to forecast
+               platelet transfusions for each hospitalized patient in the next
+               24 hours. The models were developed using retrospective
+               electronic health record data of 34 809 patients treated between
+               2017 and 2022. Static and time-dependent features included
+               demographics, diagnoses, procedures, blood counts, past
+               transfusions, hematotoxic medications, and hospitalization
+               duration. Using an expanding window approach, we created a
+               training and live-prediction pipeline with a 30-day input and
+               24-hour forecast. Hyperparameter tuning determined the best
+               validation area under the precision-recall curve (AUC-PR) score
+               for long short-term memory deep learning models, which were then
+               tested on independent data sets from the same hospital. The
+               model tailored for hematology and oncology patients exhibited
+               the best performance (AUC-PR, 0.84; area under the receiver
+               operating characteristic curve [ROC-AUC], 0.98), followed by a
+               multispecialty model covering all other patients (AUC-PR, 0.73).
+               The model specific to cardiothoracic surgery had the lowest
+               performance (AUC-PR, 0.42), likely because of unexpected
+               intrasurgery bleedings. To our knowledge, this is the first deep
+               learning-based platelet transfusion predictor enabling
+               individualized 24-hour risk assessments at high AUC-PR.
+               Implemented as a decision-support system, deep-learning
+               forecasts might improve patient care by detecting platelet
+               demand earlier and preventing critical transfusion shortages.",
+  journal   = "Blood",
+  publisher = "American Society of Hematology",
+  volume    =  142,
+  number    =  26,
+  pages     = "2315--2326",
+  month     =  dec,
+  year      =  2023,
+  language  = "en"
+}
+
+
+@ARTICLE{Sauter2023-lw,
+  title    = "A systematic comparison of task adaptation techniques for digital
+              histopathology",
+  author   = "Sauter, Daniel and Lodde, Georg and Nensa, Felix and Schadendorf,
+              Dirk and Livingstone, Elisabeth and Kukuk, Markus",
+  abstract = "Due to an insufficient amount of image annotation, artificial
+              intelligence in computational histopathology usually relies on
+              fine-tuning pre-trained neural networks. While vanilla
+              fine-tuning has shown to be effective, research on computer
+              vision has recently proposed improved algorithms, promising
+              better accuracy. While initial studies have demonstrated the
+              benefits of these algorithms for medical AI, in particular for
+              radiology, there is no empirical evidence for improved accuracy
+              in histopathology. Therefore, based on the ConvNeXt architecture,
+              our study performs a systematic comparison of nine task
+              adaptation techniques, namely, DELTA, L2-SP, MARS-PGM, Bi-Tuning,
+              BSS, MultiTune, SpotTune, Co-Tuning, and vanilla fine-tuning, on
+              five histopathological classification tasks using eight datasets.
+              The results are based on external testing and statistical
+              validation and reveal a multifaceted picture: some techniques are
+              better suited for histopathology than others, but depending on
+              the classification task, a significant relative improvement in
+              accuracy was observed for five advanced task adaptation
+              techniques over the control method, i.e., vanilla fine-tuning
+              (e.g., Co-Tuning: P(≫) = 0.942, d = 2.623). Furthermore, we
+              studied the classification accuracy for three of the nine methods
+              with respect to the training set size (e.g., Co-Tuning: P(≫) =
+              0.951, $\gamma$ = 0.748). Overall, our results show that the
+              performance of advanced task adaptation techniques in
+              histopathology is affected by influencing factors such as the
+              specific classification task or the size of the training dataset.",
+  journal  = "Bioengineering (Basel)",
+  volume   =  11,
+  number   =  1,
+  month    =  dec,
+  year     =  2023,
+  keywords = "CNN; cancer; computer vision; fine-tuning; transfer learning;
+              whole-slide imaging",
+  language = "en"
+}
+
+@ARTICLE{Rausch2023-fg,
+  title     = "Falling off the screening grid-Predictors for postponed
+               utilization of psycho-oncological support in cancer patients and
+               its implications for distress assessment and management",
+  author    = "Rausch, Raya and B{\"a}uerle, Alexander and Rentrop, Vanessa and
+               Jansen, Christoph and Nensa, Felix and Palm, Stefan and Tewes,
+               Mitra and Schadendorf, Dirk and Skoda, Eva-Maria and Teufel,
+               Martin",
+  abstract  = "OBJECTIVE: Distress assessment of cancer patients is considered
+               state-of-the-art. In addition to distress scores, individual
+               care needs are an important factor for the initiation of
+               psycho-oncological interventions. In a mono-centric,
+               observational study, we aimed for characterization of patients
+               indicating a subjective need but declining to utilize support
+               services immediately to facilitate implementation of adapted
+               screenings. METHODS: This study analyzed retrospective data from
+               routine distress screening and associated data from hospital
+               records. Descriptive, variance and regression analyses were used
+               to assess characteristics of postponed support utilization in
+               patients with mixed cancer diagnoses in different treatment
+               settings. RESULTS: Of the total sample (N = 1863), 13\%
+               indicated a subjective need but postponed support utilization.
+               This subgroup presented as being as burdened by symptoms of
+               depression (p < 0.001), anxiety (p < 0.001) and distress (p <
+               0.001) as subjectively distressed patients with intent to
+               directly utilize support. Time periods since diagnosis were
+               shorter (p = 0.007) and patients were more often inpatients (p =
+               0.045). CONCLUSIONS: Despite high heterogeneity among the
+               subgroups, this study identified distress-related factors and
+               time since diagnosis as possible predictors for postponed
+               utilization of psycho-oncological interventions. Results suggest
+               the necessity for time-individualized support which may improve
+               utilization by distressed patients.",
+  journal   = "Psychooncology",
+  publisher = "Wiley",
+  volume    =  32,
+  number    =  11,
+  pages     = "1727--1735",
+  month     =  nov,
+  year      =  2023,
+  keywords  = "PROM; cancer; distress; electronic screening; intention;
+               oncology; patient journey; psycho-oncology; subjective need;
+               utilization",
+  copyright = "http://creativecommons.org/licenses/by-nc/4.0/",
+  language  = "en"
+}
+
+@ARTICLE{Tamulevicius2023-wv,
+  title    = "Preoperative computed tomography volumetry and graft weight
+              estimation of left lateral segment in pediatric living donor
+              liver transplant",
+  author   = "Tamulevicius, Martynas and Oezcelik, Arzu and Koitka, Sven and
+              Theysohn, Jens M and Hoyer, Dieter P and Farzaliyev, Fardad and
+              Haubold, Johannes and Nensa, Felix and Treckmann, J{\"u}rgen and
+              Malamutmann, Eugen",
+  abstract = "OBJECTIVES: Liver volumetry based on a computed tomography scan
+              is widely used to estimate liver volume before any liver
+              resection, especially before living donorliver donation. The
+              1-to-1 conversion rule for liver volume to liver weight has been
+              widely adopted; however, debate continues regarding this
+              approach. Therefore, we analyzed the relationship between the
+              left-lateral lobe liver graft volume and actual graft weight.
+              MATERIALS AND METHODS: This study retrospectively included
+              consecutive donors who underwent left lateral hepatectomy for
+              pediatric living donor liver transplant from December 2008 to
+              September 2020. All donors were healthy adults who met the
+              evaluation criteria for pediatric living donor liver transplant
+              and underwent a preoperative contrast-enhanced computed
+              tomography scan. Manual segmentation of the leftlateral liverlobe
+              for graft volume estimation and intraoperative measurement of an
+              actual graft weight were performed. The relationship between
+              estimated graft volume and actual graft weight was analyzed.
+              RESULTS: Ninety-four living liver donors were included in the
+              study. The mean actual graft weight was ~283.4 $\pm$ 68.5 g, and
+              the mean graft volume was 244.9 $\pm$ 63.86 mL. A strong
+              correlation was shown between graft volume and actual graft
+              weight (r = 0.804; P < .001). Bland-Altman analysis revealed an
+              interobserver agreement of 38.0 $\pm$ 97.25, and intraclass
+              correlation coefficient showed almost perfect agreement(r =
+              0.840; P < .001). The conversion formula for calculating graft
+              weight based on computed tomography volumetry was determined
+              based on regression analysis: 0.88 $\times$ graft volume + 41.63.
+              CONCLUSIONS: The estimation of left liver graft weight using only
+              the 1-to-1 rule is subject to measurable variability in
+              calculated graft weights and tends to underestimate the true
+              graft weight. Instead, a different, improved conversion formula
+              should be used to calculate graft weight to more accurately
+              determine donor graft weight-to-recipient body weightratio and
+              reduce the risk of underestimation of liver graft weightin the
+              donor selection process before pediatric living donor liver
+              transplant.",
+  journal  = "Exp. Clin. Transplant.",
+  volume   =  21,
+  number   =  10,
+  pages    = "831--836",
+  month    =  oct,
+  year     =  2023,
+  language = "en"
+}
+
+@ARTICLE{Sauter2023-ok,
+  title     = "Deep learning in computational dermatopathology of melanoma: A
+               technical systematic literature review",
+  author    = "Sauter, Daniel and Lodde, Georg and Nensa, Felix and
+               Schadendorf, Dirk and Livingstone, Elisabeth and Kukuk, Markus",
+  abstract  = "Deep learning (DL) has become one of the major approaches in
+               computational dermatopathology, evidenced by a significant
+               increase in this topic in the current literature. We aim to
+               provide a structured and comprehensive overview of peer-reviewed
+               publications on DL applied to dermatopathology focused on
+               melanoma. In comparison to well-published DL methods on
+               non-medical images (e.g., classification on ImageNet), this
+               field of application comprises a specific set of challenges,
+               such as staining artifacts, large gigapixel images, and various
+               magnification levels. Thus, we are particularly interested in
+               the pathology-specific technical state-of-the-art. We also aim
+               to summarize the best performances achieved thus far with
+               respect to accuracy, along with an overview of self-reported
+               limitations. Accordingly, we conducted a systematic literature
+               review of peer-reviewed journal and conference articles
+               published between 2012 and 2022 in the databases ACM Digital
+               Library, Embase, IEEE Xplore, PubMed, and Scopus, expanded by
+               forward and backward searches to identify 495 potentially
+               eligible studies. After screening for relevance and quality, a
+               total of 54 studies were included. We qualitatively summarized
+               and analyzed these studies from technical, problem-oriented, and
+               task-oriented perspectives. Our findings suggest that the
+               technical aspects of DL for histopathology in melanoma can be
+               further improved. The DL methodology was adopted later in this
+               field, and still lacks the wider adoption of DL methods already
+               shown to be effective for other applications. We also discuss
+               upcoming trends toward ImageNet-based feature extraction and
+               larger models. While DL has achieved human-competitive accuracy
+               in routine pathological tasks, its performance on advanced tasks
+               is still inferior to wet-lab testing (for example). Finally, we
+               discuss the challenges impeding the translation of DL methods to
+               clinical practice and provide insight into future research
+               directions.",
+  journal   = "Comput. Biol. Med.",
+  publisher = "Elsevier BV",
+  volume    =  163,
+  number    =  107083,
+  pages     = "107083",
+  month     =  sep,
+  year      =  2023,
+  keywords  = "Machine learning; Neural network; Survey; Systematic review;
+               Whole slide imaging",
+  copyright = "http://creativecommons.org/licenses/by/4.0/",
+  language  = "en"
+}
+
+@ARTICLE{Fischer2023-mu,
+  title     = "Identification of radiomic biomarkers in a set of four skeletal
+               muscle groups on Dixon {MRI} of the {NAKO} {MR} study",
+  author    = "Fischer, Marc and K{\"u}stner, Thomas and Pappa, Sofia and
+               Niendorf, Thoralf and Pischon, Tobias and Kr{\"o}ncke, Thomas
+               and Bette, Stefanie and Schramm, Sara and Schmidt, B{\"o}rge and
+               Haubold, Johannes and Nensa, Felix and Nonnenmacher, Tobias and
+               Palm, Viktoria and Bamberg, Fabian and Kiefer, Lena and Schick,
+               Fritz and Yang, Bin",
+  abstract  = "In this work, we propose a processing pipeline for the
+               extraction and identification of meaningful radiomics biomarkers
+               in skeletal muscle tissue as displayed using Dixon-weighted MRI.
+               Diverse and robust radiomics features can be identified that may
+               be of aid in the accurate quantification e.g. varying degrees of
+               sarcopenia in respective muscles of large cohorts. As such, the
+               approach comprises the texture feature extraction from raw data
+               based on well established approaches, such as a nnU-Net neural
+               network and the Pyradiomics toolbox, a subsequent selection
+               according to adequate conditions for the muscle tissue of the
+               general population, and an importance-based ranking to further
+               narrow the amount of meaningful features with respect to
+               auxiliary targets. The performance was investigated with respect
+               to the included auxiliary targets, namely age, body mass index
+               (BMI), and fat fraction (FF). Four skeletal muscles with
+               different fiber architecture were included: the mm. glutaei, m.
+               psoas, as well as the extensors and adductors of the thigh. The
+               selection allowed for a reduction from 1015 available texture
+               features to 65 for age, 53 for BMI, and 36 for FF from the
+               available fat/water contrast images considering all muscles
+               jointly. Further, the dependence of the importance rankings
+               calculated for the auxiliary targets on validation sets (in a
+               cross-validation scheme) was investigated by boxplots. In
+               addition, significant differences between subgroups of
+               respective auxiliary targets as well as between both sexes were
+               shown to be present within the ten lowest ranked features by
+               means of Kruskal-Wallis H-tests and Mann-Whitney U-tests. The
+               prediction performance for the selected features and the ranking
+               scheme were verified on validation sets by a random forest based
+               multi-class classification, with strong area under the curve
+               (AUC) values of the receiver operator characteristic (ROC) of
+               73.03 $\pm$ 0.70 \% and 73.63 $\pm$ 0.70 \% for the water and
+               fat images in age, 80.68 $\pm$ 0.30 \% and 88.03 $\pm$ 0.89 \%
+               in BMI, as well as 98.36 $\pm$ 0.03 \% and 98.52 $\pm$ 0.09 \%
+               in FF.",
+  journal   = "BMC Med. Imaging",
+  publisher = "Springer Science and Business Media LLC",
+  volume    =  23,
+  number    =  1,
+  pages     = "104",
+  month     =  aug,
+  year      =  2023,
+  keywords  = "German national cohort; Magnetic resonance imaging; Radiomics;
+               Texture feature analysis",
+  copyright = "https://creativecommons.org/licenses/by/4.0",
+  language  = "en"
+}
+
+@ARTICLE{Engelke2023-lu,
+  title     = "Predicting individual patient platelet demand in a large
+               tertiary care hospital using machine learning",
+  author    = "Engelke, Merlin and Brieske, Christian Martin and Parmar, Vicky
+               and Flaschel, Nils and Kureishi, Anisa and Hosch, Rene and
+               Koitka, Sven and Schmidt, Cynthia Sabrina and Horn, Peter A and
+               Nensa, Felix",
+  abstract  = "Introduction: An increasing shortage of donor blood is expected,
+               considering the demographic change in Germany. Due to the short
+               shelf life and varying daily fluctuations in consumption, the
+               storage of platelet concentrates (PCs) becomes challenging. This
+               emphasizes the need for reliable prediction of needed PCs for
+               the blood bank inventories. Therefore, the objective of this
+               study was to evaluate multimodal data from multiple source
+               systems within a hospital to predict the number of platelet
+               transfusions in 3 days on a per-patient level. Methods: Data
+               were collected from 25,190 (42\% female and 58\% male) patients
+               between 2017 and 2021. For each patient, the number of received
+               PCs, platelet count blood tests, drugs causing thrombocytopenia,
+               acute platelet diseases, procedures, age, gender, and the period
+               of a patient's hospital stay were collected. Two models were
+               trained on samples using a sliding window of 7 days as input and
+               a day 3 target. The model predicts whether a patient will be
+               transfused 3 days in the future. The model was trained with an
+               excessive hyperparameter search using patient-level repeated
+               5-fold cross-validation to optimize the average macro F2-score.
+               Results: The trained models were tested on 5,022 unique
+               patients. The best-performing model has a specificity of 0.99, a
+               sensitivity of 0.37, an area under the precision-recall curve
+               score of 0.45, an MCC score of 0.43, and an F1-score of 0.43.
+               However, the model does not generalize well for cases when the
+               need for a platelet transfusion is recognized. Conclusion: A
+               patient AI-based platelet forecast could improve logistics
+               management and reduce blood product waste. In this study, we
+               build the first model to predict patient individual platelet
+               demand. To the best of our knowledge, we are the first to
+               introduce this approach. Our model predicts the need for
+               platelet units for 3 days in the future. While sensitivity
+               underperforms, specificity performs reliably. The model may be
+               of clinical use as a pretest for potential patients needing a
+               platelet transfusion within the next 3 days. As sensitivity
+               needs to be improved, further studies should introduce deep
+               learning and wider patient characterization to the
+               methodological multimodal, multisource data approach.
+               Furthermore, a hospital-wide consumption of PCs could be derived
+               from individual predictions.",
+  journal   = "Transfus. Med. Hemother.",
+  publisher = "S. Karger AG",
+  volume    =  50,
+  number    =  4,
+  pages     = "277--285",
+  month     =  aug,
+  year      =  2023,
+  keywords  = "Blood transfusion; Donor management; Machine learning; Patient
+               individual; Platelet; Platelet concentrates; Platelet prediction",
+  copyright = "https://creativecommons.org/licenses/by-nc/4.0/",
+  language  = "en"
+}
+
+@ARTICLE{Hosch2023-yz,
+  title    = "{FHIR-PYrate}: a data science friendly Python package to query
+              {FHIR} servers",
+  author   = "Hosch, Ren{\'e} and Baldini, Giulia and Parmar, Vicky and Borys,
+              Katarzyna and Koitka, Sven and Engelke, Merlin and Arzideh,
+              Kamyar and Ulrich, Moritz and Nensa, Felix",
+  abstract = "BACKGROUND: We present FHIR-PYrate, a Python package to handle
+              the full clinical data collection and extraction process. The
+              software is to be plugged into a modern hospital domain, where
+              electronic patient records are used to handle the entire
+              patient's history. Most research institutes follow the same
+              procedures to build study cohorts, but mainly in a
+              non-standardized and repetitive way. As a result, researchers
+              spend time writing boilerplate code, which could be used for more
+              challenging tasks. METHODS: The package can improve and simplify
+              existing processes in the clinical research environment. It
+              collects all needed functionalities into a straightforward
+              interface that can be used to query a FHIR server, download
+              imaging studies and filter clinical documents. The full capacity
+              of the search mechanism of the FHIR REST API is available to the
+              user, leading to a uniform querying process for all resources,
+              thus simplifying the customization of each use case.
+              Additionally, valuable features like parallelization and
+              filtering are included to make it more performant. RESULTS: As an
+              exemplary practical application, the package can be used to
+              analyze the prognostic significance of routine CT imaging and
+              clinical data in breast cancer with tumor metastases in the
+              lungs. In this example, the initial patient cohort is first
+              collected using ICD-10 codes. For these patients, the survival
+              information is also gathered. Some additional clinical data is
+              retrieved, and CT scans of the thorax are downloaded. Finally,
+              the survival analysis can be computed using a deep learning model
+              with the CT scans, the TNM staging and positivity of relevant
+              markers as input. This process may vary depending on the FHIR
+              server and available clinical data, and can be customized to
+              cover even more use cases. CONCLUSIONS: FHIR-PYrate opens up the
+              possibility to quickly and easily retrieve FHIR data, download
+              image data, and search medical documents for keywords within a
+              Python package. With the demonstrated functionality, FHIR-PYrate
+              opens an easy way to assemble research collectives automatically.",
+  journal  = "BMC Health Serv. Res.",
+  volume   =  23,
+  number   =  1,
+  pages    = "734",
+  month    =  jul,
+  year     =  2023,
+  keywords = "Dataframe; Dicom; Electronic patient record; FHIR; Information
+              extraction; Python",
+  language = "en"
+}
+
+@ARTICLE{Alatzides2023-ll,
+  title    = "Adipopenia in body composition analysis: a promising imaging
+              biomarker and potential predictive factor for patients undergoing
+              transjugular intrahepatic portosystemic shunt placement",
+  author   = "Alatzides, Georgios Luca and Haubold, Johannes and Steinberg,
+              Hannah Luisa and Koitka, Sven and Parmar, Vicky and Grueneisen,
+              Johannes and Zeller, Amos Cornelius and Schmidt, Hartmut and
+              Theysohn, Jens Matthias and Li, Yan and Nensa, Felix and
+              Schaarschmidt, Benedikt Michael",
+  abstract = "OBJECTIVE: Body tissue composition plays a crucial role in the
+              multisystemic processes of advanced liver disease and has been
+              shown to be influenced by transjugular intrahepatic portosystemic
+              shunt (TIPS). A differentiated analysis of the various tissue
+              compartments has not been performed until now. The purpose of
+              this study was to evaluate the value of imaging biomarkers
+              derived from automated body composition analysis (BCA) to predict
+              clinical and functional outcome. METHODS: A retrospective
+              analysis of 56 patients undergoing TIPS procedure between 2013
+              and 2021 was performed. BCA on the base of pre-interventional CT
+              examination was used to determine quantitative data as well as
+              ratios of bone, muscle and fat masses. Furthermore, a BCA-derived
+              sarcopenia marker was investigated. Regarding potential
+              correlations between BCA imaging biomarkers and the occurrence of
+              hepatic encephalopathy (HE) as well as 1-year survival, an
+              exploratory analysis was conducted. RESULTS: No BCA imaging
+              biomarker was associated with the occurrence of HE after TIPS
+              placement. However, there were significant differences in alive
+              and deceased patients regarding the BCA-derived sarcopenia marker
+              (alive: 1.60, deceased: 1.83, p = 0.046), ratios of intra- and
+              intermuscular fat/skeletal volume (alive: 0.53, deceased: 0.31, p
+              = 0.015) and intra- and intermuscular fat/muscle volume (alive:
+              0.21, deceased: 0.14, p = 0.031). CONCLUSION: A lower amount of
+              intra- and intermuscular adipose tissue might have protective
+              effects regarding liver derived complications and survival.
+              ADVANCES IN KNOWLEDGE: Precise characterization of body tissue
+              components with automated BCA might provide prognostic
+              information in patients with advanced liver disease undergoing
+              TIPS procedure.",
+  journal  = "Br. J. Radiol.",
+  volume   =  96,
+  number   =  1146,
+  pages    = "20220863",
+  month    =  jun,
+  year     =  2023,
+  language = "en"
+}
+
+@ARTICLE{Haubold2023-fx,
+  title     = "Contrast agent dose reduction in {MRI} utilizing a generative
+               adversarial network in an exploratory animal study",
+  author    = "Haubold, Johannes and Jost, Gregor and Theysohn, Jens Matthias
+               and Ludwig, Johannes Maximilian and Li, Yan and Kleesiek, Jens
+               and Schaarschmidt, Benedikt Michael and Forsting, Michael and
+               Nensa, Felix and Pietsch, Hubertus and Hosch, Ren{\'e}",
+  abstract  = "ObjectivesThe aim of this study is to use virtual contrast
+               enhancement to reduce the amount of hepatobiliary
+               gadolinium-based contrast agent in magnetic resonance imaging
+               with generative adversarial networks (GANs) in a large animal
+               model.MethodsWith 20 healthy G{\"o}ttingen minipigs, a total of
+               120 magnetic resonance imaging examinations were performed on 6
+               different occasions, 50\% with reduced (low-dose; 0.005 mmol/kg,
+               gadoxetate) and 50\% standard dose (normal-dose; 0.025 mmol/kg).
+               These included arterial, portal venous, venous, and
+               hepatobiliary contrast phases (20 minutes, 30 minutes). Because
+               of incomplete examinations, one animal had to be excluded.
+               Randomly, 3 of 19 animals were selected and withheld for
+               validation (18 examinations). Subsequently, a GAN was trained
+               for image-to-image conversion from low-dose to normal-dose
+               (virtual normal-dose) with the remaining 16 animals (96
+               examinations). For validation, vascular and parenchymal
+               contrast-to-noise ratio (CNR) was calculated using region of
+               interest measurements of the abdominal aorta, inferior vena
+               cava, portal vein, hepatic parenchyma, and autochthonous back
+               muscles. In parallel, a visual Turing test was performed by
+               presenting the normal-dose and virtual normal-dose data to 3
+               consultant radiologists, blinded for the type of examination.
+               They had to decide whether they would consider both data sets as
+               consistent in findings and which images were from the
+               normal-dose study.ResultsThe pooled dynamic phase vascular and
+               parenchymal CNR increased significantly from low-dose to virtual
+               normal-dose (pooled vascular:PP= 0.0002) and was found to be not
+               significantly different between virtual normal-dose and
+               normal-dose examinations (vascular CNR [mean $\pm$ SD]: low-dose
+               17.6 $\pm$ 6.0, virtual normal-dose 41.8 $\pm$ 9.7, and
+               normal-dose 48.4 $\pm$ 12.2; parenchymal CNR [mean $\pm$ SD]:
+               low-dose 20.2 $\pm$ 5.9, virtual normal-dose 28.3 $\pm$ 6.9, and
+               normal-dose 29.5 $\pm$ 7.2). The pooled parenchymal CNR of the
+               hepatobiliary contrast phases revealed a significant increase
+               from the low-dose (22.8 $\pm$ 6.2) to the virtual normal-dose
+               (33.2 $\pm$ 6.1;PPConclusionsIn this feasibility study in
+               healthy G{\"o}ttingen minipigs, it could be shown that GAN-based
+               virtual contrast enhancement can be used to recreate the image
+               impression of normal-dose imaging in terms of CNR and subjective
+               image similarity in both dynamic and hepatobiliary contrast
+               phases from low-dose data with an 80\% reduction in
+               gadolinium-based contrast agent dose. Before clinical
+               implementation, further studies with pathologies are needed to
+               validate whether pathologies are correctly represented by the
+               network.",
+  journal   = "Invest. Radiol.",
+  publisher = "Ovid Technologies (Wolters Kluwer Health)",
+  volume    =  58,
+  number    =  6,
+  pages     = "396--404",
+  month     =  jun,
+  year      =  2023,
+  language  = "en"
+}
+
+@ARTICLE{Borys2023-zs,
+  title    = "Explainable {AI} in medical imaging: An overview for clinical
+              practitioners - Beyond saliency-based {XAI} approaches",
+  author   = "Borys, Katarzyna and Schmitt, Yasmin Alyssa and Nauta, Meike and
+              Seifert, Christin and Kr{\"a}mer, Nicole and Friedrich, Christoph
+              M and Nensa, Felix",
+  abstract = "Driven by recent advances in Artificial Intelligence (AI) and
+              Computer Vision (CV), the implementation of AI systems in the
+              medical domain increased correspondingly. This is especially true
+              for the domain of medical imaging, in which the incorporation of
+              AI aids several imaging-based tasks such as classification,
+              segmentation, and registration. Moreover, AI reshapes medical
+              research and contributes to the development of personalized
+              clinical care. Consequently, alongside its extended
+              implementation arises the need for an extensive understanding of
+              AI systems and their inner workings, potentials, and limitations
+              which the field of eXplainable AI (XAI) aims at. Because medical
+              imaging is mainly associated with visual tasks, most
+              explainability approaches incorporate saliency-based XAI methods.
+              In contrast to that, in this article we would like to investigate
+              the full potential of XAI methods in the field of medical imaging
+              by specifically focusing on XAI techniques not relying on
+              saliency, and providing diversified examples. We dedicate our
+              investigation to a broad audience, but particularly healthcare
+              professionals. Moreover, this work aims at establishing a common
+              ground for cross-disciplinary understanding and exchange across
+              disciplines between Deep Learning (DL) builders and healthcare
+              professionals, which is why we aimed for a non-technical
+              overview. Presented XAI methods are divided by a method's output
+              representation into the following categories: Case-based
+              explanations, textual explanations, and auxiliary explanations.",
+  journal  = "Eur. J. Radiol.",
+  volume   =  162,
+  pages    = "110786",
+  month    =  may,
+  year     =  2023,
+  keywords = "Black-Box; Explainability; Explainable AI; Interpretability;
+              Medical imaging; Radiology",
+  language = "en"
+}
+
+@ARTICLE{Haubold2023-mt,
+  title     = "Individualized scan protocols for {CT} angiography: an animal
+               study for contrast media or radiation dose optimization",
+  author    = "Haubold, Johannes and Zensen, Sebastian and Hosch, Ren{\'e} and
+               Schaarschmidt, Benedikt Michael and Bos, Denise and Schmidt,
+               Bernhardt and Flohr, Thomas and Li, Yan and Forsting, Michael
+               and Pietsch, Hubertus and Nensa, Felix and Jost, Gregor",
+  abstract  = "BACKGROUND: We investigated about optimization of contrast media
+               (CM) dose or radiation dose in thoracoabdominal computed
+               tomography angiography (CTA) by automated tube voltage selection
+               (ATVS) system configuration and CM protocol adaption. METHODS:
+               In six minipigs, CTA-optimized protocols were evaluated
+               regarding objective (contrast-to-noise ratio, CNR) and
+               subjective (6 criteria assessed by Likert scale) image quality.
+               Scan parameters were automatically adapted by the ATVS system
+               operating at 90-kV semi-mode and configured for standard, CM
+               saving, or radiation dose saving (image task, quality settings).
+               Injection protocols (dose, flow rate) were adapted manually.
+               This approach was tested for normal and simulated obese
+               conditions. RESULTS: Radiation exposure (volume-weighted CT dose
+               index) for normal (obese) conditions was 2.4 $\pm$ 0.7 (5.0
+               $\pm$ 0.7) mGy (standard), 4.3 $\pm$ 1.1 (9.0 $\pm$ 1.3) mGy (CM
+               reduced), and 1.7 $\pm$ 0.5 (3.5 $\pm$ 0.5) mGy (radiation
+               reduced). The respective CM doses for normal (obese) settings
+               were 210 (240) mgI/kg, 155 (177) mgI/kg, and 252 (288) mgI/kg.
+               No significant differences in CNR (normal; obese) were observed
+               between standard (17.8 $\pm$ 3.0; 19.2 $\pm$ 4.0), CM-reduced
+               (18.2 $\pm$ 3.3; 20.5 $\pm$ 4.9), and radiation-saving CTAs
+               (16.0 $\pm$ 3.4; 18.4 $\pm$ 4.1). Subjective analysis showed
+               similar values for optimized and standard CTAs. Only the
+               parameter diagnostic acceptability was significantly lower for
+               radiation-saving CTA compared to the standard CTA. CONCLUSIONS:
+               The CM dose (-26\%) or radiation dose (-30\%) for
+               thoracoabdominal CTA can be reduced while maintaining objective
+               and subjective image quality, demonstrating the feasibility of
+               the personalization of CTA scan protocols. KEY POINTS: •
+               Computed tomography angiography protocols could be adapted to
+               individual patient requirements using an automated tube voltage
+               selection system combined with adjusted contrast media
+               injection. • Using an adapted automated tube voltage selection
+               system, a contrast media dose reduction (-26\%) or radiation
+               dose reduction (-30\%) could be possible.",
+  journal   = "Eur. Radiol. Exp.",
+  publisher = "Springer Science and Business Media LLC",
+  volume    =  7,
+  number    =  1,
+  pages     = "24",
+  month     =  apr,
+  year      =  2023,
+  keywords  = "Animals; Contrast media; Radiation; Tomography (x-ray computed)",
+  copyright = "https://creativecommons.org/licenses/by/4.0",
+  language  = "en"
+}
+
+@ARTICLE{Haubold2023-lx,
+  title    = "{AI} co-pilot: content-based image retrieval for the reading of
+              rare diseases in chest {CT}",
+  author   = "Haubold, Johannes and Zeng, Ke and Farhand, Sepehr and Stalke,
+              Sarah and Steinberg, Hannah and Bos, Denise and Meetschen,
+              Mathias and Kureishi, Anisa and Zensen, Sebastian and Goeser, Tim
+              and Maier, Sandra and Forsting, Michael and Nensa, Felix",
+  abstract = "The aim of the study was to evaluate the impact of the newly
+              developed Similar patient search (SPS) Web Service, which
+              supports reading complex lung diseases in computed tomography
+              (CT), on the diagnostic accuracy of residents. SPS is an
+              image-based search engine for pre-diagnosed cases along with
+              related clinical reference content ( https://eref.thieme.de ).
+              The reference database was constructed using 13,658 annotated
+              regions of interest (ROIs) from 621 patients, comprising 69 lung
+              diseases. For validation, 50 CT scans were evaluated by five
+              radiology residents without SPS, and three months later with SPS.
+              The residents could give a maximum of three diagnoses per case. A
+              maximum of 3 points was achieved if the correct diagnosis without
+              any additional diagnoses was provided. The residents achieved an
+              average score of 17.6 $\pm$ 5.0 points without SPS. By using SPS,
+              the residents increased their score by 81.8\% to 32.0 $\pm$ 9.5
+              points. The improvement of the score per case was highly
+              significant (p = 0.0001). The residents required an average of
+              205.9 $\pm$ 350.6 s per case (21.9\% increase) when SPS was used.
+              However, in the second half of the cases, after the residents
+              became more familiar with SPS, this increase dropped to 7\%.
+              Residents' average score in reading complex chest CT scans
+              improved by 81.8\% when the AI-driven SPS with integrated
+              clinical reference content was used. The increase in time per
+              case due to the use of the SPS was minimal.",
+  journal  = "Sci. Rep.",
+  volume   =  13,
+  number   =  1,
+  pages    = "4336",
+  month    =  mar,
+  year     =  2023,
+  language = "en"
+}
+
+@ARTICLE{Okumus2023-rg,
+  title     = "Preoperative {PET-SUVmax} and volume based {PET} parameters of
+               the primary tumor fail to predict nodal upstaging in early-stage
+               lung cancer",
+  author    = "Okumus, {\"O}zlem and Mardanzai, Khaled and Pl{\"o}nes, Till and
+               Theegarten, Dirk and Darwiche, Kaid and Schuler, Martin and
+               Nensa, Felix and Hautzel, Hubertus and Hermann, Ken and
+               Stuschke, Martin and Hegedus, Balazs and Aigner, Clemens",
+  abstract  = "OBJECTIVES: Accurate nodal staging is of utmost importance in
+               patients with lung cancer. FDG-PET/CT imaging is now part of the
+               routine staging. Despite thorough preoperative staging nodal
+               upstaging still occurs in early-stage lung cancer. However, the
+               predictive value of preoperative PET metrics of the primary
+               tumor on nodal upstaging remains to be unexplored. Our aim was
+               to assess the association of these preoperative PET-parameters
+               with nodal upstaging in histologically confirmed lung
+               adenocarcinoma and squamous cell carcinoma. METHODS: From
+               January 2016 to November 2018, 500 patients with pT1-T2/cN0 lung
+               cancer received an anatomical resection with curative intent.
+               171 patients with adenocarcinoma and squamous cell carcinoma and
+               available PET-CTs were retrospectively included. We analyzed the
+               the association of nodal upstaging with preoperative PET-SUVmax
+               and metabolic PET metrics including total lesion glycolysis
+               (TLG) and metabolic tumor volume (MTV) with different defined
+               thresholds. RESULTS: High values of preoperative PET-SUVmax of
+               the primary tumor were associated with squamous cell carcinoma
+               (p < 0.0001) and with larger tumors (p < 0.0001). Increased
+               preoperative C-reactive protein levels (<1mg/dL) correlated
+               significantly with high preoperative PET-SUVmax values (p <
+               0.0001). No significant relationship between PET-SUVmax and
+               lactate dehydrogenase activity (p = 0.6818), white blood cell
+               count (p = 0.7681), gender (p = 0.1115) or age (p = 0.9284) was
+               observed. Nodal upstaging rate was 14.0 \% with 8.8 \% N1 and
+               5.3 \% N2 upstaging. Tumor size (p = 0.0468) and number of
+               removed lymph nodes (p = 0.0461) were significant predictors of
+               nodal upstaging but no significant association was found with
+               histology or PET parameters. Of note, increased MTV - regardless
+               of the threshold - tended to associate with nodal upstaging.
+               CONCLUSION: Early-stage lung cancer patients with squamous
+               histology and T2 tumors presented increased preoperative
+               PET-SUVmax values. Nevertheless, beyond tumor size and number of
+               removed lymph nodes neither SUVmax nor metabolic PET parameters
+               MTV and TLG were significant predictors of nodal upstaging.",
+  journal   = "Lung Cancer",
+  publisher = "Elsevier BV",
+  volume    =  176,
+  pages     = "82--88",
+  month     =  feb,
+  year      =  2023,
+  keywords  = "CRP; Lung cancer; MTV; Nodal upstaging; PET-SUVmax; TLG",
+  language  = "en"
+}
+
+@ARTICLE{Keyl2023-hq,
+  title     = "Deep learning-based assessment of body composition and liver
+               tumour burden for survival modelling in advanced colorectal
+               cancer",
+  author    = "Keyl, Julius and Hosch, Ren{\'e} and Berger, Aaron and Ester,
+               Oliver and Greiner, Tobias and Bogner, Simon and Treckmann,
+               J{\"u}rgen and Ting, Saskia and Schumacher, Brigitte and Albers,
+               David and Markus, Peter and Wiesweg, Marcel and Forsting,
+               Michael and Nensa, Felix and Schuler, Martin and Kasper, Stefan
+               and Kleesiek, Jens",
+  abstract  = "BACKGROUND: Personalized therapy planning remains a significant
+               challenge in advanced colorectal cancer care, despite extensive
+               research on prognostic and predictive markers. A strong
+               correlation of sarcopenia or overall body composition and
+               survival has been described. Here, we explore whether automated
+               assessment of body composition and liver metastases from
+               standard of care CT images can add to clinical parameters in
+               personalized survival risk prognostication. METHODS: We
+               retrospectively analysed clinical imaging data from 85 patients
+               (50.6\% female, mean age 58.9 SD 12.2 years) with colorectal
+               cancer and synchronous liver metastases. Pretrained deep
+               learning models were used to assess body composition and liver
+               metastasis geometry from abdominal CT images before the
+               initiation of systemic treatment. Abdominal muscle-to-bone ratio
+               (MBR) was calculated by dividing abdominal muscle volume by
+               abdominal bone volume. MBR was compared with body mass index
+               (BMI), abdominal muscle volume, and abdominal muscle volume
+               divided by height squared. Differences in overall survival based
+               on body composition and liver metastasis parameters were
+               compared using Kaplan-Meier survival curves. Results were
+               correlated with clinical and biomarker data to develop a machine
+               learning model for survival risk prognostication. RESULTS: The
+               MBR, unlike abdominal muscle volume or BMI, was significantly
+               associated with overall survival (HR 0.39, 95\% CI: 0.19-0.80, P
+               = 0.009). The MBR (P = 0.022), liver metastasis surface area (P
+               = 0.01) and primary tumour sidedness (P = 0.007) were
+               independently associated with overall survival in multivariate
+               analysis. Body composition parameters did not correlate with
+               KRAS mutational status or primary tumour sidedness. A prediction
+               model based on MBR, liver metastasis surface area and primary
+               tumour sidedness achieved a concordance index of 0.69.
+               CONCLUSIONS: Automated segmentation enables to extract
+               prognostic parameters from routine imaging data for personalized
+               survival modelling in advanced colorectal cancer patients.",
+  journal   = "J. Cachexia Sarcopenia Muscle",
+  publisher = "Wiley",
+  volume    =  14,
+  number    =  1,
+  pages     = "545--552",
+  month     =  feb,
+  year      =  2023,
+  keywords  = "Body composition; Colorectal cancer; Computed tomography;
+               Machine learning; Prognosis",
+  copyright = "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  language  = "en"
+}
+
+@ARTICLE{Theysohn2022-xo,
+  title     = "Prediction of left lobe hypertrophy after right lobe
+               radioembolization of the liver using a clinical data model with
+               external validation",
+  author    = "Theysohn, Jens M and Demircioglu, Aydin and Kleditzsch, Malte
+               and Ludwig, Johannes M and Weber, Manuel and Umutlu, Lale and
+               Li, Yan and Kircher, Malte and Lapa, Constantin and Buck,
+               Andreas and Koehler, Michael and Wildgruber, Moritz and Lange,
+               Christian M and Palard, Xavier and Garin, Etienne and Herrmann,
+               Ken and Forsting, Michael and Nensa, Felix",
+  abstract  = "In cirrhotic patients with hepatocellular carcinoma (HCC),
+               right-sided radioembolization (RE) with Yttrium-90-loaded
+               microspheres is an established palliative therapy and can be
+               considered a ``curative intention'' treatment when aiming for
+               sequential tumor resection. To become surgical candidate,
+               hypertrophy of the left liver lobe to > 40\% (future liver
+               remnant, FLR) is mandatory, which can develop after RE. The
+               amount of radiation-induced shrinkage of the right lobe and
+               compensatory hypertrophy of the left lobe is difficult for
+               clinicians to predict. This study aimed to utilize machine
+               learning to predict left lobe liver hypertrophy in patients with
+               HCC and cirrhosis scheduled for right lobe RE, with external
+               validation. The results revealed that machine learning can
+               accurately predict relative and absolute volume changes of the
+               left liver lobe after right lobe RE. This prediction algorithm
+               could help to estimate the chances of conversion from palliative
+               RE to curative major hepatectomy following significant FLR
+               hypertrophy.",
+  journal   = "Sci. Rep.",
+  publisher = "Springer Science and Business Media LLC",
+  volume    =  12,
+  number    =  1,
+  pages     = "20718",
+  month     =  dec,
+  year      =  2022,
+  copyright = "https://creativecommons.org/licenses/by/4.0",
+  language  = "en"
+}
+
+@ARTICLE{Jonske2022-wy,
+  title     = "Deep Learning-driven classification of external {DICOM} studies
+               for {PACS} archiving",
+  author    = "Jonske, Frederic and Dederichs, Maximilian and Kim, Moon-Sung
+               and Keyl, Julius and Egger, Jan and Umutlu, Lale and Forsting,
+               Michael and Nensa, Felix and Kleesiek, Jens",
+  abstract  = "OBJECTIVES: Over the course of their treatment, patients often
+               switch hospitals, requiring staff at the new hospital to import
+               external imaging studies to their local database. In this study,
+               the authors present MOdality Mapping and Orchestration (MOMO), a
+               Deep Learning-based approach to automate this mapping process by
+               combining metadata analysis and a neural network ensemble.
+               METHODS: A set of 11,934 imaging series with existing anatomical
+               labels was retrieved from the PACS database of the local
+               hospital to train an ensemble of neural networks (DenseNet-161
+               and ResNet-152), which process radiological images and predict
+               the type of study they belong to. We developed an algorithm that
+               automatically extracts relevant metadata from imaging studies,
+               regardless of their structure, and combines it with the neural
+               network ensemble, forming a powerful classifier. A set of 843
+               anonymized external studies from 321 hospitals was hand-labeled
+               to assess performance. We tested several variations of this
+               algorithm. RESULTS: MOMO achieves 92.71\% accuracy and 2.63\%
+               minor errors (at 99.29\% predictive power) on the external study
+               classification task, outperforming both a commercial product
+               (82.86\% accuracy, 1.36\% minor errors, 96.20\% predictive
+               power) and a pure neural network ensemble (72.69\% accuracy,
+               10.3\% minor errors, 99.05\% predictive power) performing the
+               same task. We find that the highest performance is achieved by
+               an algorithm that combines all information into one vote-based
+               classifier. CONCLUSION: Deep Learning combined with metadata
+               matching is a promising and flexible approach for the automated
+               classification of external DICOM studies for PACS archiving. KEY
+               POINTS: • The algorithm can successfully identify 76 medical
+               study types across seven modalities (CT, X-ray angiography,
+               radiographs, MRI, PET (+CT/MRI), ultrasound, and mammograms). •
+               The algorithm outperforms a commercial product performing the
+               same task by a significant margin (> 9\% accuracy gain). • The
+               performance of the algorithm increases through the application
+               of Deep Learning techniques.",
+  journal   = "Eur. Radiol.",
+  publisher = "Springer Science and Business Media LLC",
+  volume    =  32,
+  number    =  12,
+  pages     = "8769--8776",
+  month     =  dec,
+  year      =  2022,
+  keywords  = "Artificial intelligence; Machine learning; Radiology information
+               systems",
+  copyright = "https://creativecommons.org/licenses/by/4.0",
+  language  = "en"
+}
+
+@ARTICLE{Hosch2022-up,
+  title     = "Artificial intelligence guided enhancement of digital {PET}:
+               scans as fast as {CT}?",
+  author    = "Hosch, Ren{\'e} and Weber, Manuel and Sraieb, Miriam and
+               Flaschel, Nils and Haubold, Johannes and Kim, Moon-Sung and
+               Umutlu, Lale and Kleesiek, Jens and Herrmann, Ken and Nensa,
+               Felix and Rischpler, Christoph and Koitka, Sven and Seifert,
+               Robert and Kersting, David",
+  abstract  = "PURPOSE: Both digital positron emission tomography (PET)
+               detector technologies and artificial intelligence based image
+               post-reconstruction methods allow to reduce the PET acquisition
+               time while maintaining diagnostic quality. The aim of this study
+               was to acquire ultra-low-count fluorodeoxyglucose (FDG)
+               ExtremePET images on a digital PET/computed tomography (CT)
+               scanner at an acquisition time comparable to a CT scan and to
+               generate synthetic full-dose PET images using an artificial
+               neural network. METHODS: This is a prospective, single-arm,
+               single-center phase I/II imaging study. A total of 587 patients
+               were included. For each patient, a standard and an
+               ultra-low-count FDG PET/CT scan (whole-body acquisition time
+               about 30 s) were acquired. A modified pix2pixHD deep-learning
+               network was trained employing 387 data sets as training and 200
+               as test cohort. Three models (PET-only and PET/CT with or
+               without group convolution) were compared. Detectability and
+               quantification were evaluated. RESULTS: The PET/CT input model
+               with group convolution performed best regarding lesion signal
+               recovery and was selected for detailed evaluation. Synthetic PET
+               images were of high visual image quality; mean absolute lesion
+               SUVmax (maximum standardized uptake value) difference was 1.5.
+               Patient-based sensitivity and specificity for lesion detection
+               were 79\% and 100\%, respectively. Not-detected lesions were of
+               lower tracer uptake and lesion volume. In a matched-pair
+               comparison, patient-based (lesion-based) detection rate was 89\%
+               (78\%) for PERCIST (PET response criteria in solid
+               tumors)-measurable and 36\% (22\%) for non PERCIST-measurable
+               lesions. CONCLUSION: Lesion detectability and lesion
+               quantification were promising in the context of extremely fast
+               acquisition times. Possible application scenarios might include
+               re-staging of late-stage cancer patients, in whom assessment of
+               total tumor burden can be of higher relevance than detailed
+               evaluation of small and low-uptake lesions.",
+  journal   = "Eur. J. Nucl. Med. Mol. Imaging",
+  publisher = "Springer Science and Business Media LLC",
+  volume    =  49,
+  number    =  13,
+  pages     = "4503--4515",
+  month     =  nov,
+  year      =  2022,
+  keywords  = "Artificial intelligence; CT; Digital PET; Image
+               post-reconstruction; Low-count PET; PET",
+  copyright = "https://creativecommons.org/licenses/by/4.0",
+  language  = "en"
+}
+
+@ARTICLE{Koitka2022-zj,
+  title    = "Fully automated preoperative liver volumetry incorporating the
+              anatomical location of the central hepatic vein",
+  author   = "Koitka, Sven and Gudlin, Phillip and Theysohn, Jens M and
+              Oezcelik, Arzu and Hoyer, Dieter P and Dayangac, Murat and Hosch,
+              Ren{\'e} and Haubold, Johannes and Flaschel, Nils and Nensa,
+              Felix and Malamutmann, Eugen",
+  abstract = "The precise preoperative calculation of functional liver volumes
+              is essential prior major liver resections, as well as for the
+              evaluation of a suitable donor for living donor liver
+              transplantation. The aim of this study was to develop a fully
+              automated, reproducible, and quantitative 3D volumetry of the
+              liver from standard CT examinations of the abdomen as part of
+              routine clinical imaging. Therefore, an in-house dataset of 100
+              venous phase CT examinations for training and 30 venous phase
+              ex-house CT examinations with a slice thickness of 5 mm for
+              testing and validating were fully annotated with right and left
+              liver lobe. Multi-Resolution U-Net 3D neural networks were
+              employed for segmenting these liver regions. The S{\o}rensen-Dice
+              coefficient was greater than 0.9726 $\pm$ 0.0058, 0.9639 $\pm$
+              0.0088, and 0.9223 $\pm$ 0.0187 and a mean volume difference of
+              32.12 $\pm$ 19.40 ml, 22.68 $\pm$ 21.67 ml, and 9.44 $\pm$ 27.08
+              ml compared to the standard of reference (SoR) liver, right lobe,
+              and left lobe annotation was achieved. Our results show that
+              fully automated 3D volumetry of the liver on routine CT imaging
+              can provide reproducible, quantitative, fast and accurate results
+              without needing any examiner in the preoperative work-up for
+              hepatobiliary surgery and especially for living donor liver
+              transplantation.",
+  journal  = "Sci. Rep.",
+  volume   =  12,
+  number   =  1,
+  pages    = "16479",
+  month    =  oct,
+  year     =  2022,
+  language = "en"
+}
+
+@ARTICLE{Haubold2022-oo,
+  title     = "Contrast media reduction in computed tomography with deep
+               learning using a generative adversarial network in an
+               experimental animal study",
+  author    = "Haubold, Johannes and Jost, Gregor and Theysohn, Jens Matthias
+               and Ludwig, Johannes Maximilian and Li, Yan and Kleesiek, Jens
+               and Schaarschmidt, Benedikt Michael and Forsting, Michael and
+               Nensa, Felix and Pietsch, Hubertus and Hosch, Ren{\'e}",
+  abstract  = "Objective This feasibility study aimed to use optimized virtual
+               contrast enhancement through generative adversarial networks
+               (GAN) to reduce the dose of iodine-based contrast medium (CM)
+               during abdominal computed tomography (CT) in a large animal
+               model. Methods Multiphasic abdominal low-kilovolt CTs (90 kV)
+               with low (low CM, 105 mgl/kg) and normal contrast media doses
+               (normal CM, 350 mgl/kg) were performed with 20 healthy
+               G{\"o}ttingen minipigs on 3 separate occasions for a total of
+               120 examinations. These included an early arterial, late
+               arterial, portal venous, and venous contrast phase. One animal
+               had to be excluded because of incomplete examinations. Three of
+               the 19 animals were randomly selected and withheld for
+               validation (18 studies). Subsequently, the GAN was trained for
+               image-to-image conversion from low CM to normal CM (virtual CM)
+               with the remaining 16 animals (96 examinations). For validation,
+               region of interest measurements were performed in the abdominal
+               aorta, inferior vena cava, portal vein, liver parenchyma, and
+               autochthonous back muscles, and the contrast-to-noise ratio
+               (CNR) was calculated. In addition, the normal CM and virtual CM
+               data were presented in a visual Turing test to 3 radiology
+               consultants. On the one hand, they had to decide which images
+               were derived from the normal CM examination. On the other hand,
+               they had to evaluate whether both images are pathological
+               consistent. Results Average vascular CNR (low CM 6.9 $\pm$ 7.0
+               vs virtual CM 28.7 $\pm$ 23.8, P P Conclusions In this
+               feasibility study, it could be demonstrated in an experimental
+               setting with healthy G{\"o}ttingen minipigs that the amount of
+               CM for abdominal CT can be reduced by approximately 70\% by
+               GAN-based contrast enhancement with satisfactory image quality.",
+  journal   = "Invest. Radiol.",
+  publisher = "Ovid Technologies (Wolters Kluwer Health)",
+  volume    =  57,
+  number    =  10,
+  pages     = "696--703",
+  month     =  oct,
+  year      =  2022,
+  language  = "en"
+}
+
+@ARTICLE{Hosch2022-aj,
+  title    = "Biomarkers extracted by fully automated body composition analysis
+              from chest {CT} correlate with {SARS-CoV-2} outcome severity",
+  author   = "Hosch, Ren{\'e} and Kattner, Simone and Berger, Marc Moritz and
+              Brenner, Thorsten and Haubold, Johannes and Kleesiek, Jens and
+              Koitka, Sven and Kroll, Lennard and Kureishi, Anisa and Flaschel,
+              Nils and Nensa, Felix",
+  abstract = "The complex process of manual biomarker extraction from body
+              composition analysis (BCA) has far restricted the analysis of
+              SARS-CoV-2 outcomes to small patient cohorts and a limited number
+              of tissue types. We investigate the association of two BCA-based
+              biomarkers with the development of severe SARS-CoV-2 infections
+              for 918 patients (354 female, 564 male) regarding disease
+              severity and mortality (186 deceased). Multiple tissues, such as
+              muscle, bone, or adipose tissue are used and acquired with a
+              deep-learning-based, fully-automated BCA from computed tomography
+              images of the chest. The BCA features and markers were
+              univariately analyzed with a Shapiro-Wilk and two-sided
+              Mann-Whitney-U test. In a multivariate approach, obtained markers
+              were adjusted by a defined set of laboratory parameters promoted
+              by other studies. Subsequently, the relationship between the
+              markers and two endpoints, namely severity and mortality, was
+              investigated with regard to statistical significance. The
+              univariate approach showed that the muscle volume was significant
+              for female (pseverity $\leq$ 0.001, pmortality $\leq$ 0.0001) and
+              male patients (pseverity = 0.018, pmortality $\leq$ 0.0001)
+              regarding the severity and mortality endpoints. For male
+              patients, the intra- and intermuscular adipose tissue (IMAT) (p
+              $\leq$ 0.0001), epicardial adipose tissue (EAT) (p $\leq$ 0.001)
+              and pericardial adipose tissue (PAT) (p $\leq$ 0.0001) were
+              significant regarding the severity outcome. With the mortality
+              outcome, muscle (p $\leq$ 0.0001), IMAT (p $\leq$ 0.001), EAT (p
+              = 0.011) and PAT (p = 0.003) remained significant. For female
+              patients, bone (p $\leq$ 0.001), IMAT (p = 0.032) and PAT (p =
+              0.047) were significant in univariate analyses regarding the
+              severity and bone (p = 0.005) regarding the mortality.
+              Furthermore, the defined sarcopenia marker (p $\leq$ 0.0001, for
+              female and male) was significant for both endpoints. The cardiac
+              marker was significant for severity (pfemale = 0.014, pmale
+              $\leq$ 0.0001) and for mortality (pfemale $\leq$ 0.0001, pmale
+              $\leq$ 0.0001) endpoint for both genders. The multivariate
+              logistic regression showed that the sarcopenia marker was
+              significant (pseverity = 0.006, pmortality = 0.002) for both
+              endpoints (ORseverity = 0.42, 95\% CIseverity: 0.23-0.78,
+              ORmortality = 0.34, 95\% CImortality: 0.17-0.67). The cardiac
+              marker showed significance (p = 0.018) only for the severity
+              endpoint (OR = 1.42, 95\% CI 1.06-1.90). The association between
+              BCA-based sarcopenia and cardiac biomarkers and disease severity
+              and mortality suggests that these biomarkers can contribute to
+              the risk stratification of SARS-CoV-2 patients. Patients with a
+              higher cardiac marker and a lower sarcopenia marker are at risk
+              for a severe course or death. Whether those biomarkers hold
+              similar importance for other pneumonia-related diseases requires
+              further investigation.",
+  journal  = "Sci. Rep.",
+  volume   =  12,
+  number   =  1,
+  pages    = "16411",
+  month    =  sep,
+  year     =  2022,
+  language = "en"
+}
 
